@@ -11,16 +11,29 @@ Repo: this Briefing app (BRIEFING-APP/Briefing on GitHub, deployed via GitHub Pa
    30 days. Do not repeat a story from there unless there is a meaningful new
    development (in which case treat it as a fresh item and note the update).
 
-2. Using web search, find AI + creative technology and cinema + filmmaking
-   news from the last ~48 hours. Prioritize major developments plus useful
-   tools, model launches, platform updates, production technology, creative
-   workflows, and meaningful industry changes. Only use fresh, credible
-   sources (established outlets, official company/product blogs, reputable
-   trade press — not low-quality aggregators).
+2. Using web search, scan broadly for AI + creative technology and cinema +
+   filmmaking news from the last ~48 hours. Only use fresh, credible sources
+   (established outlets, official company/product blogs, reputable trade
+   press — not low-quality aggregators). Run dedicated searches for each of
+   these, not just general keyword queries:
+   - New AI model releases or major version updates (LLMs, image, video,
+     audio, music) from labs and platforms (OpenAI, Anthropic, Google
+     DeepMind, Runway, Midjourney, ElevenLabs, Adobe Firefly, etc.)
+   - New or changed creative/production workflows and tools (editing,
+     VFX/CGI, virtual production, color, sound, previz, pipeline software)
+   - Platform and studio announcements (major feature launches, pricing/
+     licensing changes, notable acquisitions or shutdowns)
+   - Meaningful industry shifts (policy, labor, legal/rights rulings,
+     festival or studio news with real downstream impact)
 
-3. Pick exactly 5 items with a balanced mix across the two core topics (e.g.
-   roughly 2-3 / 2-3, never all one topic unless there is truly nothing on
-   the other side that week).
+3. Curate hard. From everything found, keep only what is genuinely
+   significant — the stories a well-informed person in AI/creative-tech or
+   film would actually want to know about today, not filler or minor
+   incremental posts. When you have more than 5 strong candidates, rank by
+   real-world impact (how many people/workflows it changes, how major the
+   company/festival/production is) and drop the weakest. Pick exactly 5,
+   balanced across the two core topics (roughly 2-3 / 2-3, never all one
+   topic unless there is truly nothing on the other side that week).
 
 4. For each item write:
    - `id`: a short slug, unique within this briefing
