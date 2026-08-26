@@ -19,6 +19,12 @@ Repo: this Briefing app (BRIEFING-APP/Briefing on GitHub, deployed via GitHub Pa
    - New AI model releases or major version updates (LLMs, image, video,
      audio, music) from labs and platforms (OpenAI, Anthropic, Google
      DeepMind, Runway, Midjourney, ElevenLabs, Adobe Firefly, etc.)
+   - Specifically check for any update to these models/families, since they
+     are actively tracked: Nano Banana, LTX, Kling, Seedance, Seedream,
+     Recraft, Mini H3, Wan, and the main open-weight model releases (e.g.
+     Llama, Qwen, DeepSeek, Mistral, GLM). If one of these has a genuine new
+     release or major version in the lookback window, it should be a strong
+     candidate for inclusion.
    - New or changed creative/production workflows and tools (editing,
      VFX/CGI, virtual production, color, sound, previz, pipeline software)
    - Platform and studio announcements (major feature launches, pricing/

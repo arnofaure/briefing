@@ -92,9 +92,9 @@ img{max-width:100%;display:block}
 .tick-meta{display:flex;align-items:center;gap:8px;margin-top:9px}
 .tick-plus{flex:none;width:28px;height:28px;border-radius:50%;border:1.5px solid var(--divider);display:flex;align-items:center;justify-content:center;color:var(--muted);transition:transform .2s,background .2s,color .2s,border-color .2s;margin-top:3px}
 .tick-item.open .tick-plus{transform:rotate(45deg);background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
-.tick-detail{max-height:0;overflow:hidden;transition:max-height .3s ease}
-.tick-item.open .tick-detail{max-height:260px}
-.tick-detail-inner{padding:2px 0 20px 34px}
+.tick-detail{display:grid;grid-template-rows:0fr;transition:grid-template-rows .3s ease}
+.tick-item.open .tick-detail{grid-template-rows:1fr}
+.tick-detail-inner{overflow:hidden;padding:2px 0 20px 34px;min-height:0}
 .tick-summary{font:500 16.5px/1.62 Archivo,sans-serif;color:var(--muted)}
 .tick-source{display:inline-flex;align-items:center;gap:6px;font:700 13px Archivo,sans-serif;margin-top:14px;color:var(--text)}
 .tick-source svg{opacity:.65;flex:none}
