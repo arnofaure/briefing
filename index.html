@@ -3,71 +3,114 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Briefing — AI & Film Daily</title>
-<meta name="description" content="A daily 5-item briefing on AI + creative technology and cinema + filmmaking news, generated automatically.">
+<title>Buzz Now</title>
+<meta name="description" content="Five concise, credible-sourced stories on AI + creative technology and cinema + filmmaking, refreshed daily.">
 <meta name="author" content="Arno Faure">
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="Briefing — AI & Film Daily">
+<meta property="og:title" content="Buzz Now">
 <meta property="og:description" content="Five concise, credible-sourced stories on AI + creative technology and cinema + filmmaking, refreshed daily.">
 
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><rect width=%2232%22 height=%2232%22 rx=%227%22 fill=%22%23121212%22/><rect x=%228%22 y=%228%22 width=%227%22 height=%2216%22 rx=%221.5%22 fill=%22%23d4a72c%22/><rect x=%2217%22 y=%228%22 width=%227%22 height=%2210%22 rx=%221.5%22 fill=%22%233ecf8e%22/></svg>">
-<meta name="theme-color" content="#121212">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><rect width=%2232%22 height=%2232%22 rx=%227%22 fill=%22%230c0c0d%22/><text x=%2216%22 y=%2223%22 font-family=%22Arial,sans-serif%22 font-weight=%22900%22 font-size=%2220%22 text-anchor=%22middle%22 fill=%22%23e6ff3d%22>B</text></svg>">
+<meta name="theme-color" content="#0c0c0d">
+
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Buzz">
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
 <style>
 :root{
-  --bg:#121212;
-  --surface:#1c1b19;
-  --surface-2:#232220;
-  --text:#f5f4f2;
-  --muted:rgba(245,244,242,.58);
-  --divider:rgba(245,244,242,.14);
-  --ai:#3ecf8e;
-  --film:#d4a72c;
-  --radius:14px;
-  --radius-sm:8px;
+  --bg:#f7f6f1;
+  --surface:#ffffff;
+  --surface-2:#efece3;
+  --text:#17160f;
+  --muted:rgba(23,22,15,.6);
+  --divider:rgba(23,22,15,.12);
+  --accent:#dcff34;
+  --accent-ink:#14150a;
+  --ai:#5b3df0;
+  --film:#e0621c;
+  --radius:16px;
 }
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0c0c0d;
+    --surface:#18181a;
+    --surface-2:#212123;
+    --text:#f6f4ee;
+    --muted:rgba(246,244,238,.62);
+    --divider:rgba(246,244,238,.14);
+    --accent:#e6ff3d;
+    --accent-ink:#121307;
+    --ai:#9b86ff;
+    --film:#ffab5e;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0c0c0d;
+  --surface:#18181a;
+  --surface-2:#212123;
+  --text:#f6f4ee;
+  --muted:rgba(246,244,238,.62);
+  --divider:rgba(246,244,238,.14);
+  --accent:#e6ff3d;
+  --accent-ink:#121307;
+  --ai:#9b86ff;
+  --film:#ffab5e;
+}
+
 *{box-sizing:border-box}
 html,body{margin:0;min-height:100%;background:var(--bg);color:var(--text)}
 body{font-family:Archivo,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
 a{color:inherit;text-decoration:none}
-:focus-visible{outline:2px solid var(--film);outline-offset:2px}
+button{font:inherit;color:inherit;cursor:pointer;background:none;border:none;padding:0}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 img{max-width:100%;display:block}
 
-.wrap{max-width:640px;margin:0 auto;padding:0 20px 60px}
+.wrap{max-width:600px;margin:0 auto;padding:0 20px 60px}
 
-.header{padding:calc(env(safe-area-inset-top,0px) + 32px) 0 22px;border-bottom:2px solid var(--divider);margin-bottom:28px}
-.kicker{font:800 11px/1 Archivo,sans-serif;letter-spacing:.14em;color:var(--muted);text-transform:uppercase}
-.title{font:800 30px/1.1 Archivo,sans-serif;letter-spacing:-.02em;margin-top:8px}
-.date{font:600 13px Archivo,sans-serif;color:var(--muted);margin-top:8px}
+.app-header{padding:calc(env(safe-area-inset-top,0px) + 28px) 0 18px;border-bottom:2px solid var(--divider);margin-bottom:6px}
+.wordmark{font:900 34px/1 Archivo,sans-serif;letter-spacing:-.03em}
+.wordmark span{color:var(--accent);-webkit-text-stroke:1px var(--text)}
+.app-kicker{font:800 11px Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-top:8px}
+.app-date{font:600 13px Archivo,sans-serif;color:var(--muted);margin-top:4px}
 
-.card{background:var(--surface);border-radius:var(--radius);overflow:hidden;margin-bottom:18px}
-.card-img{width:100%;aspect-ratio:16/9;object-fit:cover;background:var(--surface-2)}
-.card-body{padding:18px 20px 20px}
-.badge{display:inline-block;font:800 10px Archivo,sans-serif;letter-spacing:.1em;text-transform:uppercase;padding:4px 8px;border-radius:5px}
-.badge.ai{color:#0d1f16;background:var(--ai)}
-.badge.film{color:#241a04;background:var(--film)}
-.headline{font:700 19px/1.35 Archivo,sans-serif;letter-spacing:-.01em;margin:12px 0 8px}
-.summary{font:500 14px/1.6 Archivo,sans-serif;color:var(--muted);margin:0 0 14px}
-.source{display:inline-flex;align-items:center;gap:6px;font:700 12px Archivo,sans-serif;color:var(--text);border-top:1px solid var(--divider);padding-top:12px;width:100%}
-.source svg{flex:none;opacity:.7}
-.source:hover svg{opacity:1}
+.tag{display:inline-flex;align-items:center;font:800 10px Archivo,sans-serif;letter-spacing:.08em;text-transform:uppercase;padding:4px 9px;border-radius:6px;color:#fff;flex:none}
+.tag.ai{background:var(--ai)}
+.tag.film{background:var(--film)}
 
-.empty,.error{padding:40px 0;color:var(--muted);font:500 14px/1.6 Archivo,sans-serif}
+.tick-item{border-bottom:1px solid var(--divider)}
+.tick-item:last-child{border-bottom:none}
+.tick-btn{width:100%;text-align:left;padding:20px 0;display:flex;gap:14px;align-items:flex-start}
+.tick-num{font:900 14px Archivo,sans-serif;color:var(--muted);padding-top:5px;flex:none;width:20px;font-variant-numeric:tabular-nums}
+.tick-main{flex:1;min-width:0}
+.tick-headline{font:800 20px/1.3 Archivo,sans-serif;letter-spacing:-.01em;text-wrap:balance}
+.tick-meta{display:flex;align-items:center;gap:8px;margin-top:9px}
+.tick-plus{flex:none;width:28px;height:28px;border-radius:50%;border:1.5px solid var(--divider);display:flex;align-items:center;justify-content:center;color:var(--muted);transition:transform .2s,background .2s,color .2s,border-color .2s;margin-top:3px}
+.tick-item.open .tick-plus{transform:rotate(45deg);background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.tick-detail{max-height:0;overflow:hidden;transition:max-height .3s ease}
+.tick-item.open .tick-detail{max-height:260px}
+.tick-detail-inner{padding:2px 0 20px 34px}
+.tick-summary{font:500 16.5px/1.62 Archivo,sans-serif;color:var(--muted)}
+.tick-source{display:inline-flex;align-items:center;gap:6px;font:700 13px Archivo,sans-serif;margin-top:14px;color:var(--text)}
+.tick-source svg{opacity:.65;flex:none}
 
-.footer{margin-top:8px;color:var(--muted);font:500 12px Archivo,sans-serif;text-align:center}
+.empty,.error{padding:44px 0;color:var(--muted);font:500 15px/1.6 Archivo,sans-serif;text-align:center}
+
+.footer{margin-top:6px;padding-top:20px;color:var(--muted);font:600 11.5px Archivo,sans-serif;text-align:center;letter-spacing:.04em}
 </style>
 </head>
 <body>
 
 <div class="wrap">
-  <div class="header">
-    <div class="kicker">Daily briefing</div>
-    <div class="title">AI &amp; Film</div>
-    <div class="date" id="briefing-date"></div>
+  <div class="app-header">
+    <div class="wordmark">BUZZ<span>.</span></div>
+    <div class="app-kicker">Now &middot; Daily Briefing</div>
+    <div class="app-date" id="briefing-date"></div>
   </div>
 
   <div id="items"></div>
@@ -76,7 +119,8 @@ img{max-width:100%;display:block}
 </div>
 
 <script>
-const externalIcon = '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>';
+const externalIcon = '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>';
+const plusIcon = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>';
 
 function esc(s){
   return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -89,6 +133,8 @@ function fmtDate(iso){
   return d.toLocaleDateString('en-US', { weekday:'long', month:'long', day:'numeric', year:'numeric' });
 }
 
+function label(topic){ return topic === 'film' ? 'Film' : 'AI'; }
+
 function render(data){
   document.getElementById('briefing-date').textContent = fmtDate(data.date);
 
@@ -100,16 +146,21 @@ function render(data){
     return;
   }
 
-  container.innerHTML = items.map(item => `
-    <article class="card">
-      ${item.image_url ? `<img class="card-img" src="${esc(item.image_url)}" alt="" loading="lazy" onerror="this.remove()">` : ''}
-      <div class="card-body">
-        <span class="badge ${item.topic === 'film' ? 'film' : 'ai'}">${item.topic === 'film' ? 'Film' : 'AI'}</span>
-        <h2 class="headline">${esc(item.headline)}</h2>
-        <p class="summary">${esc(item.summary)}</p>
-        ${item.source_url ? `<a class="source" href="${esc(item.source_url)}" target="_blank" rel="noopener">${externalIcon} ${esc(item.source_name || 'Source')}</a>` : ''}
-      </div>
-    </article>
+  container.innerHTML = items.map((item, i) => `
+    <div class="tick-item${i === 0 ? ' open' : ''}">
+      <button class="tick-btn" onclick="this.closest('.tick-item').classList.toggle('open')">
+        <span class="tick-num">${String(i + 1).padStart(2, '0')}</span>
+        <span class="tick-main">
+          <span class="tick-headline">${esc(item.headline)}</span>
+          <span class="tick-meta"><span class="tag ${item.topic === 'film' ? 'film' : 'ai'}">${label(item.topic)}</span></span>
+        </span>
+        <span class="tick-plus">${plusIcon}</span>
+      </button>
+      <div class="tick-detail"><div class="tick-detail-inner">
+        <p class="tick-summary">${esc(item.summary)}</p>
+        ${item.source_url ? `<a class="tick-source" href="${esc(item.source_url)}" target="_blank" rel="noopener">${externalIcon} ${esc(item.source_name || 'Source')}</a>` : ''}
+      </div></div>
+    </div>
   `).join('');
 }
 
