@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T06:00:00Z",
+  "items": [
+    {
+      "id": "sample-ai-1",
+      "topic": "ai",
+      "headline": "Sample headline goes here",
+      "summary": "This is placeholder copy. Once the scheduled agent runs, real items with a headline, a short why-it-matters summary, a source, and an image (when available) will replace this.",
+      "source_name": "Example Source",
+      "source_url": "https://example.com",
+      "image_url": null
+    }
+  ]
+}
