@@ -1,6 +1,7 @@
 {
   "date": "2026-08-27",
-  "generated_at": "2026-08-27T10:11:09Z",
+  "generated_at": "2026-08-27T13:56:27Z",
+  "claude_take": "Two threads jump out today. First, accountability is catching up with the industry from both sides at once: Seedance 2.5 shipping deepfake guardrails after the Cruise/Pitt fiasco, and Meta paying up to $18 billion over kids and addictive design, both read as the same story — platforms building in safety only once the backlash and lawsuits made it cheaper than the alternative. Second, there's a real gap opening between the excitement inside AI and the mood outside it: GLM-5.3-Flash just made frontier-adjacent intelligence absurdly cheap, while Pew's new data shows under-30s are now more anxious than excited about AI for the first time. The industry's cost curve and the public's trust curve are moving in opposite directions, and I don't think that's sustainable for either side.",
   "items": [
     {
       "id": "glm-5-3-flash",
@@ -39,12 +40,21 @@
       "image_url": null
     },
     {
-      "id": "elevenmusic-composer-launch",
-      "topic": "ai",
-      "headline": "ElevenLabs Launches Composer, a Section-by-Section AI Song Editor",
-      "summary": "ElevenLabs added Composer to its ElevenMusic platform, letting users edit AI-generated songs piece by piece instead of regenerating an entire track. Creators can rewrite a verse, change the chorus, or slow down a bridge while keeping the rest of the song intact, starting from their own lyrics, a prompt, or a blank slate. The feature pushes ElevenMusic further toward a full production tool for musicians and content creators rather than a one-shot generator.",
-      "source_name": "Digital Music News",
-      "source_url": "https://www.digitalmusicnews.com/2026/08/25/elevenmusic-composer-section-by-section-song-editor/",
+      "id": "meta-18b-child-safety-settlement",
+      "topic": "society",
+      "headline": "Meta to Pay Up to $18 Billion Over Kids' Social Media Addiction",
+      "summary": "Meta agreed to pay up to $18 billion and make major changes to Facebook and Instagram to settle claims from 52 state attorneys general that it designed the platforms to addict children and misled the public about the harm. For the next decade, Meta must restrict teen usage to two hours a day and block access from midnight to 6 a.m. without parental consent. It's one of the largest settlements of its kind and lands as YouTube, TikTok, and Snapchat still face similar lawsuits.",
+      "source_name": "Variety",
+      "source_url": "https://variety.com/2026/digital/news/meta-18-billion-settlement-state-ags-lawsuit-social-media-addiction-1236843725/",
+      "image_url": null
+    },
+    {
+      "id": "pew-young-adults-ai-pessimism",
+      "topic": "society",
+      "headline": "Young Americans Are Now More Anxious Than Excited About AI, Pew Finds",
+      "summary": "A new Pew Research Center survey found that 52% of Americans say they're more concerned than excited about AI in daily life, up from 37% in 2021, with 71% expecting it to mean fewer jobs. For the first time, a majority of adults under 30 (55%) say they're more worried than excited too, with only 11% now more excited than concerned, down from 25% five years ago. The shift marks a notable cooling of optimism specifically among the generation most exposed to AI tools day to day.",
+      "source_name": "Pew Research Center",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/08/18/young-adults-in-the-us-are-increasingly-wary-of-ai-concerned-it-will-take-jobs/",
       "image_url": null
     }
   ]
