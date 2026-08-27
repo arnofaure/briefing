@@ -77,6 +77,12 @@ via GitHub Pages at buzz.arnofaure.com).
    explicitly labeled "Buzz's Take" (your own personal take), not neutral
    reporting.
 
+   Also write a `claude_take_title`: a short pull-quote or title, 4-10
+   words, distilled from the take above (not a generic label — an actual
+   line that could stand alone, e.g. lifted or lightly adapted from the
+   take's sharpest sentence). This is what shows under the illustration in
+   the Timeline tab, so it needs to work as a one-line summary on its own.
+
 6. Generate a companion illustration for the take using Flora (already
    connected as an MCP tool in this session):
    - Style (always use this, word for word, do not vary it): "A
@@ -108,6 +114,7 @@ via GitHub Pages at buzz.arnofaure.com).
      "date": "YYYY-MM-DD",
      "generated_at": "<ISO 8601 UTC timestamp>",
      "claude_take": "...",
+     "claude_take_title": "...",
      "claude_take_image_url": "... or null",
      "items": [ /* the 6 items above */ ]
    }
@@ -117,7 +124,17 @@ via GitHub Pages at buzz.arnofaure.com).
    under `seen`, then trim `seen` to only the last 30 days so the file
    doesn't grow unbounded.
 
-9. Commit both files with message `Daily briefing: YYYY-MM-DD` and push to
-   `main`. GitHub Pages redeploys automatically on push.
+9. If `claude_take_image_url` is not `null`, append an entry to
+   `data/timeline.json` (create it with `{"entries": []}` first if it
+   doesn't exist yet) under `entries`:
+   ```json
+   { "date": "YYYY-MM-DD", "image_url": "...", "title": "<claude_take_title>" }
+   ```
+   Insert new entries at the start of the array (most recent first). Skip
+   this step entirely if the image failed to generate — don't add an entry
+   with a null image.
+
+10. Commit all changed files with message `Daily briefing: YYYY-MM-DD` and
+    push to `main`. GitHub Pages redeploys automatically on push.
 
 No emoji anywhere in the output — this app never uses emoji.

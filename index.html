@@ -82,8 +82,8 @@ img{max-width:100%;display:block}
 .app-kicker{font:800 11px Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-top:8px}
 .app-date{font:600 13px Archivo,sans-serif;color:var(--muted);margin-top:4px}
 
-.tabs{display:flex;gap:8px;flex:none;padding-top:4px}
-.tab{padding:8px 15px;border-radius:999px;border:1.5px solid var(--divider);font:700 12.5px Archivo,sans-serif;color:var(--muted);background:var(--surface);transition:background .15s,color .15s,border-color .15s}
+.tabs{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:8px;flex:none;padding-top:4px;max-width:180px}
+.tab{padding:8px 13px;border-radius:999px;border:1.5px solid var(--divider);font:700 12px Archivo,sans-serif;color:var(--muted);background:var(--surface);transition:background .15s,color .15s,border-color .15s;white-space:nowrap}
 .tab.active{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
 
 .claude-take{background:var(--surface);border:1px solid var(--divider);border-left:3px solid var(--accent);border-radius:var(--radius);overflow:hidden;margin-bottom:22px}
@@ -122,6 +122,13 @@ img{max-width:100%;display:block}
 
 .empty,.error{padding:44px 0;color:var(--muted);font:500 15px/1.6 Archivo,sans-serif;text-align:center}
 
+.timeline-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.timeline-card{background:var(--surface);border:1px solid var(--divider);border-radius:var(--radius);overflow:hidden}
+.timeline-img{width:100%;aspect-ratio:1/1;background:var(--surface-2);object-fit:cover;display:block}
+.timeline-body{padding:12px 14px 14px}
+.timeline-date{font:800 10px Archivo,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.timeline-title{font:700 13.5px/1.4 Archivo,sans-serif;color:var(--text);margin-top:6px}
+
 .account-card{background:var(--surface);border:1px solid var(--divider);border-radius:var(--radius);padding:20px;margin-bottom:8px}
 .account-title{font:800 16px Archivo,sans-serif;letter-spacing:-.01em}
 .account-note{font:500 13px/1.5 Archivo,sans-serif;color:var(--muted);margin-top:6px}
@@ -155,6 +162,7 @@ img{max-width:100%;display:block}
       <div class="tabs">
         <button class="tab active" data-tab="today">Today</button>
         <button class="tab" data-tab="saved">Saved <span id="saved-count">(0)</span></button>
+        <button class="tab" data-tab="timeline">Timeline</button>
       </div>
     </div>
   </div>
@@ -162,6 +170,7 @@ img{max-width:100%;display:block}
   <div id="claude-take"></div>
   <div id="account-bar"></div>
   <div id="items"></div>
+  <div id="timeline"></div>
 
   <div class="footer" id="footer"></div>
 </div>
@@ -183,6 +192,7 @@ const shareIcon = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" s
 
 let currentTab = 'today';
 let todayData = null;
+let timelineData = null;
 let toastTimer = null;
 let currentUser = null;
 let savedItems = [];
@@ -470,9 +480,57 @@ function renderAccountBar(){
   document.getElementById('set-password-btn').addEventListener('click', () => { settingPassword = true; renderAccountBar(); });
 }
 
+function fmtShortDate(iso){
+  if(!iso) return '';
+  const d = new Date(iso + 'T00:00:00');
+  if(isNaN(d)) return iso;
+  return d.toLocaleDateString('en-US', { month:'short', day:'numeric' });
+}
+
+function renderTimeline(){
+  const el = document.getElementById('timeline');
+  const entries = timelineData && Array.isArray(timelineData.entries) ? timelineData.entries : [];
+
+  if(!entries.length){
+    el.innerHTML = '<div class="empty">No illustrations yet.</div>';
+    return;
+  }
+
+  el.innerHTML = `<div class="timeline-grid">${entries.map(e => `
+    <article class="timeline-card">
+      <img class="timeline-img" src="${esc(e.image_url)}" alt="" loading="lazy" onerror="this.closest('.timeline-card').remove()">
+      <div class="timeline-body">
+        <div class="timeline-date">${esc(fmtShortDate(e.date))}</div>
+        <div class="timeline-title">${esc(e.title)}</div>
+      </div>
+    </article>
+  `).join('')}</div>`;
+}
+
 function renderActiveTab(){
   renderClaudeTake();
   renderAccountBar();
+
+  if(currentTab === 'timeline'){
+    document.getElementById('items').innerHTML = '';
+    if(timelineData){
+      renderTimeline();
+    } else {
+      document.getElementById('timeline').innerHTML = '<div class="empty">Loading&hellip;</div>';
+      fetch('data/timeline.json', { cache: 'no-store' })
+        .then(r => r.json())
+        .then(data => {
+          timelineData = data;
+          if(currentTab === 'timeline') renderTimeline();
+        })
+        .catch(() => {
+          document.getElementById('timeline').innerHTML = '<div class="error">Could not load the timeline.</div>';
+        });
+    }
+    return;
+  }
+
+  document.getElementById('timeline').innerHTML = '';
   if(currentTab === 'saved'){
     if(!currentUser){
       document.getElementById('items').innerHTML = '';
