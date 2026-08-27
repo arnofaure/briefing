@@ -74,7 +74,8 @@ via GitHub Pages at buzz.arnofaure.com).
    pulling in opposite directions, a theme repeating across AI/film/society,
    something that seems more/less significant than the headlines suggest).
    Write it in first person as your own read, since the app displays it
-   explicitly labeled as Claude's personal take, not neutral reporting.
+   explicitly labeled "Buzz's Take" (your own personal take), not neutral
+   reporting.
 
 6. Generate a companion illustration for the take using Flora (already
    connected as an MCP tool in this session):
