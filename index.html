@@ -125,10 +125,14 @@ img{max-width:100%;display:block}
 .account-note{font:500 13px/1.5 Archivo,sans-serif;color:var(--muted);margin-top:6px}
 .account-row{display:flex;gap:8px;margin-top:14px}
 .account-row input{flex:1;min-width:0;font:600 14px Archivo,sans-serif;padding:11px 13px;border-radius:10px;border:1.5px solid var(--divider);background:var(--bg);color:var(--text)}
-.account-btn{flex:none;padding:0 16px;border-radius:10px;background:var(--accent);color:var(--accent-ink);font:800 13px Archivo,sans-serif}
+.account-btn{flex:none;padding:0 16px;border-radius:10px;background:var(--accent);color:var(--accent-ink);font:800 13px Archivo,sans-serif;height:42px}
+.account-row-col{flex-direction:column;align-items:stretch}
+.account-row-col input,.account-row-col .account-btn{width:100%;height:42px}
 .account-msg{font:600 12.5px Archivo,sans-serif;color:var(--muted);margin-top:10px;min-height:1em}
+.account-toggle{display:block;font:700 12px Archivo,sans-serif;color:var(--muted);text-decoration:underline;text-underline-offset:2px;margin-top:12px}
 .account-bar-signed{display:flex;align-items:center;justify-content:space-between;gap:10px;font:600 12.5px Archivo,sans-serif;color:var(--muted);padding-bottom:16px}
-.account-signout{color:var(--text);text-decoration:underline;text-underline-offset:2px}
+.account-links{display:flex;gap:16px;flex:none}
+.account-signout{color:var(--text);text-decoration:underline;text-underline-offset:2px;white-space:nowrap}
 
 .footer{margin-top:6px;padding-top:20px;color:var(--muted);font:600 11.5px Archivo,sans-serif;text-align:center;letter-spacing:.04em}
 
@@ -180,6 +184,8 @@ let todayData = null;
 let toastTimer = null;
 let currentUser = null;
 let savedItems = [];
+let authMode = 'magic';
+let settingPassword = false;
 
 function esc(s){
   return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -277,8 +283,37 @@ async function sendMagicLink(){
   msgEl.textContent = error ? error.message : 'Check your email for the sign-in link.';
 }
 
+async function signInWithPassword(){
+  const emailEl = document.getElementById('signin-email');
+  const passEl = document.getElementById('signin-password');
+  const msgEl = document.getElementById('signin-msg');
+  if(!emailEl || !passEl || !msgEl) return;
+  const email = emailEl.value.trim();
+  const password = passEl.value;
+  if(!email || !password){ msgEl.textContent = 'Enter your email and password.'; return; }
+  msgEl.textContent = 'Signing in…';
+  const { error } = await db.auth.signInWithPassword({ email, password });
+  if(error) msgEl.textContent = 'Email or password not recognized.';
+}
+
+async function savePassword(){
+  const passEl = document.getElementById('new-password');
+  const msgEl = document.getElementById('signin-msg');
+  if(!passEl || !msgEl) return;
+  const password = passEl.value;
+  if(password.length < 8){ msgEl.textContent = 'Use at least 8 characters.'; return; }
+  msgEl.textContent = 'Saving…';
+  const { error } = await db.auth.updateUser({ password });
+  if(error){ msgEl.textContent = error.message; return; }
+  settingPassword = false;
+  showToast('Password saved — sign in directly from the Home Screen app any time.');
+  renderAccountBar();
+}
+
 async function signOut(){
   await db.auth.signOut();
+  settingPassword = false;
+  authMode = 'magic';
 }
 
 function shareItem(key){
@@ -364,29 +399,70 @@ function renderAccountBar(){
   }
 
   if(!currentUser){
+    if(authMode === 'password'){
+      el.innerHTML = `
+        <div class="account-card">
+          <div class="account-title">Sign in with password</div>
+          <div class="account-note">Works directly inside the Home Screen app &mdash; no email link needed.</div>
+          <div class="account-row account-row-col">
+            <input type="email" id="signin-email" placeholder="you@email.com" autocomplete="email">
+            <input type="password" id="signin-password" placeholder="Password" autocomplete="current-password">
+            <button class="account-btn" id="signin-pw-submit">Sign in</button>
+          </div>
+          <div class="account-msg" id="signin-msg"></div>
+          <button class="account-toggle" id="mode-toggle">Use an email link instead</button>
+        </div>
+      `;
+      document.getElementById('signin-pw-submit').addEventListener('click', signInWithPassword);
+      document.getElementById('mode-toggle').addEventListener('click', () => { authMode = 'magic'; renderAccountBar(); });
+      return;
+    }
+
     el.innerHTML = `
       <div class="account-card">
         <div class="account-title">Sign in to sync your saves</div>
-        <div class="account-note">One-time magic link by email &mdash; no password, and only you can see or change your saved list.</div>
+        <div class="account-note">One-time magic link by email &mdash; only you can see or change your saved list.</div>
         <div class="account-row">
           <input type="email" id="signin-email" placeholder="you@email.com" autocomplete="email">
           <button class="account-btn" id="signin-send">Send link</button>
         </div>
         <div class="account-msg" id="signin-msg"></div>
+        <button class="account-toggle" id="mode-toggle">Use a password instead</button>
       </div>
     `;
     document.getElementById('signin-send').addEventListener('click', sendMagicLink);
     document.getElementById('signin-email').addEventListener('keydown', e => { if(e.key === 'Enter') sendMagicLink(); });
+    document.getElementById('mode-toggle').addEventListener('click', () => { authMode = 'password'; renderAccountBar(); });
+    return;
+  }
+
+  if(settingPassword){
+    el.innerHTML = `
+      <div class="account-card">
+        <div class="account-title">Set a password</div>
+        <div class="account-note">Lets you sign in directly from the Home Screen app without an email link, since a link opens in Safari instead of the installed app.</div>
+        <div class="account-row">
+          <input type="password" id="new-password" placeholder="At least 8 characters" autocomplete="new-password" minlength="8">
+          <button class="account-btn" id="save-password">Save</button>
+        </div>
+        <div class="account-msg" id="signin-msg"></div>
+      </div>
+    `;
+    document.getElementById('save-password').addEventListener('click', savePassword);
     return;
   }
 
   el.innerHTML = `
     <div class="account-bar-signed">
       <span>Signed in as ${esc(currentUser.email)}</span>
-      <button class="account-signout" id="signout-btn">Sign out</button>
+      <span class="account-links">
+        <button class="account-signout" id="set-password-btn">Set password</button>
+        <button class="account-signout" id="signout-btn">Sign out</button>
+      </span>
     </div>
   `;
   document.getElementById('signout-btn').addEventListener('click', signOut);
+  document.getElementById('set-password-btn').addEventListener('click', () => { settingPassword = true; renderAccountBar(); });
 }
 
 function renderActiveTab(){
