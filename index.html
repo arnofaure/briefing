@@ -86,7 +86,9 @@ img{max-width:100%;display:block}
 .tab{padding:8px 15px;border-radius:999px;border:1.5px solid var(--divider);font:700 12.5px Archivo,sans-serif;color:var(--muted);background:var(--surface);transition:background .15s,color .15s,border-color .15s}
 .tab.active{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
 
-.claude-take{background:var(--surface);border:1px solid var(--divider);border-left:3px solid var(--accent);border-radius:var(--radius);padding:18px 20px;margin-bottom:22px}
+.claude-take{background:var(--surface);border:1px solid var(--divider);border-left:3px solid var(--accent);border-radius:var(--radius);overflow:hidden;margin-bottom:22px}
+.claude-take-img{width:100%;aspect-ratio:1/1;background:var(--surface-2);object-fit:cover;display:block}
+.claude-take-text{padding:18px 20px}
 .claude-take-kicker{font:800 10.5px Archivo,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--text)}
 .claude-take-note{font:600 11.5px Archivo,sans-serif;color:var(--muted);margin-top:4px}
 .claude-take-body{font:500 16px/1.6 Archivo,sans-serif;color:var(--text);margin-top:12px}
@@ -383,9 +385,12 @@ function renderClaudeTake(){
   }
   el.innerHTML = `
     <div class="claude-take">
-      <div class="claude-take-kicker">Claude's take</div>
-      <div class="claude-take-note">His own read on today's stories — not neutral reporting.</div>
-      <p class="claude-take-body">${esc(todayData.claude_take)}</p>
+      ${todayData.claude_take_image_url ? `<img class="claude-take-img" src="${esc(todayData.claude_take_image_url)}" alt="" loading="lazy" onerror="this.remove()">` : ''}
+      <div class="claude-take-text">
+        <div class="claude-take-kicker">Claude's take</div>
+        <div class="claude-take-note">His own read on today's stories — not neutral reporting.</div>
+        <p class="claude-take-body">${esc(todayData.claude_take)}</p>
+      </div>
     </div>
   `;
 }

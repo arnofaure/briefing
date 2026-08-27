@@ -76,21 +76,47 @@ via GitHub Pages at buzz.arnofaure.com).
    Write it in first person as your own read, since the app displays it
    explicitly labeled as Claude's personal take, not neutral reporting.
 
-6. Overwrite `data/briefing.json` with:
+6. Generate a companion illustration for the take using Flora (already
+   connected as an MCP tool in this session):
+   - Style (always use this, word for word, do not vary it): "A
+     single-panel editorial magazine illustration, square format, in the
+     classic style of a highbrow literary magazine cover. Hand-painted
+     gouache and ink texture, muted sophisticated color palette, clean
+     confident linework, conceptual and quietly witty. Restrained color,
+     single human figure. Absolutely no text anywhere in the image: no
+     magazine masthead, no newspaper header, no title, no logo, no
+     watermark, no lettering of any kind."
+   - Scene (write this fresh each day): 1-2 sentences describing a single
+     visual moment or gesture involving one person that captures the
+     emotional core of today's `claude_take` — a metaphor or feeling, not a
+     literal chart, diagram, or recap of the news. Append this to the style
+     text above to form the full prompt.
+   - Call `flora_generate` with `workspace_id`
+     "ws_qd70hrccjtm43n8g2bdjvffke180yyzd", `project_id`
+     "prj_ns74pbw2tn6aqdtv2j4rc8nzdx8d8vfm", `type` "image", `model`
+     "t2i-krea-2-t2i-lora", `params` `{"aspect_ratio": "1:1"}`.
+   - Poll `flora_get_run` with the returned `run_id` until `status` is
+     `"completed"` (check every ~10s, it usually takes under 30s), then
+     read the output image URL.
+   - If Flora errors, times out, or is unavailable, don't block the rest of
+     the briefing — just leave `claude_take_image_url` as `null` for today.
+
+7. Overwrite `data/briefing.json` with:
    ```json
    {
      "date": "YYYY-MM-DD",
      "generated_at": "<ISO 8601 UTC timestamp>",
      "claude_take": "...",
+     "claude_take_image_url": "... or null",
      "items": [ /* the 6 items above */ ]
    }
    ```
 
-7. Append today's items (headline, source_url, date) into `data/history.json`
+8. Append today's items (headline, source_url, date) into `data/history.json`
    under `seen`, then trim `seen` to only the last 30 days so the file
    doesn't grow unbounded.
 
-8. Commit both files with message `Daily briefing: YYYY-MM-DD` and push to
+9. Commit both files with message `Daily briefing: YYYY-MM-DD` and push to
    `main`. GitHub Pages redeploys automatically on push.
 
 No emoji anywhere in the output — this app never uses emoji.
