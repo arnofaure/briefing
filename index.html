@@ -120,6 +120,16 @@ img{max-width:100%;display:block}
 
 .empty,.error{padding:44px 0;color:var(--muted);font:500 15px/1.6 Archivo,sans-serif;text-align:center}
 
+.account-card{background:var(--surface);border:1px solid var(--divider);border-radius:var(--radius);padding:20px;margin-bottom:8px}
+.account-title{font:800 16px Archivo,sans-serif;letter-spacing:-.01em}
+.account-note{font:500 13px/1.5 Archivo,sans-serif;color:var(--muted);margin-top:6px}
+.account-row{display:flex;gap:8px;margin-top:14px}
+.account-row input{flex:1;min-width:0;font:600 14px Archivo,sans-serif;padding:11px 13px;border-radius:10px;border:1.5px solid var(--divider);background:var(--bg);color:var(--text)}
+.account-btn{flex:none;padding:0 16px;border-radius:10px;background:var(--accent);color:var(--accent-ink);font:800 13px Archivo,sans-serif}
+.account-msg{font:600 12.5px Archivo,sans-serif;color:var(--muted);margin-top:10px;min-height:1em}
+.account-bar-signed{display:flex;align-items:center;justify-content:space-between;gap:10px;font:600 12.5px Archivo,sans-serif;color:var(--muted);padding-bottom:16px}
+.account-signout{color:var(--text);text-decoration:underline;text-underline-offset:2px}
+
 .footer{margin-top:6px;padding-top:20px;color:var(--muted);font:600 11.5px Archivo,sans-serif;text-align:center;letter-spacing:.04em}
 
 .toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%) translateY(16px);background:var(--text);color:var(--bg);font:700 13px Archivo,sans-serif;padding:13px 20px;border-radius:999px;opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;max-width:86vw;text-align:center;z-index:50}
@@ -144,6 +154,7 @@ img{max-width:100%;display:block}
   </div>
 
   <div id="claude-take"></div>
+  <div id="account-bar"></div>
   <div id="items"></div>
 
   <div class="footer" id="footer"></div>
@@ -151,9 +162,12 @@ img{max-width:100%;display:block}
 
 <div class="toast" id="toast"></div>
 
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
 const SAVE_LIMIT = 10;
-const STORAGE_KEY = 'buzz_saved_v1';
+const SUPABASE_URL = 'https://jdzgnykqcjciivmszgaa.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_WW7D_DEiAyjmk-z45OCjfw_HvrI3qMH';
+const db = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 const externalIcon = '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>';
 const plusIcon = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>';
@@ -164,6 +178,8 @@ const shareIcon = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" s
 let currentTab = 'today';
 let todayData = null;
 let toastTimer = null;
+let currentUser = null;
+let savedItems = [];
 
 function esc(s){
   return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -188,20 +204,8 @@ function tagClass(topic){
   return 'ai';
 }
 
-function loadSaved(){
-  try{
-    const raw = localStorage.getItem(STORAGE_KEY);
-    const arr = raw ? JSON.parse(raw) : [];
-    return Array.isArray(arr) ? arr : [];
-  }catch(e){ return []; }
-}
-
-function persistSaved(arr){
-  try{ localStorage.setItem(STORAGE_KEY, JSON.stringify(arr)); }catch(e){}
-}
-
 function isSaved(item){
-  return loadSaved().some(s => s.source_url === item.source_url);
+  return savedItems.some(s => s.source_url === item.source_url);
 }
 
 function showToast(msg){
@@ -212,24 +216,69 @@ function showToast(msg){
   toastTimer = setTimeout(() => el.classList.remove('show'), 3000);
 }
 
-function toggleSave(key){
+async function fetchSavedItems(){
+  if(!currentUser){ savedItems = []; return; }
+  const { data, error } = await db.from('buzz_saved')
+    .select('*')
+    .eq('user_id', currentUser.id)
+    .order('created_at', { ascending: false });
+  savedItems = error ? [] : (data || []);
+}
+
+async function toggleSave(key){
   const item = window.__buzzItems[key];
   if(!item) return;
-  const saved = loadSaved();
-  const idx = saved.findIndex(s => s.source_url === item.source_url);
+
+  if(!currentUser){
+    showToast('Sign in on the Saved tab to save stories.');
+    return;
+  }
+
+  const idx = savedItems.findIndex(s => s.source_url === item.source_url);
+
   if(idx >= 0){
-    saved.splice(idx, 1);
-    persistSaved(saved);
+    const row = savedItems[idx];
+    const { error } = await db.from('buzz_saved').delete().eq('id', row.id);
+    if(error){ showToast('Could not remove — try again.'); return; }
+    savedItems.splice(idx, 1);
   } else {
-    if(saved.length >= SAVE_LIMIT){
+    if(savedItems.length >= SAVE_LIMIT){
       showToast('You already have ' + SAVE_LIMIT + ' saved — remove one to add more.');
       return;
     }
-    saved.push(item);
-    persistSaved(saved);
+    const { data, error } = await db.from('buzz_saved').insert({
+      user_id: currentUser.id,
+      source_url: item.source_url,
+      headline: item.headline,
+      summary: item.summary,
+      topic: item.topic,
+      source_name: item.source_name,
+      briefing_date: todayData ? todayData.date : null
+    }).select().single();
+    if(error){ showToast('Could not save — try again.'); return; }
+    savedItems.unshift(data);
   }
+
   updateSavedCount();
   renderActiveTab();
+}
+
+async function sendMagicLink(){
+  const emailEl = document.getElementById('signin-email');
+  const msgEl = document.getElementById('signin-msg');
+  if(!emailEl || !msgEl) return;
+  const email = emailEl.value.trim();
+  if(!email){ msgEl.textContent = 'Enter your email first.'; return; }
+  msgEl.textContent = 'Sending…';
+  const { error } = await db.auth.signInWithOtp({
+    email,
+    options: { emailRedirectTo: window.location.origin + window.location.pathname }
+  });
+  msgEl.textContent = error ? error.message : 'Check your email for the sign-in link.';
+}
+
+async function signOut(){
+  await db.auth.signOut();
 }
 
 function shareItem(key){
@@ -248,7 +297,7 @@ function shareItem(key){
 }
 
 function updateSavedCount(){
-  document.getElementById('saved-count').textContent = '(' + loadSaved().length + ')';
+  document.getElementById('saved-count').textContent = '(' + savedItems.length + ')';
 }
 
 function renderList(items){
@@ -306,10 +355,49 @@ function renderClaudeTake(){
   `;
 }
 
+function renderAccountBar(){
+  const el = document.getElementById('account-bar');
+
+  if(currentTab !== 'saved'){
+    el.innerHTML = '';
+    return;
+  }
+
+  if(!currentUser){
+    el.innerHTML = `
+      <div class="account-card">
+        <div class="account-title">Sign in to sync your saves</div>
+        <div class="account-note">One-time magic link by email &mdash; no password, and only you can see or change your saved list.</div>
+        <div class="account-row">
+          <input type="email" id="signin-email" placeholder="you@email.com" autocomplete="email">
+          <button class="account-btn" id="signin-send">Send link</button>
+        </div>
+        <div class="account-msg" id="signin-msg"></div>
+      </div>
+    `;
+    document.getElementById('signin-send').addEventListener('click', sendMagicLink);
+    document.getElementById('signin-email').addEventListener('keydown', e => { if(e.key === 'Enter') sendMagicLink(); });
+    return;
+  }
+
+  el.innerHTML = `
+    <div class="account-bar-signed">
+      <span>Signed in as ${esc(currentUser.email)}</span>
+      <button class="account-signout" id="signout-btn">Sign out</button>
+    </div>
+  `;
+  document.getElementById('signout-btn').addEventListener('click', signOut);
+}
+
 function renderActiveTab(){
   renderClaudeTake();
+  renderAccountBar();
   if(currentTab === 'saved'){
-    renderList(loadSaved());
+    if(!currentUser){
+      document.getElementById('items').innerHTML = '';
+      return;
+    }
+    renderList(savedItems);
   } else {
     renderList(todayData && Array.isArray(todayData.items) ? todayData.items : []);
   }
@@ -324,7 +412,26 @@ document.querySelectorAll('.tab').forEach(btn => {
   });
 });
 
-updateSavedCount();
+async function initAuth(){
+  const { data: { session } } = await db.auth.getSession();
+  currentUser = session?.user || null;
+  if(currentUser) await fetchSavedItems();
+  updateSavedCount();
+  renderActiveTab();
+
+  db.auth.onAuthStateChange(async (_event, session) => {
+    currentUser = session?.user || null;
+    if(currentUser){
+      await fetchSavedItems();
+    } else {
+      savedItems = [];
+    }
+    updateSavedCount();
+    renderActiveTab();
+  });
+}
+
+initAuth();
 
 fetch('data/briefing.json', { cache: 'no-store' })
   .then(r => r.json())
