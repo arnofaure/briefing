@@ -76,7 +76,7 @@ img{max-width:100%;display:block}
 
 .wrap{max-width:600px;margin:0 auto;padding:0 20px 60px}
 
-.app-header{padding:calc(env(safe-area-inset-top,0px) + 28px) 0 18px;border-bottom:2px solid var(--divider);margin-bottom:20px}
+.app-header{position:sticky;top:0;z-index:20;background:var(--bg);padding:calc(env(safe-area-inset-top,0px) + 28px) 0 18px;border-bottom:2px solid var(--divider);margin-bottom:20px}
 .header-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
 .wordmark{font:900 34px/1 Archivo,sans-serif;letter-spacing:-.03em}
 .app-kicker{font:800 11px Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-top:8px}
@@ -112,8 +112,11 @@ img{max-width:100%;display:block}
 .tick-item.open .tick-detail{grid-template-rows:1fr}
 .tick-detail-inner{overflow:hidden;padding:2px 0 20px 0;min-height:0}
 .tick-summary{font:500 16.5px/1.62 Archivo,sans-serif;color:var(--muted)}
-.tick-source{display:inline-flex;align-items:center;gap:6px;font:700 13px Archivo,sans-serif;margin-top:14px;color:var(--text)}
+.tick-actions{display:flex;align-items:center;gap:20px;margin-top:14px}
+.tick-source{display:inline-flex;align-items:center;gap:6px;font:700 13px Archivo,sans-serif;color:var(--text)}
 .tick-source svg{opacity:.65;flex:none}
+.tick-share-btn{display:inline-flex;align-items:center;gap:6px;font:700 13px Archivo,sans-serif;color:var(--muted)}
+.tick-share-btn svg{opacity:.65;flex:none}
 
 .empty,.error{padding:44px 0;color:var(--muted);font:500 15px/1.6 Archivo,sans-serif;text-align:center}
 
@@ -156,6 +159,7 @@ const externalIcon = '<svg width="12" height="12" viewBox="0 0 24 24" fill="none
 const plusIcon = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>';
 const bookmarkIcon = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1z"/></svg>';
 const bookmarkFilledIcon = '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1z"/></svg>';
+const shareIcon = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="10.5" x2="15.4" y2="6.5"/><line x1="8.6" y1="13.5" x2="15.4" y2="17.5"/></svg>';
 
 let currentTab = 'today';
 let todayData = null;
@@ -228,6 +232,21 @@ function toggleSave(key){
   renderActiveTab();
 }
 
+function shareItem(key){
+  const item = window.__buzzItems[key];
+  if(!item) return;
+  const shareText = item.headline + '\n\n' + item.summary;
+
+  if(navigator.share){
+    navigator.share({ title: item.headline, text: shareText, url: item.source_url || undefined }).catch(() => {});
+    return;
+  }
+
+  const subject = encodeURIComponent(item.headline);
+  const body = encodeURIComponent(shareText + (item.source_url ? '\n\n' + item.source_url : ''));
+  window.location.href = `mailto:?subject=${subject}&body=${body}`;
+}
+
 function updateSavedCount(){
   document.getElementById('saved-count').textContent = '(' + loadSaved().length + ')';
 }
@@ -262,7 +281,10 @@ function renderList(items){
       </div>
       <div class="tick-detail"><div class="tick-detail-inner">
         <p class="tick-summary">${esc(item.summary)}</p>
-        ${item.source_url ? `<a class="tick-source" href="${esc(item.source_url)}" target="_blank" rel="noopener">${externalIcon} ${esc(item.source_name || 'Source')}</a>` : ''}
+        <div class="tick-actions">
+          ${item.source_url ? `<a class="tick-source" href="${esc(item.source_url)}" target="_blank" rel="noopener">${externalIcon} ${esc(item.source_name || 'Source')}</a>` : ''}
+          <button class="tick-share-btn" onclick="shareItem('${key}')">${shareIcon} Share</button>
+        </div>
       </div></div>
     </div>
   `;
