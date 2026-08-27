@@ -76,13 +76,13 @@ img{max-width:100%;display:block}
 
 .wrap{max-width:600px;margin:0 auto;padding:0 20px 60px}
 
-.app-header{padding:calc(env(safe-area-inset-top,0px) + 28px) 0 18px;border-bottom:2px solid var(--divider);margin-bottom:6px}
+.app-header{padding:calc(env(safe-area-inset-top,0px) + 28px) 0 18px;border-bottom:2px solid var(--divider);margin-bottom:20px}
+.header-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
 .wordmark{font:900 34px/1 Archivo,sans-serif;letter-spacing:-.03em}
-.wordmark span{color:var(--accent);-webkit-text-stroke:1px var(--text)}
 .app-kicker{font:800 11px Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-top:8px}
 .app-date{font:600 13px Archivo,sans-serif;color:var(--muted);margin-top:4px}
 
-.tabs{display:flex;gap:8px;margin:18px 0 20px}
+.tabs{display:flex;gap:8px;flex:none;padding-top:4px}
 .tab{padding:8px 15px;border-radius:999px;border:1.5px solid var(--divider);font:700 12.5px Archivo,sans-serif;color:var(--muted);background:var(--surface);transition:background .15s,color .15s,border-color .15s}
 .tab.active{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
 
@@ -127,14 +127,17 @@ img{max-width:100%;display:block}
 
 <div class="wrap">
   <div class="app-header">
-    <div class="wordmark">BUZZ<span>.</span></div>
-    <div class="app-kicker">Now &middot; Daily Briefing</div>
-    <div class="app-date" id="briefing-date"></div>
-  </div>
-
-  <div class="tabs">
-    <button class="tab active" data-tab="today">Today</button>
-    <button class="tab" data-tab="saved">Saved <span id="saved-count">(0)</span></button>
+    <div class="header-top">
+      <div>
+        <div class="wordmark">BUZZ</div>
+        <div class="app-kicker">Now &middot; Daily Briefing</div>
+        <div class="app-date" id="briefing-date"></div>
+      </div>
+      <div class="tabs">
+        <button class="tab active" data-tab="today">Today</button>
+        <button class="tab" data-tab="saved">Saved <span id="saved-count">(0)</span></button>
+      </div>
+    </div>
   </div>
 
   <div id="claude-take"></div>
