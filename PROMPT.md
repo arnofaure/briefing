@@ -13,9 +13,12 @@ via GitHub Pages at buzz.arnofaure.com).
    development (in which case treat it as a fresh item and note the update).
 
 2. Using web search, scan broadly for news in three areas from the last ~48
-   hours. Only use fresh, credible sources (established outlets, official
-   company/product blogs, reputable trade press — not low-quality
-   aggregators).
+   hours. Only use fresh, high-standard, credible sources — established
+   outlets, official company/product blogs, reputable trade press. Never
+   use influencer posts, creator takes, X/social threads, or low-quality
+   aggregators as a source, even if they're the ones breaking a story first
+   — find the credible outlet reporting the same thing instead, and if
+   there isn't one yet, leave the story out until there is.
 
    **AI + creative technology.** Run dedicated searches for each of these,
    not just general keyword queries:
