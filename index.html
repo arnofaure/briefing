@@ -4,14 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Buzz Now</title>
-<meta name="description" content="Five concise, credible-sourced stories on AI + creative technology and cinema + filmmaking, refreshed daily.">
+<meta name="description" content="AI + creative tech, cinema + filmmaking, and society — six concise, credible-sourced stories refreshed daily.">
 <meta name="author" content="Arno Faure">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Buzz Now">
-<meta property="og:description" content="Five concise, credible-sourced stories on AI + creative technology and cinema + filmmaking, refreshed daily.">
+<meta property="og:description" content="AI + creative tech, cinema + filmmaking, and society — six concise, credible-sourced stories refreshed daily.">
 
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><rect width=%2232%22 height=%2232%22 rx=%227%22 fill=%22%230c0c0d%22/><text x=%2216%22 y=%2223%22 font-family=%22Arial,sans-serif%22 font-weight=%22900%22 font-size=%2220%22 text-anchor=%22middle%22 fill=%22%23e6ff3d%22>B</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><circle cx=%2216%22 cy=%2216%22 r=%2213%22 fill=%22%23e6ff3d%22/></svg>">
 <meta name="theme-color" content="#0c0c0d">
 
 <meta name="mobile-web-app-capable" content="yes">
@@ -33,7 +33,8 @@
   --accent:#dcff34;
   --accent-ink:#14150a;
   --ai:#5b3df0;
-  --film:#e0621c;
+  --film:#af3d8a;
+  --society:#1f7a8c;
   --radius:16px;
 }
 @media (prefers-color-scheme: dark){
@@ -47,7 +48,8 @@
     --accent:#e6ff3d;
     --accent-ink:#121307;
     --ai:#9b86ff;
-    --film:#ffab5e;
+    --film:#f195d6;
+    --society:#6cd4e6;
   }
 }
 :root[data-theme="dark"]{
@@ -60,7 +62,8 @@
   --accent:#e6ff3d;
   --accent-ink:#121307;
   --ai:#9b86ff;
-  --film:#ffab5e;
+  --film:#f195d6;
+  --society:#6cd4e6;
 }
 
 *{box-sizing:border-box}
@@ -79,22 +82,35 @@ img{max-width:100%;display:block}
 .app-kicker{font:800 11px Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-top:8px}
 .app-date{font:600 13px Archivo,sans-serif;color:var(--muted);margin-top:4px}
 
+.tabs{display:flex;gap:8px;margin:18px 0 20px}
+.tab{padding:8px 15px;border-radius:999px;border:1.5px solid var(--divider);font:700 12.5px Archivo,sans-serif;color:var(--muted);background:var(--surface);transition:background .15s,color .15s,border-color .15s}
+.tab.active{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+
+.claude-take{background:var(--surface);border:1px solid var(--divider);border-left:3px solid var(--accent);border-radius:var(--radius);padding:18px 20px;margin-bottom:22px}
+.claude-take-kicker{font:800 10.5px Archivo,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--text)}
+.claude-take-note{font:600 11.5px Archivo,sans-serif;color:var(--muted);margin-top:4px}
+.claude-take-body{font:500 16px/1.6 Archivo,sans-serif;color:var(--text);margin-top:12px}
+
 .tag{display:inline-flex;align-items:center;font:800 10px Archivo,sans-serif;letter-spacing:.08em;text-transform:uppercase;padding:4px 9px;border-radius:6px;color:#fff;flex:none}
 .tag.ai{background:var(--ai)}
 .tag.film{background:var(--film)}
+.tag.society{background:var(--society)}
 
 .tick-item{border-bottom:1px solid var(--divider)}
 .tick-item:last-child{border-bottom:none}
-.tick-btn{width:100%;text-align:left;padding:20px 0;display:flex;gap:14px;align-items:flex-start}
+.tick-row{display:flex;align-items:flex-start;gap:6px;padding:20px 0}
+.tick-btn{flex:1;min-width:0;text-align:left;display:flex;gap:14px;align-items:flex-start}
 .tick-num{font:900 14px Archivo,sans-serif;color:var(--muted);padding-top:5px;flex:none;width:20px;font-variant-numeric:tabular-nums}
 .tick-main{flex:1;min-width:0}
 .tick-headline{font:800 20px/1.3 Archivo,sans-serif;letter-spacing:-.01em;text-wrap:balance}
 .tick-meta{display:flex;align-items:center;gap:8px;margin-top:9px}
 .tick-plus{flex:none;width:28px;height:28px;border-radius:50%;border:1.5px solid var(--divider);display:flex;align-items:center;justify-content:center;color:var(--muted);transition:transform .2s,background .2s,color .2s,border-color .2s;margin-top:3px}
 .tick-item.open .tick-plus{transform:rotate(45deg);background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
-.tick-detail{display:grid;grid-template-rows:0fr;transition:grid-template-rows .3s ease}
+.tick-save{flex:none;width:28px;height:28px;border-radius:50%;border:1.5px solid var(--divider);display:flex;align-items:center;justify-content:center;color:var(--muted);transition:background .15s,color .15s,border-color .15s;margin-top:20px}
+.tick-save.saved{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.tick-detail{display:grid;grid-template-rows:0fr;transition:grid-template-rows .3s ease;padding-left:34px}
 .tick-item.open .tick-detail{grid-template-rows:1fr}
-.tick-detail-inner{overflow:hidden;padding:2px 0 20px 34px;min-height:0}
+.tick-detail-inner{overflow:hidden;padding:2px 0 20px 0;min-height:0}
 .tick-summary{font:500 16.5px/1.62 Archivo,sans-serif;color:var(--muted)}
 .tick-source{display:inline-flex;align-items:center;gap:6px;font:700 13px Archivo,sans-serif;margin-top:14px;color:var(--text)}
 .tick-source svg{opacity:.65;flex:none}
@@ -102,6 +118,9 @@ img{max-width:100%;display:block}
 .empty,.error{padding:44px 0;color:var(--muted);font:500 15px/1.6 Archivo,sans-serif;text-align:center}
 
 .footer{margin-top:6px;padding-top:20px;color:var(--muted);font:600 11.5px Archivo,sans-serif;text-align:center;letter-spacing:.04em}
+
+.toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%) translateY(16px);background:var(--text);color:var(--bg);font:700 13px Archivo,sans-serif;padding:13px 20px;border-radius:999px;opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;max-width:86vw;text-align:center;z-index:50}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 </style>
 </head>
 <body>
@@ -113,14 +132,31 @@ img{max-width:100%;display:block}
     <div class="app-date" id="briefing-date"></div>
   </div>
 
+  <div class="tabs">
+    <button class="tab active" data-tab="today">Today</button>
+    <button class="tab" data-tab="saved">Saved <span id="saved-count">(0)</span></button>
+  </div>
+
+  <div id="claude-take"></div>
   <div id="items"></div>
 
   <div class="footer" id="footer"></div>
 </div>
 
+<div class="toast" id="toast"></div>
+
 <script>
+const SAVE_LIMIT = 10;
+const STORAGE_KEY = 'buzz_saved_v1';
+
 const externalIcon = '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>';
 const plusIcon = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>';
+const bookmarkIcon = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1z"/></svg>';
+const bookmarkFilledIcon = '<svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1z"/></svg>';
+
+let currentTab = 'today';
+let todayData = null;
+let toastTimer = null;
 
 function esc(s){
   return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -133,40 +169,145 @@ function fmtDate(iso){
   return d.toLocaleDateString('en-US', { weekday:'long', month:'long', day:'numeric', year:'numeric' });
 }
 
-function label(topic){ return topic === 'film' ? 'Film' : 'AI'; }
+function label(topic){
+  if(topic === 'film') return 'Film';
+  if(topic === 'society') return 'Society';
+  return 'AI';
+}
 
-function render(data){
-  document.getElementById('briefing-date').textContent = fmtDate(data.date);
+function tagClass(topic){
+  if(topic === 'film') return 'film';
+  if(topic === 'society') return 'society';
+  return 'ai';
+}
 
-  const items = Array.isArray(data.items) ? data.items : [];
+function loadSaved(){
+  try{
+    const raw = localStorage.getItem(STORAGE_KEY);
+    const arr = raw ? JSON.parse(raw) : [];
+    return Array.isArray(arr) ? arr : [];
+  }catch(e){ return []; }
+}
+
+function persistSaved(arr){
+  try{ localStorage.setItem(STORAGE_KEY, JSON.stringify(arr)); }catch(e){}
+}
+
+function isSaved(item){
+  return loadSaved().some(s => s.source_url === item.source_url);
+}
+
+function showToast(msg){
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove('show'), 3000);
+}
+
+function toggleSave(key){
+  const item = window.__buzzItems[key];
+  if(!item) return;
+  const saved = loadSaved();
+  const idx = saved.findIndex(s => s.source_url === item.source_url);
+  if(idx >= 0){
+    saved.splice(idx, 1);
+    persistSaved(saved);
+  } else {
+    if(saved.length >= SAVE_LIMIT){
+      showToast('You already have ' + SAVE_LIMIT + ' saved — remove one to add more.');
+      return;
+    }
+    saved.push(item);
+    persistSaved(saved);
+  }
+  updateSavedCount();
+  renderActiveTab();
+}
+
+function updateSavedCount(){
+  document.getElementById('saved-count').textContent = '(' + loadSaved().length + ')';
+}
+
+function renderList(items){
+  window.__buzzItems = window.__buzzItems || {};
   const container = document.getElementById('items');
 
   if(!items.length){
-    container.innerHTML = '<div class="empty">No briefing yet.</div>';
+    container.innerHTML = currentTab === 'saved'
+      ? '<div class="empty">Nothing saved yet — tap the bookmark on any story to keep it here.</div>'
+      : '<div class="empty">No briefing yet.</div>';
     return;
   }
 
-  container.innerHTML = items.map((item, i) => `
-    <div class="tick-item${i === 0 ? ' open' : ''}">
-      <button class="tick-btn" onclick="this.closest('.tick-item').classList.toggle('open')">
-        <span class="tick-num">${String(i + 1).padStart(2, '0')}</span>
-        <span class="tick-main">
-          <span class="tick-headline">${esc(item.headline)}</span>
-          <span class="tick-meta"><span class="tag ${item.topic === 'film' ? 'film' : 'ai'}">${label(item.topic)}</span></span>
-        </span>
-        <span class="tick-plus">${plusIcon}</span>
-      </button>
+  container.innerHTML = items.map((item, i) => {
+    const key = (currentTab === 'saved' ? 'saved-' : 'today-') + i;
+    window.__buzzItems[key] = item;
+    const saved = isSaved(item);
+    return `
+    <div class="tick-item${i === 0 && currentTab === 'today' ? ' open' : ''}">
+      <div class="tick-row">
+        <button class="tick-btn" onclick="this.closest('.tick-item').classList.toggle('open')">
+          <span class="tick-num">${String(i + 1).padStart(2, '0')}</span>
+          <span class="tick-main">
+            <span class="tick-headline">${esc(item.headline)}</span>
+            <span class="tick-meta"><span class="tag ${tagClass(item.topic)}">${label(item.topic)}</span></span>
+          </span>
+          <span class="tick-plus">${plusIcon}</span>
+        </button>
+        <button class="tick-save${saved ? ' saved' : ''}" aria-label="${saved ? 'Remove from saved' : 'Save'}" onclick="toggleSave('${key}')">${saved ? bookmarkFilledIcon : bookmarkIcon}</button>
+      </div>
       <div class="tick-detail"><div class="tick-detail-inner">
         <p class="tick-summary">${esc(item.summary)}</p>
         ${item.source_url ? `<a class="tick-source" href="${esc(item.source_url)}" target="_blank" rel="noopener">${externalIcon} ${esc(item.source_name || 'Source')}</a>` : ''}
       </div></div>
     </div>
-  `).join('');
+  `;
+  }).join('');
 }
+
+function renderClaudeTake(){
+  const el = document.getElementById('claude-take');
+  if(currentTab !== 'today' || !todayData || !todayData.claude_take){
+    el.innerHTML = '';
+    return;
+  }
+  el.innerHTML = `
+    <div class="claude-take">
+      <div class="claude-take-kicker">Claude's take</div>
+      <div class="claude-take-note">His own read on today's stories — not neutral reporting.</div>
+      <p class="claude-take-body">${esc(todayData.claude_take)}</p>
+    </div>
+  `;
+}
+
+function renderActiveTab(){
+  renderClaudeTake();
+  if(currentTab === 'saved'){
+    renderList(loadSaved());
+  } else {
+    renderList(todayData && Array.isArray(todayData.items) ? todayData.items : []);
+  }
+}
+
+document.querySelectorAll('.tab').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentTab = btn.dataset.tab;
+    renderActiveTab();
+  });
+});
+
+updateSavedCount();
 
 fetch('data/briefing.json', { cache: 'no-store' })
   .then(r => r.json())
-  .then(render)
+  .then(data => {
+    todayData = data;
+    document.getElementById('briefing-date').textContent = fmtDate(data.date);
+    renderActiveTab();
+  })
   .catch(() => {
     document.getElementById('items').innerHTML = '<div class="error">Could not load today\'s briefing.</div>';
   });
