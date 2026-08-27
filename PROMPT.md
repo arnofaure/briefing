@@ -105,8 +105,15 @@ via GitHub Pages at buzz.arnofaure.com).
    - Poll `flora_get_run` with the returned `run_id` until `status` is
      `"completed"` (check every ~10s, it usually takes under 30s), then
      read the output image URL.
+   - Flora's URL is not permanent storage — download the image and save it
+     into the repo at `data/images/YYYY-MM-DD.png` (use `curl` or similar),
+     then use that repo-relative path (`data/images/YYYY-MM-DD.png`), not
+     the Flora URL, as `claude_take_image_url` everywhere below. This file
+     gets committed and pushed along with everything else in step 10, so
+     the image survives regardless of Flora's own retention.
    - If Flora errors, times out, or is unavailable, don't block the rest of
-     the briefing — just leave `claude_take_image_url` as `null` for today.
+     the briefing — just leave `claude_take_image_url` as `null` for today,
+     and don't create an image file.
 
 7. Overwrite `data/briefing.json` with:
    ```json
@@ -134,7 +141,9 @@ via GitHub Pages at buzz.arnofaure.com).
    this step entirely if the image failed to generate — don't add an entry
    with a null image.
 
-10. Commit all changed files with message `Daily briefing: YYYY-MM-DD` and
-    push to `main`. GitHub Pages redeploys automatically on push.
+10. Commit all changed files — including the new `data/images/YYYY-MM-DD.png`
+    if one was created (`git add` it explicitly, it's untracked) — with
+    message `Daily briefing: YYYY-MM-DD` and push to `main`. GitHub Pages
+    redeploys automatically on push.
 
 No emoji anywhere in the output — this app never uses emoji.
