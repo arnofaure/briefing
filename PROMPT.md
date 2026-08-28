@@ -53,11 +53,12 @@ via GitHub Pages at buzz.arnofaure.com).
    **Fashion + luxury.** One item — a genuinely significant fashion or
    luxury-industry story (major collection/show news, a house or group
    business move — appointment, acquisition, closure, a notable earnings
-   or strategy shift, a real industry trend backed by reporting). Prefer
-   Business of Fashion (businessoffashion.com) as the source when it has
-   covered the story; WWD, Vogue Business, or equivalent luxury/fashion
-   trade press are fine too. Skip lifestyle fluff, red-carpet-only pieces,
-   and pure product drops with no real story behind them.
+   or strategy shift, a real industry trend backed by reporting). Prefer,
+   in order: Business of Fashion (businessoffashion.com) or Journal du
+   Luxe (journalduluxe.fr) when either has covered the story; WWD, Vogue
+   Business, or equivalent luxury/fashion trade press are fine too. Skip
+   lifestyle fluff, red-carpet-only pieces, and pure product drops with no
+   real story behind them.
 
    **ADHD — conditional, 0 or 1 item.** Search for genuinely new ADHD
    research, studies, or noteworthy developments from the last ~7 days

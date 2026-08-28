@@ -152,12 +152,12 @@ img{max-width:100%;display:block}
 .lightbox{position:fixed;inset:0;z-index:100;background:rgba(8,8,7,.92);display:none;flex-direction:column;align-items:center;justify-content:center;padding:calc(env(safe-area-inset-top,0px) + 20px) 20px calc(env(safe-area-inset-bottom,0px) + 20px)}
 .lightbox.open{display:flex}
 .lightbox-stage{width:100%;max-width:480px;display:flex;flex-direction:column;align-items:center}
-.lightbox-img-wrap{width:100%;aspect-ratio:1/1;border-radius:var(--radius);overflow:hidden;background:var(--surface-2);position:relative}
+.lightbox-img-wrap{width:100%;aspect-ratio:1/1;border-radius:var(--radius);overflow:hidden;background:var(--surface-2)}
 .lightbox-img{width:100%;height:100%;object-fit:cover;display:block}
-.lightbox-nav{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:44px;border-radius:50%;background:rgba(0,0,0,.45);color:#fff;display:flex;align-items:center;justify-content:center;border:none}
-.lightbox-prev{left:8px}
-.lightbox-next{right:8px}
-.lightbox-caption{width:100%;padding:16px 4px 0}
+.lightbox-nav-row{width:100%;display:flex;align-items:center;gap:12px;margin-top:16px}
+.lightbox-nav{position:static;flex:none;width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.1);color:rgba(246,244,238,.75);display:flex;align-items:center;justify-content:center;border:none;transition:background .15s,color .15s}
+.lightbox-nav:hover{background:rgba(255,255,255,.18);color:#f6f4ee}
+.lightbox-caption{flex:1;min-width:0;text-align:center}
 .lightbox-date{font:800 11px Archivo,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:rgba(246,244,238,.6)}
 .lightbox-title{font:700 17px/1.4 Archivo,sans-serif;color:#f6f4ee;margin-top:6px}
 .lightbox-close{position:absolute;top:calc(env(safe-area-inset-top,0px) + 16px);right:20px;width:38px;height:38px;border-radius:50%;background:rgba(255,255,255,.12);color:#fff;display:flex;align-items:center;justify-content:center;border:none}
@@ -217,16 +217,18 @@ img{max-width:100%;display:block}
   <div class="lightbox-stage">
     <div class="lightbox-img-wrap">
       <img class="lightbox-img" id="lightbox-img" src="" alt="">
-      <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Previous">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
-      </button>
-      <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Next">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 15 12 9 18"/></svg>
-      </button>
     </div>
-    <div class="lightbox-caption">
-      <div class="lightbox-date" id="lightbox-date"></div>
-      <div class="lightbox-title" id="lightbox-title"></div>
+    <div class="lightbox-nav-row">
+      <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Previous">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <div class="lightbox-caption">
+        <div class="lightbox-date" id="lightbox-date"></div>
+        <div class="lightbox-title" id="lightbox-title"></div>
+      </div>
+      <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Next">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 15 12 9 18"/></svg>
+      </button>
     </div>
   </div>
 </div>
