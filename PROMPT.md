@@ -50,6 +50,15 @@ via GitHub Pages at buzz.arnofaure.com).
      actually living, working, or relating to technology/culture right now
      (a real trend backed by data or reporting, not a think-piece opinion).
 
+   **Fashion + luxury.** One item — a genuinely significant fashion or
+   luxury-industry story (major collection/show news, a house or group
+   business move — appointment, acquisition, closure, a notable earnings
+   or strategy shift, a real industry trend backed by reporting). Prefer
+   Business of Fashion (businessoffashion.com) as the source when it has
+   covered the story; WWD, Vogue Business, or equivalent luxury/fashion
+   trade press are fine too. Skip lifestyle fluff, red-carpet-only pieces,
+   and pure product drops with no real story behind them.
+
    **ADHD — conditional, 0 or 1 item.** Search for genuinely new ADHD
    research, studies, or noteworthy developments from the last ~7 days
    (medical journals, university research news, reputable health/science
@@ -63,13 +72,13 @@ via GitHub Pages at buzz.arnofaure.com).
    know about today, not filler or minor incremental posts. Rank candidates
    within each area by real-world impact and drop the weakest.
 
-   Pick 6 core items: 2 AI + creative-tech, 2 cinema + filmmaking, 2
-   society (one social-media story, one societal-behavior story). If one
-   area is genuinely thin that day, it's fine to shift to 3/2/1 or similar
-   rather than force a weak item in — but never drop an area to zero unless
-   there is truly nothing usable. Add the ADHD item on top of these 6 only
-   if step 2 found something genuinely fresh — otherwise there are 6 items
-   that day, not 7.
+   Pick 7 core items: 2 AI + creative-tech, 2 cinema + filmmaking, 2
+   society (one social-media story, one societal-behavior story), 1
+   fashion + luxury. If one area is genuinely thin that day, it's fine to
+   shift the AI/film/society split (e.g. 3/2/1) rather than force a weak
+   item in — but never drop an area to zero unless there is truly nothing
+   usable. Add the ADHD item on top of these 7 only if step 2 found
+   something genuinely fresh — otherwise there are 7 items that day, not 8.
 
 3b. Also write exactly one **Philosophy** item, always included, entirely
     separate from the news search above:
@@ -90,10 +99,11 @@ via GitHub Pages at buzz.arnofaure.com).
       reputable academic source
     - `topic`: `"philosophy"`
 
-4. For each item (core six, the optional ADHD item, and the Philosophy
+4. For each item (core seven, the optional ADHD item, and the Philosophy
    item) write:
    - `id`: a short slug, unique within this briefing
-   - `topic`: `"ai"`, `"film"`, `"society"`, `"adhd"`, or `"philosophy"`
+   - `topic`: `"ai"`, `"film"`, `"society"`, `"fashion"`, `"adhd"`, or
+     `"philosophy"`
    - `headline`: clear, concise, no clickbait
    - `summary`: 2-4 sentences explaining what happened and why it matters
    - `source_name`: the publication/site name
@@ -103,13 +113,13 @@ via GitHub Pages at buzz.arnofaure.com).
 
 5. Write a `claude_take`: 2-4 sentences of your own analysis of today's set
    of stories as a whole — genuine point of view, not a recap. Base this
-   only on the 6 core AI/film/society items — never on the ADHD or
+   only on the 7 core AI/film/society/fashion items — never on the ADHD or
    Philosophy items, which are separate daily features, not news, and
    shouldn't influence or be referenced by the take (or by the illustration
    in step 6). Look for connections, tensions, or patterns across the items
    (e.g. two stories pulling in opposite directions, a theme repeating
-   across AI/film/society, something that seems more/less significant than
-   the headlines suggest).
+   across AI/film/society/fashion, something that seems more/less
+   significant than the headlines suggest).
    Write it in first person as your own read, since the app displays it
    explicitly labeled "Buzz's Take" (your own personal take), not neutral
    reporting.
@@ -160,8 +170,8 @@ via GitHub Pages at buzz.arnofaure.com).
      "claude_take": "...",
      "claude_take_title": "...",
      "claude_take_image_url": "... or null",
-     "items": [ /* the 6 core items, plus the Philosophy item, plus the
-                   ADHD item if one exists today — 7 or 8 total */ ]
+     "items": [ /* the 7 core items, plus the Philosophy item, plus the
+                   ADHD item if one exists today — 8 or 9 total */ ]
    }
    ```
 
