@@ -58,6 +58,15 @@
       "source_name": "The Conversation",
       "source_url": "https://theconversation.com/i-surveyed-workers-to-see-if-ai-had-caused-job-losses-and-was-surprised-by-the-findings-290100",
       "image_url": null
+    },
+    {
+      "id": "aristotle-golden-mean",
+      "topic": "philosophy",
+      "headline": "Aristotle's Golden Mean",
+      "summary": "Aristotle argued that virtue lies in a mean between two vices, one of excess and one of deficiency — courage, for instance, sits between recklessness and cowardice. He didn't mean a mathematical midpoint but the right amount relative to the situation and the person, judged by practical wisdom rather than a fixed rule. It's less a formula than a habit of calibration, and it's still the basic shape of how we talk about balance, moderation, and \"going too far\" today.",
+      "source_name": "Stanford Encyclopedia of Philosophy",
+      "source_url": "https://plato.stanford.edu/entries/aristotle-ethics/",
+      "image_url": null
     }
   ]
 }

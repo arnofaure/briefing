@@ -35,6 +35,8 @@
   --ai:#5b3df0;
   --film:#af3d8a;
   --society:#1f7a8c;
+  --adhd:#8a6a1e;
+  --philosophy:#2f4a8a;
   --radius:16px;
 }
 @media (prefers-color-scheme: dark){
@@ -50,6 +52,8 @@
     --ai:#9b86ff;
     --film:#f195d6;
     --society:#6cd4e6;
+    --adhd:#e0b84a;
+    --philosophy:#8fabf0;
   }
 }
 :root[data-theme="dark"]{
@@ -64,6 +68,8 @@
   --ai:#9b86ff;
   --film:#f195d6;
   --society:#6cd4e6;
+  --adhd:#e0b84a;
+  --philosophy:#8fabf0;
 }
 
 *{box-sizing:border-box}
@@ -97,6 +103,8 @@ img{max-width:100%;display:block}
 .tag.ai{background:var(--ai)}
 .tag.film{background:var(--film)}
 .tag.society{background:var(--society)}
+.tag.adhd{background:var(--adhd)}
+.tag.philosophy{background:var(--philosophy)}
 
 .tick-item{border-bottom:1px solid var(--divider)}
 .tick-item:last-child{border-bottom:none}
@@ -247,12 +255,16 @@ function fmtDate(iso){
 function label(topic){
   if(topic === 'film') return 'Film';
   if(topic === 'society') return 'Society';
+  if(topic === 'adhd') return 'ADHD';
+  if(topic === 'philosophy') return 'Philosophy';
   return 'AI';
 }
 
 function tagClass(topic){
   if(topic === 'film') return 'film';
   if(topic === 'society') return 'society';
+  if(topic === 'adhd') return 'adhd';
+  if(topic === 'philosophy') return 'philosophy';
   return 'ai';
 }
 

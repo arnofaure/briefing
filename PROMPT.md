@@ -50,20 +50,50 @@ via GitHub Pages at buzz.arnofaure.com).
      actually living, working, or relating to technology/culture right now
      (a real trend backed by data or reporting, not a think-piece opinion).
 
+   **ADHD — conditional, 0 or 1 item.** Search for genuinely new ADHD
+   research, studies, or noteworthy developments from the last ~7 days
+   (medical journals, university research news, reputable health/science
+   press). Only include this if something real and fresh actually exists —
+   this is not a guaranteed daily slot. If there's nothing new, skip this
+   area entirely rather than forcing a filler item or an evergreen
+   explainer.
+
 3. Curate hard. From everything found, keep only what is genuinely
    significant — the stories a well-informed person would actually want to
    know about today, not filler or minor incremental posts. Rank candidates
    within each area by real-world impact and drop the weakest.
 
-   Pick 6 items total: 2 AI + creative-tech, 2 cinema + filmmaking, 2
+   Pick 6 core items: 2 AI + creative-tech, 2 cinema + filmmaking, 2
    society (one social-media story, one societal-behavior story). If one
    area is genuinely thin that day, it's fine to shift to 3/2/1 or similar
    rather than force a weak item in — but never drop an area to zero unless
-   there is truly nothing usable.
+   there is truly nothing usable. Add the ADHD item on top of these 6 only
+   if step 2 found something genuinely fresh — otherwise there are 6 items
+   that day, not 7.
 
-4. For each item write:
+3b. Also write exactly one **Philosophy** item, always included, entirely
+    separate from the news search above:
+    - Pick one enduring concept from a single renowned, canonical
+      philosopher — real historical or contemporary academic figures
+      (Kant, Nietzsche, Aristotle, Spinoza, Hume, Simone de Beauvoir,
+      Camus, Foucault, Confucius, etc.), never self-help authors,
+      motivational speakers, or pop-philosophy content creators.
+    - Check `data/history.json` and avoid repeating a concept or
+      philosopher covered in roughly the last 30 days.
+    - `headline`: the concept, attributed to its philosopher (e.g. "Kant's
+      Categorical Imperative")
+    - `summary`: 2-4 sentences clearly explaining what the concept means
+      and why it still matters today
+    - `source_name`/`source_url`: link to a real reference for the concept
+      — the Stanford Encyclopedia of Philosophy (plato.stanford.edu), the
+      Internet Encyclopedia of Philosophy (iep.utm.edu), or an equivalent
+      reputable academic source
+    - `topic`: `"philosophy"`
+
+4. For each item (core six, the optional ADHD item, and the Philosophy
+   item) write:
    - `id`: a short slug, unique within this briefing
-   - `topic`: `"ai"`, `"film"`, or `"society"`
+   - `topic`: `"ai"`, `"film"`, `"society"`, `"adhd"`, or `"philosophy"`
    - `headline`: clear, concise, no clickbait
    - `summary`: 2-4 sentences explaining what happened and why it matters
    - `source_name`: the publication/site name
@@ -72,10 +102,14 @@ via GitHub Pages at buzz.arnofaure.com).
      (e.g. og:image), otherwise `null` — never fabricate one
 
 5. Write a `claude_take`: 2-4 sentences of your own analysis of today's set
-   of stories as a whole — genuine point of view, not a recap. Look for
-   connections, tensions, or patterns across the items (e.g. two stories
-   pulling in opposite directions, a theme repeating across AI/film/society,
-   something that seems more/less significant than the headlines suggest).
+   of stories as a whole — genuine point of view, not a recap. Base this
+   only on the 6 core AI/film/society items — never on the ADHD or
+   Philosophy items, which are separate daily features, not news, and
+   shouldn't influence or be referenced by the take (or by the illustration
+   in step 6). Look for connections, tensions, or patterns across the items
+   (e.g. two stories pulling in opposite directions, a theme repeating
+   across AI/film/society, something that seems more/less significant than
+   the headlines suggest).
    Write it in first person as your own read, since the app displays it
    explicitly labeled "Buzz's Take" (your own personal take), not neutral
    reporting.
@@ -126,7 +160,8 @@ via GitHub Pages at buzz.arnofaure.com).
      "claude_take": "...",
      "claude_take_title": "...",
      "claude_take_image_url": "... or null",
-     "items": [ /* the 6 items above */ ]
+     "items": [ /* the 6 core items, plus the Philosophy item, plus the
+                   ADHD item if one exists today — 7 or 8 total */ ]
    }
    ```
 
