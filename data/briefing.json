@@ -3,7 +3,7 @@
   "generated_at": "2026-08-28T09:53:25Z",
   "claude_take": "The most interesting throughline today isn't any single release, it's how much energy is going into building trust infrastructure for changes that haven't fully landed yet. Anthropic is standardizing how AI touches physical machines, DeepMind is sealing benchmarks in a cryptographic box, and Meta is engineering forced friction into teen feeds by settlement order, three very different institutions all racing to put guardrails up ahead of the disruption they're bracing for. But the actual data point of the day says AI has cost just 3 percent of US workers their jobs so far, and Hollywood's record summer is quietly built on a quarter fewer movies than 2019. The guardrails may be going up before the thing they're meant to contain has fully arrived.",
   "claude_take_title": "Guardrails Are Arriving Before the Disruption",
-  "claude_take_image_url": null,
+  "claude_take_image_url": "data/images/2026-08-28.png",
   "items": [
     {
       "id": "anthropic-model-hardware-standard",

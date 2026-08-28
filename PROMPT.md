@@ -107,16 +107,16 @@ via GitHub Pages at buzz.arnofaure.com).
      "t2i-krea-2-t2i-lora", `params` `{"aspect_ratio": "1:1"}`.
    - Poll `flora_get_run` with the returned `run_id` until `status` is
      `"completed"` (check every ~10s, it usually takes under 30s), then
-     read the output image URL.
-   - Flora's URL is not permanent storage — download the image and save it
-     into the repo at `data/images/YYYY-MM-DD.png` (use `curl` or similar),
-     then use that repo-relative path (`data/images/YYYY-MM-DD.png`), not
-     the Flora URL, as `claude_take_image_url` everywhere below. This file
-     gets committed and pushed along with everything else in step 10, so
-     the image survives regardless of Flora's own retention.
+     read the output image URL and use it directly as
+     `claude_take_image_url`.
+   - Do NOT try to `curl`/download the image into the repo — this sandbox's
+     network egress is restricted to a small allowlist that does not
+     include `media.flora.ai` (or most other external hosts), so any
+     download attempt will fail with a 403/tunnel error. Using the Flora
+     URL directly is the working, supported approach; don't "fix" this by
+     re-adding a download step.
    - If Flora errors, times out, or is unavailable, don't block the rest of
-     the briefing — just leave `claude_take_image_url` as `null` for today,
-     and don't create an image file.
+     the briefing — just leave `claude_take_image_url` as `null` for today.
 
 7. Overwrite `data/briefing.json` with:
    ```json
@@ -144,9 +144,8 @@ via GitHub Pages at buzz.arnofaure.com).
    this step entirely if the image failed to generate — don't add an entry
    with a null image.
 
-10. Commit all changed files — including the new `data/images/YYYY-MM-DD.png`
-    if one was created (`git add` it explicitly, it's untracked) — with
-    message `Daily briefing: YYYY-MM-DD` and push to `main`. GitHub Pages
-    redeploys automatically on push.
+10. Commit `data/briefing.json`, `data/history.json`, and `data/timeline.json`
+    (if changed) with message `Daily briefing: YYYY-MM-DD` and push to
+    `main`. GitHub Pages redeploys automatically on push.
 
 No emoji anywhere in the output — this app never uses emoji.
