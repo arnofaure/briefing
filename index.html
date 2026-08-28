@@ -102,20 +102,23 @@ img{max-width:100%;display:block}
 .claude-take-note{font:600 11.5px Archivo,sans-serif;color:var(--muted);margin-top:4px}
 .claude-take-body{font:500 16px/1.6 Archivo,sans-serif;color:var(--text);margin-top:12px}
 
-.tick-eyebrow{display:flex;align-items:center;gap:7px;font:800 11px Archivo,sans-serif;letter-spacing:.1em;text-transform:uppercase}
-.tick-eyebrow.ai{color:var(--ai)}
-.tick-eyebrow.film{color:var(--film)}
-.tick-eyebrow.society{color:var(--society)}
-.tick-eyebrow.adhd{color:var(--adhd)}
-.tick-eyebrow.philosophy{color:var(--philosophy)}
-.tick-eyebrow.fashion{color:var(--fashion)}
-.tick-dot{width:7px;height:7px;border-radius:50%;flex:none}
-.tick-dot.ai{background:var(--ai)}
-.tick-dot.film{background:var(--film)}
-.tick-dot.society{background:var(--society)}
-.tick-dot.adhd{background:var(--adhd)}
-.tick-dot.philosophy{background:var(--philosophy)}
-.tick-dot.fashion{background:var(--fashion)}
+.topic-group{border-radius:var(--radius);margin-bottom:16px;overflow:hidden;background:var(--surface)}
+.topic-group.ai{border:1.5px solid color-mix(in srgb, var(--ai) 38%, transparent)}
+.topic-group.film{border:1.5px solid color-mix(in srgb, var(--film) 38%, transparent)}
+.topic-group.society{border:1.5px solid color-mix(in srgb, var(--society) 38%, transparent)}
+.topic-group.adhd{border:1.5px solid color-mix(in srgb, var(--adhd) 38%, transparent)}
+.topic-group.philosophy{border:1.5px solid color-mix(in srgb, var(--philosophy) 38%, transparent)}
+.topic-group.fashion{border:1.5px solid color-mix(in srgb, var(--fashion) 38%, transparent)}
+.topic-group-label{padding:13px 18px 0;font:800 11px Archivo,sans-serif;letter-spacing:.1em;text-transform:uppercase}
+.topic-group-label.ai{color:var(--ai)}
+.topic-group-label.film{color:var(--film)}
+.topic-group-label.society{color:var(--society)}
+.topic-group-label.adhd{color:var(--adhd)}
+.topic-group-label.philosophy{color:var(--philosophy)}
+.topic-group-label.fashion{color:var(--fashion)}
+.topic-group .tick-row{padding-left:18px;padding-right:18px}
+.topic-group .tick-detail{padding-left:52px}
+.topic-group .tick-detail-inner{padding-right:18px}
 
 .tick-item{border-bottom:1px solid var(--divider)}
 .tick-item:last-child{border-bottom:none}
@@ -123,7 +126,7 @@ img{max-width:100%;display:block}
 .tick-btn{flex:1;min-width:0;text-align:left;display:flex;gap:14px;align-items:flex-start}
 .tick-num{font:900 14px Archivo,sans-serif;color:var(--muted);padding-top:5px;flex:none;width:20px;font-variant-numeric:tabular-nums}
 .tick-main{flex:1;min-width:0}
-.tick-headline{font:800 20px/1.3 Archivo,sans-serif;letter-spacing:-.01em;margin-top:8px;text-wrap:balance}
+.tick-headline{font:800 20px/1.3 Archivo,sans-serif;letter-spacing:-.01em;text-wrap:balance}
 .tick-plus{flex:none;width:40px;height:40px;border-radius:50%;border:1.5px solid var(--divider);display:flex;align-items:center;justify-content:center;color:var(--muted);transition:transform .2s,background .2s,color .2s,border-color .2s;margin-top:-6px}
 .tick-item.open .tick-plus{transform:rotate(45deg);background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
 .tick-save{flex:none;width:40px;height:40px;border-radius:50%;border:1.5px solid var(--divider);display:flex;align-items:center;justify-content:center;color:var(--muted);transition:background .15s,color .15s,border-color .15s;margin-top:-6px}
@@ -405,28 +408,16 @@ function updateSavedCount(){
   document.getElementById('saved-count').textContent = '(' + savedItems.length + ')';
 }
 
-function renderList(items){
-  window.__buzzItems = window.__buzzItems || {};
-  const container = document.getElementById('items');
-
-  if(!items.length){
-    container.innerHTML = currentTab === 'saved'
-      ? '<div class="empty">Nothing saved yet — tap the bookmark on any story to keep it here.</div>'
-      : '<div class="empty">No briefing yet.</div>';
-    return;
-  }
-
-  container.innerHTML = items.map((item, i) => {
-    const key = (currentTab === 'saved' ? 'saved-' : 'today-') + i;
-    window.__buzzItems[key] = item;
-    const saved = isSaved(item);
-    return `
+function tickItemHtml(item, i){
+  const key = (currentTab === 'saved' ? 'saved-' : 'today-') + i;
+  window.__buzzItems[key] = item;
+  const saved = isSaved(item);
+  return `
     <div class="tick-item${i === 0 && currentTab === 'today' ? ' open' : ''}">
       <div class="tick-row">
         <button class="tick-btn" onclick="this.closest('.tick-item').classList.toggle('open')">
           <span class="tick-num">${String(i + 1).padStart(2, '0')}</span>
           <span class="tick-main">
-            <span class="tick-eyebrow ${tagClass(item.topic)}"><span class="tick-dot ${tagClass(item.topic)}"></span>${label(item.topic)}</span>
             <span class="tick-headline">${esc(item.headline)}</span>
           </span>
           <span class="tick-plus">${plusIcon}</span>
@@ -442,7 +433,36 @@ function renderList(items){
       </div></div>
     </div>
   `;
-  }).join('');
+}
+
+function renderList(items){
+  window.__buzzItems = window.__buzzItems || {};
+  const container = document.getElementById('items');
+
+  if(!items.length){
+    container.innerHTML = currentTab === 'saved'
+      ? '<div class="empty">Nothing saved yet — tap the bookmark on any story to keep it here.</div>'
+      : '<div class="empty">No briefing yet.</div>';
+    return;
+  }
+
+  const groups = [];
+  const groupIndexByTopic = {};
+  items.forEach((item, i) => {
+    const t = item.topic || 'ai';
+    if(!(t in groupIndexByTopic)){
+      groupIndexByTopic[t] = groups.length;
+      groups.push({ topic: t, entries: [] });
+    }
+    groups[groupIndexByTopic[t]].entries.push({ item, i });
+  });
+
+  container.innerHTML = groups.map(g => `
+    <div class="topic-group ${tagClass(g.topic)}">
+      <div class="topic-group-label ${tagClass(g.topic)}">${label(g.topic)}</div>
+      ${g.entries.map(({ item, i }) => tickItemHtml(item, i)).join('')}
+    </div>
+  `).join('');
 }
 
 function renderClaudeTake(){
