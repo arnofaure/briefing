@@ -1,80 +1,80 @@
 {
-  "date": "2026-08-30",
-  "generated_at": "2026-08-30T09:38:48Z",
-  "claude_take": "Today's set is about who controls the layer in between: Nvidia moving to buy Hugging Face, the neutral hub the open-model world depends on, and Salesforce making Claude the default front door to its own CRM are both bets that whoever owns the interface wins, whatever model sits underneath it. X suing a scrappy startup over the corpse of its own discarded Twitter brand is almost a comic miniature of the same instinct: control what you built even after you have walked away from it. The sharpest counterpoint is Coyote vs. Acme, where audiences just handed a studio's tax write-off fourteen million dollars it explicitly said was worthless, and in the Pew data, people are quietly trusting chatbots with their health while staying uneasy about handing over the data behind it. Independence, whether Hugging Face's neutrality or Dolce & Gabbana's ownership structure, is getting more expensive to hold onto by the day.",
-  "claude_take_title": "Independence Is Getting Expensive to Hold Onto",
-  "claude_take_image_url": "https://media.flora.ai/node-inputs/2026/8/30/anonymous/bd04b4e3-ff2a-4d23-a300-8894b6ebf9f9.png",
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T09:45:00Z",
+  "claude_take": "What strikes me today is how many of these stories are about converting strength into leverage over people who have no real say: Nvidia angling to become Perplexity's financier as well as its chip supplier, and Meta wielding its own $18 billion child-safety settlement as a cudgel to box in TikTok and YouTube before they've lost anything themselves. California's carve-out for indie film and Kate Spade's decision to finally hire one creative director after five years without one read like the opposite instinct, institutions trying to fix drift with structure rather than power plays. Underneath all that maneuvering sits a security warning that hijacked Claude sessions are quietly draining people's accounts, and a study showing heavy remote workers are more isolated than ever, a reminder that the actual humans in this system are mostly just trying to hold onto something, a session, a connection, that keeps slipping.",
+  "claude_take_title": "Institutions Chase Leverage While People Just Hold On",
+  "claude_take_image_url": "https://media.flora.ai/node-inputs/2026/8/31/anonymous/0bb20d3b-83ec-40c7-9f50-5393b20dbaaf.png",
   "items": [
     {
-      "id": "nvidia-hugging-face-acquisition",
+      "id": "anthropic-infostealer-session-hijacking",
       "topic": "ai",
-      "headline": "Nvidia Reportedly Agrees to Buy Hugging Face for $12.9 Billion",
-      "summary": "Nvidia has agreed to acquire Hugging Face, the open-source AI hub used by roughly 13 million developers to share models and datasets, according to reports that have not yet been confirmed by either company. The deal would hand the dominant AI chipmaker control of a platform whose value to developers rests on staying neutral between clouds and chipmakers, and analysts are already split on whether Nvidia ownership will bias the hub toward its own hardware. Hugging Face reportedly turned down a much smaller Nvidia investment last year over exactly that independence concern.",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/08/27/nvidia-hugging-face-acquisition.html",
+      "headline": "Anthropic Warns Infostealer Malware Is Hijacking Claude Sessions",
+      "summary": "Anthropic disclosed that common infostealer malware, including Vidar, Lumma, StealC, RedLine and Acreed on Windows and Atomic Stealer on macOS, is quietly copying locally saved Claude login sessions, cookies and credentials from infected machines, letting attackers hijack accounts and burn through victims' usage limits. The company began signing out affected users, removing saved payment methods and refunding unauthorized charges, but stressed the malware has nothing to do with Claude itself or anything users did inside it. Signing out stops the specific stolen session, not the underlying infection, so anyone still infected can simply be robbed again on their next login.",
+      "source_name": "BleepingComputer",
+      "source_url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
       "image_url": null
     },
     {
-      "id": "salesforce-anthropic-claudeforce",
+      "id": "nvidia-perplexity-investment-talks",
       "topic": "ai",
-      "headline": "Salesforce and Anthropic Launch Claudeforce, Putting Claude Inside the CRM",
-      "summary": "Salesforce and Anthropic unveiled Claudeforce, an expanded partnership that embeds Claude directly into Salesforce's CRM with 37 prebuilt sales skills, letting sellers compose emails, update records and take governed action from inside Claude rather than the Salesforce app itself. Claude is also becoming the default model behind Slack's Slackbot and a new team-decision feature called Claude Tag. Salesforce stock jumped 12 percent on the announcement, a sign investors see AI-native interfaces as a real threat to traditional software front ends.",
+      "headline": "Nvidia in Talks to Invest in Perplexity at Over $30 Billion Valuation",
+      "summary": "Nvidia is discussing an equity investment in Perplexity as part of a new funding round that would value the AI search startup at more than $30 billion, according to The Information, a jump of over 50 percent from the roughly $20 billion valuation it closed about a year ago. The talks come as Perplexity's annualized revenue has reportedly climbed past $750 million, up from under $250 million at the start of the year, and as commercial ties between the two companies deepen. Neither company has confirmed a deal, but it would be Nvidia's latest move toward becoming a financial backer, not just a chip supplier, to the AI companies building on its hardware.",
+      "source_name": "Reuters",
+      "source_url": "https://www.investing.com/news/stock-market-news/nvidia-discusses-perplexity-investment-at-30-billionplus-valuation-the-information-reports-4872594",
+      "image_url": null
+    },
+    {
+      "id": "california-film-tax-credit-compromise",
+      "topic": "film",
+      "headline": "California Lawmakers Strike Deal to Exempt Indie Films From Tax Credit Cap",
+      "summary": "California legislators reached a compromise on a budget bill that fully exempts independent film credits, about 10 percent of the state's $750 million production incentive program, from a new $5 million-per-year cap on corporate tax credits, after the Motion Picture Association and entertainment unions warned the cap threatened the incentive program itself. The deal also speeds up cash refunds for productions that opt for one, cutting the payout window from five years to two and lowering the discount taken from 10 percent to 5 percent, while extending the expiration of older non-refundable credits by up to five years. It's a concrete win for an industry pushing back against a budget measure that would have squeezed production financing just as California competes harder for shoots against other states and countries.",
+      "source_name": "Deadline",
+      "source_url": "https://deadline.com/2026/08/california-film-industry-corporate-tax-credit-cap-bill-1237062494/",
+      "image_url": null
+    },
+    {
+      "id": "anne-hathaway-days-of-thunder-2",
+      "topic": "film",
+      "headline": "Anne Hathaway Joins Tom Cruise in Days of Thunder 2",
+      "summary": "Anne Hathaway will co-star opposite Tom Cruise in Days of Thunder 2, playing a race team owner and engineer to Cruise's returning driver Cole Trickle, with Jonathan Levine directing from a script by Will Staples and Jerry Bruckheimer producing alongside Cruise. The sequel to the 1990 NASCAR drama is set for a June 2028 release and will be shot for Imax, continuing Cruise's pattern of betting big-budget original-feeling spectacle on theatrical exclusivity rather than streaming. It's a notable studio wager that nostalgia-driven legacy sequels, one of the few reliably bankable bets left, can still open big two years out.",
+      "source_name": "Deadline",
+      "source_url": "https://deadline.com/2026/08/anne-hathaway-tom-cruise-days-of-thunder-2-1237062516/",
+      "image_url": null
+    },
+    {
+      "id": "meta-settlement-pressures-tiktok-youtube",
+      "topic": "society",
+      "headline": "Meta's $18 Billion Settlement Puts TikTok and YouTube on Notice",
+      "summary": "Days after agreeing to pay up to $18 billion and adopt sweeping teen-safety changes, including two-hour daily limits only a parent can lift, disabled cosmetic-surgery filters and a night mode, Meta is now publicly pressuring TikTok and YouTube to match those restrictions, taking out newspaper ads and posting an open letter urging rivals to \"join us in supporting teens.\" Attention in the broader wave of state lawsuits over youth social media harm is shifting to TikTok, YouTube and Snap, which face the same legal exposure without having settled. It's an unusual dynamic: a company using its own regulatory defeat as leverage to box in competitors who haven't lost yet.",
       "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/08/26/salesforce-anthropic-partnership-claudeforce.html",
+      "source_url": "https://www.cnbc.com/2026/08/29/meta-settlement-tiktok-youtube-snap-teen-safety.html",
       "image_url": null
     },
     {
-      "id": "coyote-vs-acme-box-office-vindication",
-      "topic": "film",
-      "headline": "Coyote vs. Acme Scores Indie Distributor's Biggest Opening Ever",
-      "summary": "Coyote vs. Acme, the finished Looney Tunes film Warner Bros. shelved in 2023 for a tax write-off, opened to more than $14 million domestically for indie distributor Ketchup Entertainment, which paid $50 million for the rights after public backlash forced Warner Bros. to sell rather than bury it. The result is by far Ketchup's biggest debut and a pointed rebuke of the write-off strategy several studios have used on finished films, showing an accounting decision and audience demand can land on opposite sides of a movie's worth.",
-      "source_name": "Deadline",
-      "source_url": "https://deadline.com/2026/08/box-office-coyote-vs-acme-dog-stars-spider-man-1237061934/",
-      "image_url": null
-    },
-    {
-      "id": "the-dog-stars-box-office-flop",
-      "topic": "film",
-      "headline": "Ridley Scott's The Dog Stars Bombs With One of His Worst Openings",
-      "summary": "Ridley Scott's $110 million survival thriller The Dog Stars, starring Jacob Elordi, opened to only around $8 million domestically, one of the director's lowest debuts of the century, compounded by a C+ CinemaScore and a 38 percent Rotten Tomatoes score. The flop underscores how risky expensive original theatrical bets remain even with a marquee director and a rising star attached, in a summer where audiences have shown they will reward smaller films they trust over costly ones they do not.",
-      "source_name": "Deadline",
-      "source_url": "https://deadline.com/2026/08/box-office-coyote-vs-acme-dog-stars-spider-man-1237061934/",
-      "image_url": null
-    },
-    {
-      "id": "x-twitter-now-trademark-lawsuit",
+      "id": "remote-work-loneliness-study",
       "topic": "society",
-      "headline": "X Sues Startup Reviving the Twitter Name and Blue Bird Logo",
-      "summary": "Startup Operation Bluebird, founded by a former Twitter general counsel, launched Twitter.now on August 26, reviving the Twitter name and blue bird logo and arguing that X Corp abandoned the trademarks when it rebranded in 2023. X is suing in Delaware federal court to block the platform, insisting the Twitter brand remains in active use even though the company spent years stripping it from its own product. The fight raises a genuinely unresolved question: whether a company can walk away from a brand and still stop someone else from bringing it back.",
-      "source_name": "TechRepublic",
-      "source_url": "https://www.techrepublic.com/article/news-twitter-now-x-trademark-fight-2026/",
+      "headline": "Large Study Links Heavy Remote Work to Rising Loneliness",
+      "summary": "A study published in the journal Science, analyzing survey data from more than half a million American workers between 2011 and 2024, found that people working remotely more than three days a week spend significantly more time completely alone and are far more likely to go entire days without any in-person social contact, without making up the difference by socializing more in the evenings. Working from home one or two days a week showed no such effect, suggesting the harm is concentrated among the most remote-heavy arrangements, and the researchers found no evidence that simply returning to the office reverses the isolation once it sets in. It complicates the return-to-office debate: the variable that matters most may be dose, not location.",
+      "source_name": "Smithsonian Magazine",
+      "source_url": "https://www.smithsonianmag.com/smart-news/working-from-home-is-making-people-lonelier-and-worsening-mental-health-a-study-suggests-180988938/",
       "image_url": null
     },
     {
-      "id": "pew-ai-chatbots-health",
-      "topic": "society",
-      "headline": "A Third of Americans Now Use AI Chatbots for Health Questions",
-      "summary": "A new Pew Research Center survey finds 34 percent of US adults use AI chatbots for at least one health-related reason, including a quarter who use them to help diagnose symptoms and others who use them to make sense of a doctor's diagnosis or lab results. Nearly half call the answers very helpful, yet fewer than a third say they are comfortable sharing personal health data with the tools, and uninsured adults rely on chatbots more heavily than insured ones. The gap between how useful people find the answers and how much they trust the system behind them is the real story.",
-      "source_name": "Pew Research Center",
-      "source_url": "https://www.pewresearch.org/science/2026/08/25/from-diagnoses-to-treatments-why-americans-use-ai-chatbots-for-health/",
-      "image_url": null
-    },
-    {
-      "id": "dolce-gabbana-debt-waiver",
+      "id": "kate-spade-jonathan-saunders-ecd",
       "topic": "fashion",
-      "headline": "Dolce & Gabbana Wins Bank Waiver After €100 Million Operating Loss",
-      "summary": "Dolce & Gabbana secured a waiver on its debt covenants until March 2028 after posting a €100 million operating loss and a 2 percent revenue decline for the fiscal year, as weak global demand for luxury goods keeps squeezing independent houses. In exchange, the company must complete asset sales, including Milan properties, by mid-2027, and it has already raised €150 million by extending its eyewear license with EssilorLuxottica. The deal shows how costly it has become for a major fashion house to stay independent rather than sell to a conglomerate.",
+      "headline": "Kate Spade Names Jonathan Saunders Executive Creative Director",
+      "summary": "Kate Spade New York appointed Jonathan Saunders, previously chief creative officer at H&M-owned & Other Stories and a veteran of Alexander McQueen, Calvin Klein and Diane von Furstenberg, as executive creative director, giving the Tapestry-owned brand a single creative leader for the first time in nearly five years. Saunders will oversee product design and visual identity and reports directly to brand president and CEO Eva Erdmann, taking over at a moment when Kate Spade's revenue has been sliding even as sibling brand Coach drives most of Tapestry's growth. The hire is a bet that centralized creative direction, the model most of its luxury peers never abandoned, can help reverse a multi-year slide.",
       "source_name": "Business of Fashion",
-      "source_url": "https://www.businessoffashion.com/news/luxury/dolce-gabbana-seeks-to-raise-cash-in-exchange-for-debt-waiver/",
+      "source_url": "https://www.businessoffashion.com/articles/luxury/kate-spade-names-jonathan-saunders-executive-creative-director/",
       "image_url": null
     },
     {
-      "id": "kant-categorical-imperative",
+      "id": "camus-the-absurd",
       "topic": "philosophy",
-      "headline": "Kant's Categorical Imperative",
-      "summary": "Immanuel Kant argued that a moral rule is only valid if you could will it to become a universal law that everyone follows, regardless of your own desires or the consequences. This is the categorical imperative: an unconditional command of reason, binding on any rational being simply because they are rational, not because obeying it gets them anything they want. It remains one of the most influential frameworks in ethics precisely because it tries to ground morality in consistency and respect for persons rather than in outcomes, offering a counterweight to purely results-based reasoning in debates from AI governance to public policy today.",
+      "headline": "Camus's Philosophy of the Absurd",
+      "summary": "Albert Camus argued that the human condition is defined by an unresolvable collision between our deep need for meaning and a universe that offers none, a confrontation he called \"the absurd.\" Rather than escaping this through suicide, literal or philosophical, via religious or ideological leaps of faith, Camus insisted the only honest response is to keep living in full awareness of the absurd, an idea he illustrated through the myth of Sisyphus, condemned to push a boulder uphill forever, whom Camus imagines as ultimately happy in the act itself. The idea still resonates as a model for building purpose or commitment without appeal to cosmic guarantees, which is roughly the position many people feel they're in today, minus the mythology.",
       "source_name": "Stanford Encyclopedia of Philosophy",
-      "source_url": "https://plato.stanford.edu/entries/kant-moral/",
+      "source_url": "https://plato.stanford.edu/entries/camus/",
       "image_url": null
     }
   ]
