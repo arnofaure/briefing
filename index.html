@@ -402,7 +402,18 @@ async function signOut(){
 function setPhilosophyLang(lang){
   philosophyLang = lang;
   try{ localStorage.setItem('buzz_philosophy_lang', lang); }catch(e){}
-  renderActiveTab();
+  document.querySelectorAll('.tick-item[data-key]').forEach(el => {
+    const item = window.__buzzItems[el.dataset.key];
+    if(!item || item.topic !== 'philosophy' || !item.headline_fr || !item.summary_fr) return;
+    const useFr = lang === 'fr';
+    const headlineEl = el.querySelector('.tick-headline');
+    const summaryEl = el.querySelector('.tick-summary');
+    if(headlineEl) headlineEl.textContent = useFr ? item.headline_fr : item.headline;
+    if(summaryEl) summaryEl.textContent = useFr ? item.summary_fr : item.summary;
+    el.querySelectorAll('.lang-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.textContent.trim().toLowerCase() === lang);
+    });
+  });
 }
 
 function shareItem(key){
@@ -440,7 +451,7 @@ function tickItemHtml(item, i){
     </div>
   ` : '';
   return `
-    <div class="tick-item${i === 0 && currentTab === 'today' ? ' open' : ''}">
+    <div class="tick-item${i === 0 && currentTab === 'today' ? ' open' : ''}" data-key="${key}">
       <div class="tick-row">
         <button class="tick-btn" onclick="this.closest('.tick-item').classList.toggle('open')">
           <span class="tick-main">
