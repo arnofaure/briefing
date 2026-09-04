@@ -72,7 +72,9 @@
       "id": "humes-is-ought-problem",
       "topic": "philosophy",
       "headline": "Hume's Is-Ought Problem",
+      "headline_fr": "Le problème « est/doit » de Hume",
       "summary": "In his 1739 'A Treatise of Human Nature,' David Hume observed that moral arguments often slide, without explanation, from statements of fact ('is') to statements of obligation ('ought') -- a leap he found logically unjustified. The problem, sometimes called Hume's Guillotine, holds that no purely descriptive set of premises can by itself entail a normative conclusion; getting from 'is' to 'ought' requires smuggling in a value judgment somewhere. It remains a foundational challenge in ethics, still shaping debates over whether morality can be grounded in facts about human nature, evolution, or science at all.",
+      "summary_fr": "Dans son Traité de la nature humaine (1739), David Hume remarque que les raisonnements moraux glissent souvent, sans le dire, d'un constat de fait (« ce qui est ») à une obligation (« ce qui doit être ») — un saut qu'il juge logiquement injustifié. Ce problème, parfois appelé la guillotine de Hume, soutient qu'aucun ensemble de prémisses purement descriptives ne peut à lui seul entraîner une conclusion normative : passer de l'« est » au « doit » suppose toujours d'introduire discrètement un jugement de valeur. Il reste un défi fondateur en éthique, qui structure encore les débats sur la possibilité de fonder la morale sur des faits relatifs à la nature humaine, à l'évolution ou à la science.",
       "source_name": "Stanford Encyclopedia of Philosophy",
       "source_url": "https://plato.stanford.edu/entries/hume-moral/",
       "image_url": null

@@ -27,10 +27,17 @@ via GitHub Pages at buzz.arnofaure.com).
      DeepMind, Runway, Midjourney, ElevenLabs, Adobe Firefly, etc.)
    - Specifically check for any update to these models/families, since they
      are actively tracked: Nano Banana, LTX, Kling, Seedance, Seedream,
-     Recraft, Mini H3, Wan, and the main open-weight model releases (e.g.
-     Llama, Qwen, DeepSeek, Mistral, GLM). If one of these has a genuine new
-     release or major version in the lookback window, it should be a strong
-     candidate for inclusion.
+     Recraft, Mini H3, Hunyuan Image 3.0, Wan, Runway Solaris (its new
+     "Interface World Model" line, distinct from its Gen/Aleph video
+     models), and the main open-weight model releases (e.g. Llama, Qwen,
+     DeepSeek, Mistral, GLM, Tencent Hunyuan/Hy3). Also specifically check
+     for news on Google DeepMind's Project Astra rollout. If one of these
+     has a genuine new release or major version in the lookback window, it
+     should be a strong candidate for inclusion.
+   - To catch major releases outside this tracked list, also check Hugging
+     Face's trending/new-models page and the LMArena leaderboard for
+     signals of a new top-ranked model, then verify with a credible outlet
+     (per the sourcing rule above) before including anything found there.
    - New or changed creative/production workflows and tools (editing,
      VFX/CGI, virtual production, color, sound, previz, pipeline software)
    - Platform and studio announcements (major feature launches, pricing/
@@ -49,6 +56,11 @@ via GitHub Pages at buzz.arnofaure.com).
    - One notable societal-behavior story: something about how people are
      actually living, working, or relating to technology/culture right now
      (a real trend backed by data or reporting, not a think-piece opinion).
+   - One notable societal event: a real-world event with broad social
+     impact — a major protest or movement, an election result, a landmark
+     policy or court ruling, a significant public-health or cultural
+     moment, a major disaster response — distinct from the two story types
+     above.
 
    **Fashion + luxury.** One item — a genuinely significant fashion or
    luxury-industry story (major collection/show news, a house or group
@@ -74,11 +86,13 @@ via GitHub Pages at buzz.arnofaure.com).
    within each area by real-world impact and drop the weakest.
 
    Pick 7 core items: 2 AI + creative-tech, 2 cinema + filmmaking, 2
-   society (one social-media story, one societal-behavior story), 1
-   fashion + luxury. If one area is genuinely thin that day, it's fine to
-   shift the AI/film/society split (e.g. 3/2/1) rather than force a weak
-   item in — but never drop an area to zero unless there is truly nothing
-   usable. Add the ADHD item on top of these 7 only if step 2 found
+   society, 1 fashion + luxury. For society, you'll usually have three
+   candidates (social-media story, societal-behavior story, societal-event
+   story) — keep the two strongest and drop the weakest, rather than
+   always defaulting to the same two types. If one area is genuinely thin
+   that day, it's fine to shift the AI/film/society split (e.g. 3/2/1)
+   rather than force a weak item in — but never drop an area to zero
+   unless there is truly nothing usable. Add the ADHD item on top of these 7 only if step 2 found
    something genuinely fresh — otherwise there are 7 items that day, not 8.
 
 3b. Also write exactly one **Philosophy** item, always included, entirely
@@ -92,8 +106,14 @@ via GitHub Pages at buzz.arnofaure.com).
       philosopher covered in roughly the last 30 days.
     - `headline`: the concept, attributed to its philosopher (e.g. "Kant's
       Categorical Imperative")
+    - `headline_fr`: the same, written natively in French, not a literal
+      translation (e.g. "L'impératif catégorique de Kant")
     - `summary`: 2-4 sentences clearly explaining what the concept means
       and why it still matters today
+    - `summary_fr`: the same explanation written natively in fluent French
+      (again, write it fresh in French rather than translating word for
+      word) — this is the only item in the briefing with a French version,
+      so give it the same care as the English one
     - `source_name`/`source_url`: link to a real reference for the concept
       — the Stanford Encyclopedia of Philosophy (plato.stanford.edu), the
       Internet Encyclopedia of Philosophy (iep.utm.edu), or an equivalent
@@ -111,6 +131,9 @@ via GitHub Pages at buzz.arnofaure.com).
    - `source_url`: direct link to the article
    - `image_url`: a relevant image URL if one is available from the source
      (e.g. og:image), otherwise `null` — never fabricate one
+   - For the Philosophy item only, also include `headline_fr` and
+     `summary_fr` as described in step 3b. Every other item stays
+     English-only — do not add `_fr` fields to them.
 
 5. Write a `claude_take`: 2-4 sentences of your own analysis of today's set
    of stories as a whole — genuine point of view, not a recap. Base this

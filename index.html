@@ -140,6 +140,10 @@ img{max-width:100%;display:block}
 .tick-share-btn{display:inline-flex;align-items:center;gap:6px;font:700 13px Archivo,sans-serif;color:var(--muted)}
 .tick-share-btn svg{opacity:.65;flex:none}
 
+.lang-toggle{display:flex;gap:6px;margin-bottom:12px}
+.lang-btn{padding:5px 12px;border-radius:999px;border:1.5px solid var(--divider);font:800 10.5px Archivo,sans-serif;letter-spacing:.06em;color:var(--muted);background:var(--surface-2)}
+.lang-btn.active{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+
 .empty,.error{padding:44px 0;color:var(--muted);font:500 15px/1.6 Archivo,sans-serif;text-align:center}
 
 .timeline-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
@@ -254,6 +258,11 @@ let currentUser = null;
 let savedItems = [];
 let authMode = 'magic';
 let settingPassword = false;
+let philosophyLang = 'fr';
+try{
+  const savedLang = localStorage.getItem('buzz_philosophy_lang');
+  if(savedLang === 'fr' || savedLang === 'en') philosophyLang = savedLang;
+}catch(e){}
 
 function esc(s){
   return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -390,10 +399,17 @@ async function signOut(){
   authMode = 'magic';
 }
 
+function setPhilosophyLang(lang){
+  philosophyLang = lang;
+  try{ localStorage.setItem('buzz_philosophy_lang', lang); }catch(e){}
+  renderActiveTab();
+}
+
 function shareItem(key){
   const item = window.__buzzItems[key];
   if(!item) return;
-  const shareText = item.headline + '\n\n' + item.summary;
+  const useFr = item.topic === 'philosophy' && item.headline_fr && item.summary_fr && philosophyLang === 'fr';
+  const shareText = (useFr ? item.headline_fr : item.headline) + '\n\n' + (useFr ? item.summary_fr : item.summary);
 
   if(navigator.share){
     navigator.share({ title: item.headline, text: shareText, url: item.source_url || undefined }).catch(() => {});
@@ -413,19 +429,30 @@ function tickItemHtml(item, i){
   const key = (currentTab === 'saved' ? 'saved-' : 'today-') + i;
   window.__buzzItems[key] = item;
   const saved = isSaved(item);
+  const isBilingual = item.topic === 'philosophy' && item.headline_fr && item.summary_fr;
+  const useFr = isBilingual && philosophyLang === 'fr';
+  const headline = useFr ? item.headline_fr : item.headline;
+  const summary = useFr ? item.summary_fr : item.summary;
+  const langToggle = isBilingual ? `
+    <div class="lang-toggle" onclick="event.stopPropagation()">
+      <button class="lang-btn${philosophyLang === 'fr' ? ' active' : ''}" onclick="setPhilosophyLang('fr')">FR</button>
+      <button class="lang-btn${philosophyLang === 'en' ? ' active' : ''}" onclick="setPhilosophyLang('en')">EN</button>
+    </div>
+  ` : '';
   return `
     <div class="tick-item${i === 0 && currentTab === 'today' ? ' open' : ''}">
       <div class="tick-row">
         <button class="tick-btn" onclick="this.closest('.tick-item').classList.toggle('open')">
           <span class="tick-main">
-            <span class="tick-headline">${esc(item.headline)}</span>
+            <span class="tick-headline">${esc(headline)}</span>
           </span>
           <span class="tick-plus">${plusIcon}</span>
         </button>
         <button class="tick-save${saved ? ' saved' : ''}" aria-label="${saved ? 'Remove from saved' : 'Save'}" onclick="toggleSave('${key}')">${saved ? bookmarkFilledIcon : bookmarkIcon}</button>
       </div>
       <div class="tick-detail"><div class="tick-detail-inner">
-        <p class="tick-summary">${esc(item.summary)}</p>
+        ${langToggle}
+        <p class="tick-summary">${esc(summary)}</p>
         <div class="tick-actions">
           ${item.source_url ? `<a class="tick-source" href="${esc(item.source_url)}" target="_blank" rel="noopener">${externalIcon} ${esc(item.source_name || 'Source')}</a>` : ''}
           <button class="tick-share-btn" onclick="shareItem('${key}')">${shareIcon} Share</button>
