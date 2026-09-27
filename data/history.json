@@ -1,41 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Z.ai Unmasks GLM-5.3-Flash, a Low-Cost Open-Weight Model Running on Chinese Chips",
-      "source_url": "https://venturebeat.com/orchestration/glm-5-3-flash-will-likely-handle-45-of-your-ai-workloads",
-      "date": "2026-08-27"
-    },
-    {
-      "headline": "ByteDance's Seedance 2.5 Adds Guardrails to Block Hollywood Deepfakes",
-      "source_url": "https://deadline.com/2026/08/seedance-blocking-hollywood-ripoff-cruise-pitt-ai-deepfakes-1237031665/",
-      "date": "2026-08-27"
-    },
-    {
-      "headline": "Ryan Gosling Developing Live-Action Flintstones Movie Centered on Adult Bamm-Bamm",
-      "source_url": "https://deadline.com/2026/08/ryan-gosling-flintstones-bamm-bamm-movie-1237049958/",
-      "date": "2026-08-27"
-    },
-    {
-      "headline": "AMC's Kips Bay 15 in Manhattan to Close at End of 2026",
-      "source_url": "https://deadline.com/2026/08/amc-kips-bay-15-closing-new-york-1237049212/",
-      "date": "2026-08-27"
-    },
-    {
-      "headline": "ElevenLabs Launches Composer, a Section-by-Section AI Song Editor",
-      "source_url": "https://www.digitalmusicnews.com/2026/08/25/elevenmusic-composer-section-by-section-song-editor/",
-      "date": "2026-08-27"
-    },
-    {
-      "headline": "Meta to Pay Up to $18 Billion Over Kids' Social Media Addiction",
-      "source_url": "https://variety.com/2026/digital/news/meta-18-billion-settlement-state-ags-lawsuit-social-media-addiction-1236843725/",
-      "date": "2026-08-27"
-    },
-    {
-      "headline": "Young Americans Are Now More Anxious Than Excited About AI, Pew Finds",
-      "source_url": "https://www.pewresearch.org/short-reads/2026/08/18/young-adults-in-the-us-are-increasingly-wary-of-ai-concerned-it-will-take-jobs/",
-      "date": "2026-08-27"
-    },
-    {
       "headline": "Anthropic Launches Model Hardware Standard to Connect AI Agents With Robots and Lab Equipment",
       "source_url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
       "date": "2026-08-28"
@@ -146,7 +111,7 @@
       "date": "2026-08-30"
     },
     {
-      "headline": "Dolce & Gabbana Wins Bank Waiver After \u20ac100 Million Operating Loss",
+      "headline": "Dolce & Gabbana Wins Bank Waiver After €100 Million Operating Loss",
       "source_url": "https://www.businessoffashion.com/news/luxury/dolce-gabbana-seeks-to-raise-cash-in-exchange-for-debt-waiver/",
       "date": "2026-08-30"
     },
@@ -891,7 +856,7 @@
       "date": "2026-09-17"
     },
     {
-      "headline": "L'Or\u00e9al Overtakes LVMH as France's Most Valuable Listed Company",
+      "headline": "L'Oréal Overtakes LVMH as France's Most Valuable Listed Company",
       "source_url": "https://www.businessoffashion.com/news/beauty/loreal-steals-french-stock-market-crown-from-lvmh/",
       "date": "2026-09-17"
     },
@@ -931,7 +896,7 @@
       "date": "2026-09-18"
     },
     {
-      "headline": "Hague Tribunal Convicts Kosovo's Ex-President Tha\u00e7i of War Crimes, Sparking Protests",
+      "headline": "Hague Tribunal Convicts Kosovo's Ex-President Thaçi of War Crimes, Sparking Protests",
       "source_url": "https://www.npr.org/2026/09/16/g-s1-143560/kosovo-former-president-war-crimes",
       "date": "2026-09-18"
     },
@@ -1279,6 +1244,46 @@
       "headline": "Nagel's 'What Is It Like to Be a Bat?'",
       "source_url": "https://plato.stanford.edu/entries/qualia-knowledge/",
       "date": "2026-09-26"
+    },
+    {
+      "headline": "Black Forest Labs Extends Its Creative AI Models Into Robot Control With FLUX 3 Action",
+      "source_url": "https://venturebeat.com/infrastructure/black-forest-labs-debuts-flux-3-action-an-open-weights-ai-robotics-model-that-tops-the-leaderboard-at-half-the-size-of-its-competition",
+      "date": "2026-09-27"
+    },
+    {
+      "headline": "Mike Leigh Wins San Sebastian's Top Prize in What May Be His Final Film",
+      "source_url": "https://deadline.com/2026/09/san-sebastian-mike-leigh-tender-loving-care-golden-shell-1237114543/",
+      "date": "2026-09-27"
+    },
+    {
+      "headline": "'Avengers: Endgame' Re-Release Tops a Blockbuster Weekend, Debuts Disney's New Premium Format",
+      "source_url": "https://variety.com/2026/film/box-office/box-office-avengers-endgame-encore-primetime-resident-evil-1236876380/",
+      "date": "2026-09-27"
+    },
+    {
+      "headline": "Meta and YouTube Reverse Course, Will Run Ads for Musk Documentary; X Still Refuses",
+      "source_url": "https://techcrunch.com/2026/09/26/meta-says-it-will-run-ads-for-musk-documentary-after-all/",
+      "date": "2026-09-27"
+    },
+    {
+      "headline": "Hurricane Nolo Triggers Catastrophic Flooding and Federal Disaster Declaration in Hawaii",
+      "source_url": "https://www.staradvertiser.com/2026/09/26/hawaii-news/federal-assistance-approved-as-hurricane-nolo-nears-hawaii/",
+      "date": "2026-09-27"
+    },
+    {
+      "headline": "La Perla Relaunches Under Billionaire Backing, Rehiring 220 Former Employees",
+      "source_url": "https://wwd.com/fashion-news/intimates/la-perla-ceo-alessio-vannetti-reboot-plans-atelier-1239246865/",
+      "date": "2026-09-27"
+    },
+    {
+      "headline": "New York Film Festival Opens With James Gray's Star-Studded 'Paper Tiger'",
+      "source_url": "https://deadline.com/2026/09/new-york-film-festival-2026-preview-1237114114/",
+      "date": "2026-09-27"
+    },
+    {
+      "headline": "Merleau-Ponty's Lived Body",
+      "source_url": "https://plato.stanford.edu/entries/merleau-ponty/",
+      "date": "2026-09-27"
     }
   ]
 }
