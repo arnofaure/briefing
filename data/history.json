@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Anthropic Launches Model Hardware Standard to Connect AI Agents With Robots and Lab Equipment",
-      "source_url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
-      "date": "2026-08-28"
-    },
-    {
-      "headline": "Google DeepMind Pilots First Double-Blind AI Evaluations to Fight Benchmark Contamination",
-      "source_url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
-      "date": "2026-08-28"
-    },
-    {
-      "headline": "Hollywood's Summer Box Office Hits $4.5 Billion, but on Fewer Screens and Movies",
-      "source_url": "https://www.npr.org/2026/08/26/nx-s1-5923629/movie-summer-box-office",
-      "date": "2026-08-28"
-    },
-    {
-      "headline": "Woody Allen to Shoot Next Film in Madrid With City Funding, Starting in October",
-      "source_url": "https://deadline.com/2026/08/woody-allen-spain-film-october-2026-1237048732/",
-      "date": "2026-08-28"
-    },
-    {
-      "headline": "Meta's $18 Billion Settlement Locks In Teen Time Limits and School Mode",
-      "source_url": "https://www.cnn.com/2026/08/26/tech/meta-states-settle-trial-children",
-      "date": "2026-08-28"
-    },
-    {
-      "headline": "Survey Finds Only 3% of US Workers Report Losing a Job to AI",
-      "source_url": "https://theconversation.com/i-surveyed-workers-to-see-if-ai-had-caused-job-losses-and-was-surprised-by-the-findings-290100",
-      "date": "2026-08-28"
-    },
-    {
-      "headline": "US-Canada Tariffs Threaten the $10 Beauty Impulse Buy",
-      "source_url": "https://www.businessoffashion.com/news/beauty/us-canada-cosmetic-tariffs-threaten-the-10-beauty-impulse-buy/",
-      "date": "2026-08-28"
-    },
-    {
-      "headline": "Aristotle's Golden Mean",
-      "source_url": "https://plato.stanford.edu/entries/aristotle-ethics/",
-      "date": "2026-08-28"
-    },
-    {
       "headline": "Federal Judge Rules Pentagon's Blacklisting of Anthropic Unlawful",
       "source_url": "https://www.nbcnews.com/business/business-news/anthropic-pentagon-blacklist-claude-judge-rcna594825",
       "date": "2026-08-29"
@@ -1284,6 +1244,51 @@
       "headline": "Merleau-Ponty's Lived Body",
       "source_url": "https://plato.stanford.edu/entries/merleau-ponty/",
       "date": "2026-09-27"
+    },
+    {
+      "headline": "OpenAI Pauses Its Most Capable Models After a Second AI Agent Escapes Its Sandbox",
+      "source_url": "https://fortune.com/2026/09/26/openai-ai-agents-secure-sandbox-escape-training-pause-second-time-hugging-face-hack/",
+      "date": "2026-09-28"
+    },
+    {
+      "headline": "Akamai Signs a Record $11.6 Billion Multi-Year Deal With Anthropic",
+      "source_url": "https://www.akamai.com/newsroom/press-release/akamai-announces-11-6-billion-multi-year-agreement-with-anthropic-to-support-growing-demand",
+      "date": "2026-09-28"
+    },
+    {
+      "headline": "Lucasfilm Taps Jon Watts to Direct a New Star Wars Trilogy",
+      "source_url": "https://www.hollywoodreporter.com/news/general-news/star-wars-jon-watts-direct-next-movie-lucasfilm-1236712709/",
+      "date": "2026-09-28"
+    },
+    {
+      "headline": "Japanese Voice Actor Sues TikTok Over AI Voice Cloning in Landmark Case",
+      "source_url": "https://www.japantimes.co.jp/news/2026/09/27/japan/crime-legal/japan-voice-actor-court-fight-tiktok-ai-voice-cloning/",
+      "date": "2026-09-28"
+    },
+    {
+      "headline": "Survey Finds Most Americans Crave More In-Person Time and Have Considered Quitting Social Media",
+      "source_url": "https://www.financialcontent.com/article/newsfile-2026-9-24-new-research-reveals-americans-want-to-log-off-and-reconnect-but-america-is-running-out-of-places-to-do-so",
+      "date": "2026-09-28"
+    },
+    {
+      "headline": "Separate Mass Shootings in South African Townships Leave at Least 27 Dead",
+      "source_url": "https://www.npr.org/2026/09/27/nx-s1-5982488/south-africa-mass-shootings-killed-38-week",
+      "date": "2026-09-28"
+    },
+    {
+      "headline": "Louise Trotter's Bottega Veneta Finds Its Footing With a Craft-Driven Spring 2027 Show",
+      "source_url": "https://wwd.com/runway/spring-2027/milan/bottega-veneta/review/",
+      "date": "2026-09-28"
+    },
+    {
+      "headline": "Large Review Finds No Causal Link Between Tylenol in Pregnancy and ADHD or Autism",
+      "source_url": "https://www.cidrap.umn.edu/anti-science/tylenol-during-pregnancy-not-linked-autism-adhd-major-review-finds",
+      "date": "2026-09-28"
+    },
+    {
+      "headline": "Derrida's Différance",
+      "source_url": "https://plato.stanford.edu/entries/derrida/",
+      "date": "2026-09-28"
     }
   ]
 }
