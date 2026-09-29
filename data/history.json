@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Federal Judge Rules Pentagon's Blacklisting of Anthropic Unlawful",
-      "source_url": "https://www.nbcnews.com/business/business-news/anthropic-pentagon-blacklist-claude-judge-rcna594825",
-      "date": "2026-08-29"
-    },
-    {
-      "headline": "OpenAI's First Custom Chip Posts Results That Rattle Nvidia",
-      "source_url": "https://www.cnbc.com/2026/08/26/openai-jalapeno-ai-chip-nvidia.html",
-      "date": "2026-08-29"
-    },
-    {
-      "headline": "Megan Ellison's Annapurna Lays Off 30 Staff Amid Comeback Push",
-      "source_url": "https://variety.com/2026/film/news/megan-ellison-annapurna-layoffs-1236843926/",
-      "date": "2026-08-29"
-    },
-    {
-      "headline": "Venice Film Festival Faces Fresh Push to Take a Stand on Gaza",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/roger-waters-annie-ernaux-venice-fest-action-palestine-1236684274/",
-      "date": "2026-08-29"
-    },
-    {
-      "headline": "Meta Takes Out Newspaper Ads Pressuring TikTok and YouTube on Teen Safety",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-08-28/meta-s-newspaper-ad-blitz-ups-pressure-on-social-media-rivals",
-      "date": "2026-08-29"
-    },
-    {
-      "headline": "Americans' Drinking Rate Holds at a Record Low for Second Year",
-      "source_url": "https://news.gallup.com/poll/713534/americans-drinking-remains-record-low.aspx",
-      "date": "2026-08-29"
-    },
-    {
-      "headline": "Samsung Ordered to Pay Swatch $11.6 Million Over Copied Watch Faces",
-      "source_url": "https://www.businessoffashion.com/news/technology/samsung-ordered-to-pay-swatch-116-million-over-copied-smartwatch-apps/",
-      "date": "2026-08-29"
-    },
-    {
-      "headline": "Nietzsche's Eternal Recurrence",
-      "source_url": "https://plato.stanford.edu/entries/nietzsche/",
-      "date": "2026-08-29"
-    },
-    {
       "headline": "Nvidia Reportedly Agrees to Buy Hugging Face for $12.9 Billion",
       "source_url": "https://www.cnbc.com/2026/08/27/nvidia-hugging-face-acquisition.html",
       "date": "2026-08-30"
@@ -1289,6 +1249,51 @@
       "headline": "Derrida's Différance",
       "source_url": "https://plato.stanford.edu/entries/derrida/",
       "date": "2026-09-28"
+    },
+    {
+      "headline": "AMD to Acquire Fei-Fei Li's World Labs for $8.2 Billion",
+      "source_url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+      "date": "2026-09-29"
+    },
+    {
+      "headline": "Kuaishou's Kling Unveils Kling 4.0 Ahead of Hong Kong Listing",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-09-28/kuaishou-s-ai-video-spinoff-unveils-new-model-in-bytedance-chase",
+      "date": "2026-09-29"
+    },
+    {
+      "headline": "Paramount Says Warner Bros. Discovery Deal Closing Timeline Still \"Not Yet Certain\"",
+      "source_url": "https://variety.com/2026/film/news/paramount-warner-bros-deal-close-not-yet-certain-warrants-issue-date-1236876018/",
+      "date": "2026-09-29"
+    },
+    {
+      "headline": "Brad Pitt's 'Heart of the Beast' Opens to $50 Million as Acclaimed 'Forgotten Island' Stumbles",
+      "source_url": "https://variety.com/2026/film/box-office/avengers-endgame-encore-box-office-rerelease-huge-86-million-globally-1236876861/",
+      "date": "2026-09-29"
+    },
+    {
+      "headline": "Supreme Court Lets Trump Administration Revive Contested Voter-Database Program",
+      "source_url": "https://www.nbcnews.com/politics/supreme-court/supreme-court-allows-trump-administration-use-expanded-database-potent-rcna596611",
+      "date": "2026-09-29"
+    },
+    {
+      "headline": "Meta Launches Enterprise AI Platform, Poaching MongoDB's CEO to Run It",
+      "source_url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+      "date": "2026-09-29"
+    },
+    {
+      "headline": "Shein's Profit Plunges 67% in Its First Results as a Public Company",
+      "source_url": "https://us.fashionnetwork.com/news/Shares-of-fast-fashion-platform-shein-fall-6-after-quarterly-profit-slides-67-,1871194.html",
+      "date": "2026-09-29"
+    },
+    {
+      "headline": "Study Links Menstrual Symptom Severity to Higher ADHD, Depression and Anxiety in Teen Girls",
+      "source_url": "https://www.psychiatryadvisor.com/news/menstrual-symptoms-linked-to-depression-adhd-and-anxiety-in-adolescent-girls/",
+      "date": "2026-09-29"
+    },
+    {
+      "headline": "Aristotle's Eudaimonia",
+      "source_url": "https://plato.stanford.edu/entries/aristotle-ethics/",
+      "date": "2026-09-29"
     }
   ]
 }
