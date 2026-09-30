@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Nvidia Reportedly Agrees to Buy Hugging Face for $12.9 Billion",
-      "source_url": "https://www.cnbc.com/2026/08/27/nvidia-hugging-face-acquisition.html",
-      "date": "2026-08-30"
-    },
-    {
-      "headline": "Salesforce and Anthropic Launch Claudeforce, Putting Claude Inside the CRM",
-      "source_url": "https://www.cnbc.com/2026/08/26/salesforce-anthropic-partnership-claudeforce.html",
-      "date": "2026-08-30"
-    },
-    {
-      "headline": "Coyote vs. Acme Scores Indie Distributor's Biggest Opening Ever",
-      "source_url": "https://deadline.com/2026/08/box-office-coyote-vs-acme-dog-stars-spider-man-1237061934/",
-      "date": "2026-08-30"
-    },
-    {
-      "headline": "Ridley Scott's The Dog Stars Bombs With One of His Worst Openings",
-      "source_url": "https://deadline.com/2026/08/box-office-coyote-vs-acme-dog-stars-spider-man-1237061934/",
-      "date": "2026-08-30"
-    },
-    {
-      "headline": "X Sues Startup Reviving the Twitter Name and Blue Bird Logo",
-      "source_url": "https://www.techrepublic.com/article/news-twitter-now-x-trademark-fight-2026/",
-      "date": "2026-08-30"
-    },
-    {
-      "headline": "A Third of Americans Now Use AI Chatbots for Health Questions",
-      "source_url": "https://www.pewresearch.org/science/2026/08/25/from-diagnoses-to-treatments-why-americans-use-ai-chatbots-for-health/",
-      "date": "2026-08-30"
-    },
-    {
-      "headline": "Dolce & Gabbana Wins Bank Waiver After €100 Million Operating Loss",
-      "source_url": "https://www.businessoffashion.com/news/luxury/dolce-gabbana-seeks-to-raise-cash-in-exchange-for-debt-waiver/",
-      "date": "2026-08-30"
-    },
-    {
-      "headline": "Kant's Categorical Imperative",
-      "source_url": "https://plato.stanford.edu/entries/kant-moral/",
-      "date": "2026-08-30"
-    },
-    {
       "headline": "Anthropic Warns Infostealer Malware Is Hijacking Claude Sessions",
       "source_url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
       "date": "2026-08-31"
@@ -776,7 +736,7 @@
       "date": "2026-09-17"
     },
     {
-      "headline": "L'Oréal Overtakes LVMH as France's Most Valuable Listed Company",
+      "headline": "L'Or\u00e9al Overtakes LVMH as France's Most Valuable Listed Company",
       "source_url": "https://www.businessoffashion.com/news/beauty/loreal-steals-french-stock-market-crown-from-lvmh/",
       "date": "2026-09-17"
     },
@@ -816,7 +776,7 @@
       "date": "2026-09-18"
     },
     {
-      "headline": "Hague Tribunal Convicts Kosovo's Ex-President Thaçi of War Crimes, Sparking Protests",
+      "headline": "Hague Tribunal Convicts Kosovo's Ex-President Tha\u00e7i of War Crimes, Sparking Protests",
       "source_url": "https://www.npr.org/2026/09/16/g-s1-143560/kosovo-former-president-war-crimes",
       "date": "2026-09-18"
     },
@@ -1246,7 +1206,7 @@
       "date": "2026-09-28"
     },
     {
-      "headline": "Derrida's Différance",
+      "headline": "Derrida's Diff\u00e9rance",
       "source_url": "https://plato.stanford.edu/entries/derrida/",
       "date": "2026-09-28"
     },
@@ -1294,6 +1254,46 @@
       "headline": "Aristotle's Eudaimonia",
       "source_url": "https://plato.stanford.edu/entries/aristotle-ethics/",
       "date": "2026-09-29"
+    },
+    {
+      "headline": "Anthropic Launches Claude Sonnet 5.5, Cheaper and Faster Than Its Predecessor",
+      "source_url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "date": "2026-09-30"
+    },
+    {
+      "headline": "OpenAI Unveils Always-On 'Dots' Agents and GPT-6.1 Sol at DevDay",
+      "source_url": "https://openai.com/index/devday-2026-recap/",
+      "date": "2026-09-30"
+    },
+    {
+      "headline": "ElevenLabs Launches Eleven v4, Its Most Expressive Text-to-Speech Model Yet",
+      "source_url": "https://techcrunch.com/2026/09/28/elevenlabs-new-v4-speech-model-supports-more-expression-control-and-90-languages/",
+      "date": "2026-09-30"
+    },
+    {
+      "headline": "Judge Delays Paramount-Warner Bros. Discovery Settlement, Presses on Collusion Concerns",
+      "source_url": "https://variety.com/2026/film/news/judge-paramount-state-antitust-case-hearing-settlement-1236872804/",
+      "date": "2026-09-30"
+    },
+    {
+      "headline": "Universal Becomes First Studio to Cross $5 Billion at the 2026 Global Box Office",
+      "source_url": "https://deadline.com/2026/09/universal-box-office-global-2026-record-1237113897/",
+      "date": "2026-09-30"
+    },
+    {
+      "headline": "Supreme Court Lets Trump Administration Resume Third-Country Deportations",
+      "source_url": "https://www.nbcnews.com/politics/supreme-court/supreme-court-allows-trumps-third-country-deportation-policy-rcna599724",
+      "date": "2026-09-30"
+    },
+    {
+      "headline": "Jonathan Anderson's Second Dior Show Trades Spectacle for Lightness",
+      "source_url": "https://wwd.com/runway/spring-2027/paris/christian-dior/review/",
+      "date": "2026-09-30"
+    },
+    {
+      "headline": "Baudrillard's Simulacra and Simulation",
+      "source_url": "https://plato.stanford.edu/entries/baudrillard/",
+      "date": "2026-09-30"
     }
   ]
 }
