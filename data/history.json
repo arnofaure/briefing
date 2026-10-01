@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Anthropic Warns Infostealer Malware Is Hijacking Claude Sessions",
-      "source_url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
-      "date": "2026-08-31"
-    },
-    {
-      "headline": "Nvidia in Talks to Invest in Perplexity at Over $30 Billion Valuation",
-      "source_url": "https://www.investing.com/news/stock-market-news/nvidia-discusses-perplexity-investment-at-30-billionplus-valuation-the-information-reports-4872594",
-      "date": "2026-08-31"
-    },
-    {
-      "headline": "California Lawmakers Strike Deal to Exempt Indie Films From Tax Credit Cap",
-      "source_url": "https://deadline.com/2026/08/california-film-industry-corporate-tax-credit-cap-bill-1237062494/",
-      "date": "2026-08-31"
-    },
-    {
-      "headline": "Anne Hathaway Joins Tom Cruise in Days of Thunder 2",
-      "source_url": "https://deadline.com/2026/08/anne-hathaway-tom-cruise-days-of-thunder-2-1237062516/",
-      "date": "2026-08-31"
-    },
-    {
-      "headline": "Meta's $18 Billion Settlement Puts TikTok and YouTube on Notice",
-      "source_url": "https://www.cnbc.com/2026/08/29/meta-settlement-tiktok-youtube-snap-teen-safety.html",
-      "date": "2026-08-31"
-    },
-    {
-      "headline": "Large Study Links Heavy Remote Work to Rising Loneliness",
-      "source_url": "https://www.smithsonianmag.com/smart-news/working-from-home-is-making-people-lonelier-and-worsening-mental-health-a-study-suggests-180988938/",
-      "date": "2026-08-31"
-    },
-    {
-      "headline": "Kate Spade Names Jonathan Saunders Executive Creative Director",
-      "source_url": "https://www.businessoffashion.com/articles/luxury/kate-spade-names-jonathan-saunders-executive-creative-director/",
-      "date": "2026-08-31"
-    },
-    {
-      "headline": "Camus's Philosophy of the Absurd",
-      "source_url": "https://plato.stanford.edu/entries/camus/",
-      "date": "2026-08-31"
-    },
-    {
       "headline": "Pentagon's AI Portal Adds ChatGPT and Grok, With Claude Still Absent",
       "source_url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
       "date": "2026-09-01"
@@ -736,7 +696,7 @@
       "date": "2026-09-17"
     },
     {
-      "headline": "L'Or\u00e9al Overtakes LVMH as France's Most Valuable Listed Company",
+      "headline": "L'Oréal Overtakes LVMH as France's Most Valuable Listed Company",
       "source_url": "https://www.businessoffashion.com/news/beauty/loreal-steals-french-stock-market-crown-from-lvmh/",
       "date": "2026-09-17"
     },
@@ -776,7 +736,7 @@
       "date": "2026-09-18"
     },
     {
-      "headline": "Hague Tribunal Convicts Kosovo's Ex-President Tha\u00e7i of War Crimes, Sparking Protests",
+      "headline": "Hague Tribunal Convicts Kosovo's Ex-President Thaçi of War Crimes, Sparking Protests",
       "source_url": "https://www.npr.org/2026/09/16/g-s1-143560/kosovo-former-president-war-crimes",
       "date": "2026-09-18"
     },
@@ -1206,7 +1166,7 @@
       "date": "2026-09-28"
     },
     {
-      "headline": "Derrida's Diff\u00e9rance",
+      "headline": "Derrida's Différance",
       "source_url": "https://plato.stanford.edu/entries/derrida/",
       "date": "2026-09-28"
     },
@@ -1294,6 +1254,51 @@
       "headline": "Baudrillard's Simulacra and Simulation",
       "source_url": "https://plato.stanford.edu/entries/baudrillard/",
       "date": "2026-09-30"
+    },
+    {
+      "headline": "FTC Opens Sweeping Probe Into OpenAI, Anthropic and Other Frontier AI Labs",
+      "source_url": "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
+      "date": "2026-10-01"
+    },
+    {
+      "headline": "Google Launches Gemini 4 Argon, Its Next Frontier Model, With Guardrail-Free Access Only for Vetted Defenders",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "date": "2026-10-01"
+    },
+    {
+      "headline": "Paramount-Warner Bros. Discovery Merger Clears Final Legal Hurdle, Set to Close October 6",
+      "source_url": "https://deadline.com/2026/09/paramount-warner-merger-a-go-a-approves-legal-setttlement-1237143611/",
+      "date": "2026-10-01"
+    },
+    {
+      "headline": "Appeals Court Hands Down First Federal Ruling on AI-Training Fair Use, Siding Against Ross Intelligence",
+      "source_url": "https://kfgo.com/2026/09/29/us-appeals-court-upholds-thomson-reuters-landmark-win-in-ai-training-lawsuit/",
+      "date": "2026-10-01"
+    },
+    {
+      "headline": "Tennessee Halts Executions After Christa Pike Survives a Lethal Injection Attempt",
+      "source_url": "https://www.npr.org/2026/10/01/nx-s1-5986822/tennessee-governor-halts-executions",
+      "date": "2026-10-01"
+    },
+    {
+      "headline": "Study Finds Online Support Does Far Less to Ease Loneliness Than Real-Life Relationships",
+      "source_url": "https://news.oregonstate.edu/news/best-social-media-connections-unlikely-make-you-less-lonely-research-suggests",
+      "date": "2026-10-01"
+    },
+    {
+      "headline": "Kering CEO Rules Out Shifting Production Out of Italy, Bets on Training a New Generation of Artisans",
+      "source_url": "https://www.businessoffashion.com/news/luxury/luca-de-meo-says-italy-remains-key-rules-out-production-shift/",
+      "date": "2026-10-01"
+    },
+    {
+      "headline": "Kant's Categorical Imperative",
+      "source_url": "https://plato.stanford.edu/entries/kant-moral/",
+      "date": "2026-10-01"
+    },
+    {
+      "headline": "ADHD Medication Prescriptions for Irish Adults Surged 314% Over the Past Decade",
+      "source_url": "https://www.thejournal.ie/adhd-prescriptions-ireland-7176871-Sep2026/",
+      "date": "2026-10-01"
     }
   ]
 }
