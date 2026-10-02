@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Pentagon's AI Portal Adds ChatGPT and Grok, With Claude Still Absent",
-      "source_url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
-      "date": "2026-09-01"
-    },
-    {
-      "headline": "Sony Music Publishing and Warner Chappell Sue Anthropic Over Song Training Data",
-      "source_url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
-      "date": "2026-09-01"
-    },
-    {
-      "headline": "OpenAI, Anthropic, Google and 130 Other Firms Sign Collective AI Cyber Defense Pledge",
-      "source_url": "https://www.axios.com/2026/08/27/openai-anthropic-issue-dire-cyber-threat-warning",
-      "date": "2026-09-01"
-    },
-    {
-      "headline": "Pokemon Unveils Wild Card, Its First Animated Feature in Seven Years",
-      "source_url": "https://deadline.com/2026/08/pokemon-wild-card-animated-feature-release-date-teaser-1237063120/",
-      "date": "2026-09-01"
-    },
-    {
-      "headline": "Venice Film Festival Opens With Danny Boyle's Ink, a Murdoch Origin Story",
-      "source_url": "https://deadline.com/2026/07/danny-boyle-ink-venice-film-festival-2026-1236983918/",
-      "date": "2026-09-01"
-    },
-    {
-      "headline": "China's Summer Box Office Grows for a Second Straight Year, but Stays Below 2023's Peak",
-      "source_url": "https://english.news.cn/20260831/9a0fa914a6d24e97a046f70c90808c67/c.html",
-      "date": "2026-09-01"
-    },
-    {
-      "headline": "Off-White and Creative Director Ib Kamara Part Ways After Four Years",
-      "source_url": "https://wwd.com/fashion-news/designer-luxury/off-white-creative-director-ib-kamara-exit-1239173495/",
-      "date": "2026-09-01"
-    },
-    {
-      "headline": "Simone de Beauvoir's Ethics of Ambiguity",
-      "source_url": "https://plato.stanford.edu/entries/beauvoir/",
-      "date": "2026-09-01"
-    },
-    {
       "headline": "Runway Unveils Solaris, an AI That Generates Live Software Interfaces Frame by Frame",
       "source_url": "https://runway.com/news/research/introducing-solaris",
       "date": "2026-09-02"
@@ -1299,6 +1259,51 @@
       "headline": "ADHD Medication Prescriptions for Irish Adults Surged 314% Over the Past Decade",
       "source_url": "https://www.thejournal.ie/adhd-prescriptions-ireland-7176871-Sep2026/",
       "date": "2026-10-01"
+    },
+    {
+      "headline": "OpenAI Adds Virtual Clothing Try-On and a Favorites Library to ChatGPT Shopping",
+      "source_url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
+      "date": "2026-10-02"
+    },
+    {
+      "headline": "Suno Launches Speech, Fusing a Cloned Voice and Original Music Into One Track",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-01/ai-startup-suno-s-new-tool-puts-music-to-spoken-word",
+      "date": "2026-10-02"
+    },
+    {
+      "headline": "Tokyo Court Rules AI-Cloned Voices Can Violate a Performer's Rights",
+      "source_url": "https://www.washingtontimes.com/news/2026/oct/1/japanese-court-grants-legal-protection-human-voices-ai-clone-case",
+      "date": "2026-10-02"
+    },
+    {
+      "headline": "Disney Confirms a Third Round of Layoffs This Year",
+      "source_url": "https://deadline.com/2026/10/dana-walden-addresses-disney-layoffs-1237144558",
+      "date": "2026-10-02"
+    },
+    {
+      "headline": "Ipsos's Global Trends Report Finds Positivity Falling and Faith in Progress Eroding",
+      "source_url": "https://www.ipsos.com/en-ca/ipsos-global-trends-10th-edition-release",
+      "date": "2026-10-02"
+    },
+    {
+      "headline": "Violent Student Protests Spread Across France as Government Unveils Austerity Budget",
+      "source_url": "https://foreignpolicy.com/2026/10/01/france-budget-proposal-2027-violent-student-protests-lecornu-macron/",
+      "date": "2026-10-02"
+    },
+    {
+      "headline": "Glenn Martens Exits Diesel After Six Years, Staying on at Maison Margiela",
+      "source_url": "https://www.theindustry.fashion/glenn-martens-leaves-diesel-final-show/",
+      "date": "2026-10-02"
+    },
+    {
+      "headline": "Low Placental Growth Factor in Pregnancy Linked to Higher ADHD Risk in Children",
+      "source_url": "https://www.miragenews.com/placental-problems-linked-to-adhd-1752994/",
+      "date": "2026-10-02"
+    },
+    {
+      "headline": "Nietzsche's Eternal Recurrence",
+      "source_url": "https://plato.stanford.edu/entries/nietzsche/",
+      "date": "2026-10-02"
     }
   ]
 }
