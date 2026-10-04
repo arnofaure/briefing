@@ -1,91 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Runway Unveils Solaris, an AI That Generates Live Software Interfaces Frame by Frame",
-      "source_url": "https://runway.com/news/research/introducing-solaris",
-      "date": "2026-09-02"
-    },
-    {
-      "headline": "OpenAI's ChatGPT Ad Business Hits $1 Billion Run Rate in Under 200 Days",
-      "source_url": "https://www.forbes.com/sites/gabrielalinzainescu/2026/08/31/openais-chatgpt-ads-hit-1-billion-run-rate-in-just-200-days/",
-      "date": "2026-09-02"
-    },
-    {
-      "headline": "DreamWorks Remote Animators Ratify First Union Agreement, Winning Parity With On-Site Staff",
-      "source_url": "https://variety.com/2026/artisans/news/dreamworks-remote-workers-agreement-animation-guild-1236848733/",
-      "date": "2026-09-02"
-    },
-    {
-      "headline": "Venice Film Festival Opens With Gaza, Not Just Red Carpets, in the Spotlight",
-      "source_url": "https://wtop.com/world/2026/09/the-venice-film-festival-opens-with-a-rupert-murdoch-film-george-clooney-and-plenty-of-geopolitics",
-      "date": "2026-09-02"
-    },
-    {
-      "headline": "US Summer Box Office Closes In on All-Time Record, Led by Spider-Man and Nolan's The Odyssey",
-      "source_url": "https://deadline.com/2026/08/box-office-summer-2026-near-record-1237062959/",
-      "date": "2026-09-02"
-    },
-    {
-      "headline": "Study Links Six-Plus Hours of Daily Social Media Use to Tripled Suicidal-Ideation Risk in Young Adults",
-      "source_url": "https://www.uth.edu/news/story/increased-social-media-use-linked-to-anxiety-suicidal-ideation-among-young-adults-uthealth-houston-researchers-find",
-      "date": "2026-09-02"
-    },
-    {
-      "headline": "Kering Names Sabina Belli Italy Chief, Installs New CEOs at Pomellato and DoDo",
-      "source_url": "https://www.businessoffashion.com/news/conglomerates/kering-names-sabina-belli-italy-chief-ceo-pomellato-dodo/",
-      "date": "2026-09-02"
-    },
-    {
-      "headline": "Rawls's Veil of Ignorance",
-      "source_url": "https://plato.stanford.edu/entries/original-position/",
-      "date": "2026-09-02"
-    },
-    {
-      "headline": "Anthropic Launches Claude Fable 5.1 and Mythos 5.1, Cutting Agentic Coding Costs by Up to 45%",
-      "source_url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-      "date": "2026-09-03"
-    },
-    {
-      "headline": "OpenAI Says Astra Is First Model to Cross 'Critical' Cybersecurity Threshold",
-      "source_url": "https://openai.com/index/path-to-astra/",
-      "date": "2026-09-03"
-    },
-    {
-      "headline": "Venice Jury President Maggie Gyllenhaal Calls Lack of Female Directors 'A Systemic Problem'",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/maggie-gyllenhaal-venice-jury-press-conference-women-1236687884/",
-      "date": "2026-09-03"
-    },
-    {
-      "headline": "California Legislature Passes Film Tax Credit Cap Exemptions, Heads to Newsom's Desk",
-      "source_url": "https://deadline.com/2026/09/california-corporate-tax-credit-cap-film-exemptions-passes-1237063420/",
-      "date": "2026-09-03"
-    },
-    {
-      "headline": "Attackers Target X Accounts With Mass Password-Reset Emails After X Money Launch",
-      "source_url": "https://techcrunch.com/2026/09/01/x-says-attackers-are-targeting-accounts-after-the-launch-of-x-money/",
-      "date": "2026-09-03"
-    },
-    {
-      "headline": "Study of Nearly 40,000 Students Links Using AI Chatbots for Emotional Support to Higher Loneliness",
-      "source_url": "https://phys.org/news/2026-08-ai-chatbot-emotional-loneliness-students.html",
-      "date": "2026-09-03"
-    },
-    {
-      "headline": "Moschino Names Ex-Sunnei Duo Loris Messina and Simone Rizzo Co-Creative Directors",
-      "source_url": "https://wwd.com/fashion-news/designer-luxury/moschino-loris-messina-simone-rizzo-creative-directors-1239020497/",
-      "date": "2026-09-03"
-    },
-    {
-      "headline": "Cardiff Study Links Irritability and Anxiety in ADHD to Higher Depression Risk",
-      "source_url": "https://www.cardiff.ac.uk/news/view/2732506-cardiff-university-wolfson-research-aims-to-better-understand-the-link-between-adhd-and-depression-in-young-people",
-      "date": "2026-09-03"
-    },
-    {
-      "headline": "Foucault's Panopticon",
-      "source_url": "https://plato.stanford.edu/entries/foucault/",
-      "date": "2026-09-03"
-    },
-    {
       "headline": "Google DeepMind Ships Gemini 3.8 Flash, Its Third Flash Model in Six Weeks",
       "source_url": "https://deepmind.google/models/gemini/flash/",
       "date": "2026-09-04"
@@ -1304,6 +1219,46 @@
       "headline": "Nietzsche's Eternal Recurrence",
       "source_url": "https://plato.stanford.edu/entries/nietzsche/",
       "date": "2026-10-02"
+    },
+    {
+      "headline": "OpenAI Safety Employee Resigns, Says Company's Culture Is 'Broken'",
+      "source_url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+      "date": "2026-10-04"
+    },
+    {
+      "headline": "Trump Rebrands AI as 'Super Intelligence,' Tech CEOs Sign Voluntary Safety Pledge",
+      "source_url": "https://www.axios.com/2026/09/30/ai-constitution-trump-white-house",
+      "date": "2026-10-04"
+    },
+    {
+      "headline": "Paramount-Warner Bros. Discovery Merger Will Create Skydance Corp",
+      "source_url": "https://deadline.com/2026/10/paramount-warner-bros-skydance-david-ellison-1237143716/",
+      "date": "2026-10-04"
+    },
+    {
+      "headline": "Apple Studios Visual Effects Workers Ratify Their First IATSE Contract",
+      "source_url": "https://variety.com/2026/artisans/news/apple-studios-visual-effects-workers-secure-iatse-contract-1236893814/",
+      "date": "2026-10-04"
+    },
+    {
+      "headline": "Tom Cruise's 'Digger' Bombs at the Box Office Despite Hefty Budget",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/tom-cruise-digger-box-office-opening-verity-2-1236721548/",
+      "date": "2026-10-04"
+    },
+    {
+      "headline": "French Unions Escalate Strikes as Lecornu Faces Oct. 7 Budget Deadline",
+      "source_url": "https://www.arabnews.com/node/2616569/world",
+      "date": "2026-10-04"
+    },
+    {
+      "headline": "CFDA Names Hildy Kuryk Interim CEO After Steven Kolb's Exit",
+      "source_url": "https://fashionunited.uk/news/people/cfda-appoints-hildy-kuryk-as-interim-ceo-following-steven-kolbs-resignation/2026092990598",
+      "date": "2026-10-04"
+    },
+    {
+      "headline": "Arendt's Banality of Evil",
+      "source_url": "https://plato.stanford.edu/entries/arendt/",
+      "date": "2026-10-04"
     }
   ]
 }
