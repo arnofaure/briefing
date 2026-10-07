@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Rogue OpenAI Agents Secretly Hijacked a German Wiki Site to Coordinate",
-      "source_url": "https://www.cnbc.com/2026/09/04/openai-agents-hijacked-german-website-this-spring-report.html",
-      "date": "2026-09-06"
-    },
-    {
-      "headline": "US Government Backs OpenAI's Fair-Use Defense in Landmark Copyright Fight",
-      "source_url": "https://www.usnews.com/news/top-news/articles/2026-09-02/us-government-backs-openai-in-new-york-times-copyright-case",
-      "date": "2026-09-06"
-    },
-    {
-      "headline": "Robert Pattinson's 'Primetime' Earns a Rapturous Ovation at Venice",
-      "source_url": "https://deadline.com/2026/09/primetime-robert-pattinson-venice-reaction-chris-hansen-1237067852/",
-      "date": "2026-09-06"
-    },
-    {
-      "headline": "Telluride Film Festival Opens, Rebuilt From Flood Damage, With Oscar Contenders in Tow",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/telluride-film-fest-lineup-oscar-hopefuls-elsinore-the-debut-1236687092/",
-      "date": "2026-09-06"
-    },
-    {
-      "headline": "Missouri Supreme Court Blocks Trump-Backed House Map, Sets Up Ballot Fight",
-      "source_url": "https://www.cnn.com/2026/09/03/politics/missouri-supreme-court-blocks-trump-backed-map-midterms",
-      "date": "2026-09-06"
-    },
-    {
-      "headline": "Six in Ten Americans Now Call Themselves Working Class, Pew Finds",
-      "source_url": "https://www.pewresearch.org/politics/2026/08/31/who-sees-themselves-as-working-class/",
-      "date": "2026-09-06"
-    },
-    {
-      "headline": "Victoria's Secret Sales Jump 10%, Giving the Brand Momentum Into Its Runway Show",
-      "source_url": "https://wwd.com/business-news/financial/victorias-secret-q2-2026-earnings-runway-show-1239194584/",
-      "date": "2026-09-06"
-    },
-    {
-      "headline": "Arendt's Banality of Evil",
-      "source_url": "https://plato.stanford.edu/entries/arendt/",
-      "date": "2026-09-06"
-    },
-    {
       "headline": "'Model Fatigue' Sets In as AI Labs Chase a Breakneck Release Pace",
       "source_url": "https://www.cnbc.com/2026/09/06/meta-google-openai-anthropic-ai-model-fatigue.html",
       "date": "2026-09-07"
@@ -491,7 +451,7 @@
       "date": "2026-09-17"
     },
     {
-      "headline": "L'Oréal Overtakes LVMH as France's Most Valuable Listed Company",
+      "headline": "L'Or\u00e9al Overtakes LVMH as France's Most Valuable Listed Company",
       "source_url": "https://www.businessoffashion.com/news/beauty/loreal-steals-french-stock-market-crown-from-lvmh/",
       "date": "2026-09-17"
     },
@@ -531,7 +491,7 @@
       "date": "2026-09-18"
     },
     {
-      "headline": "Hague Tribunal Convicts Kosovo's Ex-President Thaçi of War Crimes, Sparking Protests",
+      "headline": "Hague Tribunal Convicts Kosovo's Ex-President Tha\u00e7i of War Crimes, Sparking Protests",
       "source_url": "https://www.npr.org/2026/09/16/g-s1-143560/kosovo-former-president-war-crimes",
       "date": "2026-09-18"
     },
@@ -961,7 +921,7 @@
       "date": "2026-09-28"
     },
     {
-      "headline": "Derrida's Différance",
+      "headline": "Derrida's Diff\u00e9rance",
       "source_url": "https://plato.stanford.edu/entries/derrida/",
       "date": "2026-09-28"
     },
@@ -1259,6 +1219,46 @@
       "headline": "Rawls's Veil of Ignorance",
       "source_url": "https://plato.stanford.edu/entries/original-position/",
       "date": "2026-10-06"
+    },
+    {
+      "headline": "Cohere Launches North 2, a Rebuilt Enterprise AI Agent Platform",
+      "source_url": "https://siliconangle.com/2026/10/05/cohere-unveils-north-2-ai-agent-platform-with-rebuilt-orchestration-and-token-spending-caps/",
+      "date": "2026-10-07"
+    },
+    {
+      "headline": "Nvidia-Backed AI Cloud Lambda Seeks $4 Billion-Plus Pre-IPO Round",
+      "source_url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+      "date": "2026-10-07"
+    },
+    {
+      "headline": "Hollywood Unions' Report Finds US Film and TV Production 'On the Brink'",
+      "source_url": "https://deadline.com/2026/10/hollywood-unions-report-us-film-tv-production-decline-1237147051/",
+      "date": "2026-10-07"
+    },
+    {
+      "headline": "Skydance's Ellison Says HBO Max and Paramount+ Will Eventually Merge",
+      "source_url": "https://deadline.com/2026/10/hbo-max-paramount-streaming-merger-david-ellison-1237148535/",
+      "date": "2026-10-07"
+    },
+    {
+      "headline": "TikTok Rolls Out an AI Shopping Assistant With One-Click Checkout",
+      "source_url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout",
+      "date": "2026-10-07"
+    },
+    {
+      "headline": "French Police Fire Tear Gas as Quarter-Million-Strong Student Protests Sweep the Country",
+      "source_url": "https://www.npr.org/2026/10/06/nx-s1-5992819/france-student-protests-schools",
+      "date": "2026-10-07"
+    },
+    {
+      "headline": "Audemars Piguet Debuts Its First-Ever High Jewelry Collection",
+      "source_url": "https://www.luxurytribune.com/en/ilaria-resta-ceo-of-audemars-piguet-we-are-launching-a-high-jewelry-line-to-amplify-the-brands-savoir-faire",
+      "date": "2026-10-07"
+    },
+    {
+      "headline": "Spinoza's Conatus",
+      "source_url": "https://plato.stanford.edu/entries/spinoza/",
+      "date": "2026-10-07"
     }
   ]
 }
