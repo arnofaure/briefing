@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "headline": "NSA, FBI and CISA Accuse Six Chinese AI Firms of Industrial-Scale Model Distillation",
-      "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a",
-      "date": "2026-09-10"
-    },
-    {
-      "headline": "Suno Strikes Global Licensing Deal With Believe and TuneCore, Ending Months of Blocking",
-      "source_url": "https://www.musicbusinessworldwide.com/suno-inks-global-licensing-deal-with-believe/",
-      "date": "2026-09-10"
-    },
-    {
-      "headline": "AMC Settles Nine-Year 'Walking Dead' Profit-Participation Lawsuit for $120 Million",
-      "source_url": "https://www.hollywoodreporter.com/business/business-news/amc-settles-walking-dead-profit-participation-lawsuit-1236693769/",
-      "date": "2026-09-10"
-    },
-    {
-      "headline": "Toronto Film Festival Launches Its First Official Content Market",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-features/toronto-film-festival-launches-official-market-1236586467/",
-      "date": "2026-09-10"
-    },
-    {
-      "headline": "Dueling Court Rulings Leave Missouri's Congressional Map in Chaos",
-      "source_url": "https://www.washingtonpost.com/politics/2026/09/08/supreme-court-blocks-missouri-congressional-map-favoring-gop/",
-      "date": "2026-09-10"
-    },
-    {
-      "headline": "Americans' Satisfaction With K-12 Education Hits a Record Low",
-      "source_url": "https://news.gallup.com/poll/714017/satisfaction-education-hits-new-low.aspx",
-      "date": "2026-09-10"
-    },
-    {
-      "headline": "Alexander McQueen's Longtime Jeweller Shaun Leane Launches His Own House",
-      "source_url": "https://www.businessoffashion.com/news/luxury/shaun-leane-jewellery/",
-      "date": "2026-09-10"
-    },
-    {
-      "headline": "Mill's Harm Principle",
-      "source_url": "https://plato.stanford.edu/entries/mill-moral-political/",
-      "date": "2026-09-10"
-    },
-    {
       "headline": "Meta Launches Muse, a Personal AI Agent That Acts on Your Behalf",
       "source_url": "https://www.axios.com/2026/09/08/meta-debuts-muse-personal-ai-agent",
       "date": "2026-09-11"
@@ -1254,6 +1214,46 @@
       "headline": "Foucault's Panopticon",
       "source_url": "https://plato.stanford.edu/entries/foucault/",
       "date": "2026-10-10"
+    },
+    {
+      "headline": "Google Launches Playground, a No-Code AI Tool for Building Games",
+      "source_url": "https://www.techrepublic.com/article/news-google-playground-ai-game-builder-no-code/",
+      "date": "2026-10-11"
+    },
+    {
+      "headline": "Google Ships Nano Banana 2.1, a Faster, Cheaper Image Model",
+      "source_url": "https://decrypt.co/380257/google-launches-nano-banana-2-1",
+      "date": "2026-10-11"
+    },
+    {
+      "headline": "Turner Classic Movies Placed Under Skydance Motion Picture Group",
+      "source_url": "https://www.thewrap.com/creative-content/movies/turner-classic-movies-falls-under-skydance-film-group",
+      "date": "2026-10-11"
+    },
+    {
+      "headline": "Netflix Says It Has Used Generative AI on Roughly 300 Titles, Insists on a \"Human Touch\"",
+      "source_url": "https://www.hollywoodreporter.com/business/business-news/netflix-ai-300-titles-busan-film-fest-1236727138/",
+      "date": "2026-10-11"
+    },
+    {
+      "headline": "Navi Pillay Wins the 2026 Nobel Peace Prize",
+      "source_url": "https://www.aljazeera.com/news/2026/10/9/2026-nobel-peace-prize-awarded-to-navi-pillay",
+      "date": "2026-10-11"
+    },
+    {
+      "headline": "Watchdog Rates ChatGPT's Teen Mode \"Unacceptable Risk\" After Testing Thousands of Prompts",
+      "source_url": "https://thenextweb.com/news/chatgpt-for-teens-is-unsafe-for-under-18s",
+      "date": "2026-10-11"
+    },
+    {
+      "headline": "Anthony Vaccarello Exits Saint Laurent After a Decade as Creative Director",
+      "source_url": "https://www.thenationalnews.com/lifestyle/fashion-beauty/2026/10/09/anthony-vaccarello-exits-saint-laurent-after-a-decade/",
+      "date": "2026-10-11"
+    },
+    {
+      "headline": "Simone de Beauvoir's \"Woman as Other\"",
+      "source_url": "https://plato.stanford.edu/entries/beauvoir/",
+      "date": "2026-10-11"
     }
   ]
 }
