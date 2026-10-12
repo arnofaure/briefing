@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Meta Launches Muse, a Personal AI Agent That Acts on Your Behalf",
-      "source_url": "https://www.axios.com/2026/09/08/meta-debuts-muse-personal-ai-agent",
-      "date": "2026-09-11"
-    },
-    {
-      "headline": "California Enacts the Nation's First AI Auditor Registry",
-      "source_url": "https://www.gov.ca.gov/2026/09/09/governor-newsom-signs-first-in-the-nation-ai-safeguards-to-protect-californians-calls-on-the-federal-government-to-do-its-part/",
-      "date": "2026-09-11"
-    },
-    {
-      "headline": "Fox's $22 Billion Roku Deal Faces Deeper DOJ Antitrust Review",
-      "source_url": "https://variety.com/2026/tv/news/fox-roku-deal-doj-merger-review-1236855878/",
-      "date": "2026-09-11"
-    },
-    {
-      "headline": "US Summer Box Office Officially Closes at an All-Time Record $4.76 Billion",
-      "source_url": "https://deadline.com/2026/09/box-office-summer-2026-record-1237068355/",
-      "date": "2026-09-11"
-    },
-    {
-      "headline": "Australia Proposes Letting Social Media Users Opt Out of Algorithmic Feeds",
-      "source_url": "https://www.cnbc.com/2026/09/08/australia-social-media-algorithm-opt-out.html",
-      "date": "2026-09-11"
-    },
-    {
-      "headline": "Houthi Rebels Seize Yemen's Red Sea Port of Mokha, Threatening a Return to War",
-      "source_url": "https://www.npr.org/2026/09/11/g-s1-142822/houthis-red-sea-port",
-      "date": "2026-09-11"
-    },
-    {
-      "headline": "HSBC Downgrades LVMH and Burberry, Warns of a Tough Second Half for Luxury",
-      "source_url": "https://www.businessoffashion.com/news/luxury/european-luxury-goods-stocks-face-a-tough-second-half-hsbc-says/",
-      "date": "2026-09-11"
-    },
-    {
-      "headline": "Levinas's Face of the Other",
-      "source_url": "https://plato.stanford.edu/entries/levinas/",
-      "date": "2026-09-11"
-    },
-    {
       "headline": "Anthropic Says It Disrupted Claude Misuse for Bioweapons Research and Russian Cyber Espionage",
       "source_url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
       "date": "2026-09-12"
@@ -1254,6 +1214,51 @@
       "headline": "Simone de Beauvoir's \"Woman as Other\"",
       "source_url": "https://plato.stanford.edu/entries/beauvoir/",
       "date": "2026-10-11"
+    },
+    {
+      "headline": "Anthropic Ships Claude Dashboards and Claude Motion, Frees Docs and Slides From Beta",
+      "source_url": "https://thenewstack.io/claude-dashboards-data-motion/",
+      "date": "2026-10-12"
+    },
+    {
+      "headline": "OpenAI Rolls Out GPT-6 With \"Intelligent UI,\" Lets ChatGPT Answer in Interactive Widgets",
+      "source_url": "https://openai.com/index/gpt-6-for-everyone/",
+      "date": "2026-10-12"
+    },
+    {
+      "headline": "US Domestic Box Office Crosses $8 Billion, Its Fastest Pace to the Mark Since 2011",
+      "source_url": "https://deadline.com/2026/10/box-office-domestic-8-billion-milestone-1237154358/",
+      "date": "2026-10-12"
+    },
+    {
+      "headline": "MIPCOM Cannes Opens With a New AI Entertainment Forum as Netflix and YouTube Headline",
+      "source_url": "https://senalnews.com/en/events/netflix-and-youtube-to-headline-mipcom-cannes-2026",
+      "date": "2026-10-12"
+    },
+    {
+      "headline": "Meta Bars TikTok Parent ByteDance From Advertising on Its Apps in Seven Countries",
+      "source_url": "https://thenextweb.com/news/meta-bans-bytedance-tiktok-ads",
+      "date": "2026-10-12"
+    },
+    {
+      "headline": "Houthi Missile Strikes Kill Three at Riyadh Airport, Including an Airline Captain",
+      "source_url": "https://www.aljazeera.com/news/2026/10/9/saudi-arabia-reopens-riyadh-airport-after-houthi-attack-kills-three",
+      "date": "2026-10-12"
+    },
+    {
+      "headline": "LVMH and Kering Jointly Raise Minimum Model Age to 18, Add Harassment and Audit Rules",
+      "source_url": "https://www.journalduluxe.fr/fr/mode/lvmh-et-kering-renforcent-leur-charte-pour-proteger-les-mannequins-dans-le-luxe/",
+      "date": "2026-10-12"
+    },
+    {
+      "headline": "Adults With ADHD Face Higher Risk of Dementia Later in Life, Large Study Finds",
+      "source_url": "https://www.news-medical.net/news/20261007/Adults-with-ADHD-face-higher-risk-of-developing-dementia-later-in-life.aspx",
+      "date": "2026-10-12"
+    },
+    {
+      "headline": "Mill's Harm Principle",
+      "source_url": "https://plato.stanford.edu/entries/mill/",
+      "date": "2026-10-12"
     }
   ]
 }
