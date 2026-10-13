@@ -1,51 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Anthropic Says It Disrupted Claude Misuse for Bioweapons Research and Russian Cyber Espionage",
-      "source_url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
-      "date": "2026-09-12"
-    },
-    {
-      "headline": "Universal Music Group Strikes Licensing Deal With ElevenLabs for AI Remixes and Vocal Tools",
-      "source_url": "https://www.digitalmusicnews.com/2026/09/10/universal-music-elevenlabs-deal/",
-      "date": "2026-09-12"
-    },
-    {
-      "headline": "Sian Heder's 'Being Heumann' Opens the Toronto Film Festival",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/toronto-film-festival-2026-opening-night-being-heumann-1236697379/",
-      "date": "2026-09-12"
-    },
-    {
-      "headline": "Sony Pictures CEO Rejects Chasing 'Extremely Disruptive' Mega-Mergers",
-      "source_url": "https://deadline.com/2026/09/sony-pictures-ceo-ravi-ahuja-on-targeted-expansion-vs-disruptive-ma-1237072026/",
-      "date": "2026-09-12"
-    },
-    {
-      "headline": "Anthropic Researcher's Extinction Warning Sparks a Rare Bipartisan Push for AI Rules",
-      "source_url": "https://www.axios.com/2026/09/11/congress-ai-anthropic-coxon-researcher-democrats",
-      "date": "2026-09-12"
-    },
-    {
-      "headline": "Shipyard Fire in China Kills 25 Aboard a Cargo Vessel Under Repair",
-      "source_url": "https://www.cbc.ca/news/world/china-qingdao-ship-fatal-fire-9.7338330",
-      "date": "2026-09-12"
-    },
-    {
-      "headline": "Louis Vuitton's China Sales Sink After a Trademark Win Over a Local Tea Chain Backfires",
-      "source_url": "https://www.businessoffashion.com/news/luxury/louis-vuitton-loses-sales-in-china-after-fight-with-local-tea-chain/",
-      "date": "2026-09-12"
-    },
-    {
-      "headline": "New Analysis Confirms Long-Term Air Pollution Exposure Tracks With Higher Childhood ADHD Rates",
-      "source_url": "https://www.news-medical.net/news/20260909/The-link-between-PM25-and-ADHD-held-up-after-researchers-tested-other-explanations.aspx",
-      "date": "2026-09-12"
-    },
-    {
-      "headline": "Hobbes's State of Nature and the Social Contract",
-      "source_url": "https://plato.stanford.edu/entries/hobbes-moral/",
-      "date": "2026-09-12"
-    },
-    {
       "headline": "Moonshot AI Targets $2 Billion in Annual Revenue as Kimi K3 Undercuts US Rivals",
       "source_url": "https://www.bloomberg.com/news/articles/2026-09-11/china-ai-star-moonshot-eyes-2-billion-annualized-sales-in-2026",
       "date": "2026-09-13"
@@ -1259,6 +1214,46 @@
       "headline": "Mill's Harm Principle",
       "source_url": "https://plato.stanford.edu/entries/mill/",
       "date": "2026-10-12"
+    },
+    {
+      "headline": "Anthropic's Claude Filed a False Murder Tip With Philadelphia Police During a Safety Test",
+      "source_url": "https://www.foxbusiness.com/technology/anthropics-claude-ai-fabricates-eyewitness-account-submits-false-murder-tip-police-website",
+      "date": "2026-10-13"
+    },
+    {
+      "headline": "Finland Orders Google to Halt Work at Two AI Data Center Sites Over Environmental Violations",
+      "source_url": "https://www.aljazeera.com/news/2026/10/7/finland-orders-halt-to-work-on-google-data-sites-over-environment-concerns",
+      "date": "2026-10-13"
+    },
+    {
+      "headline": "Busan Film Festival Honors Michelle Yeoh in Her First Visit to the Festival in 15 Years",
+      "source_url": "https://www.screendaily.com/news/michelle-yeoh-honoured-on-starry-opening-night-of-busan-film-festival-2026/5221116.article",
+      "date": "2026-10-13"
+    },
+    {
+      "headline": "Geneva Film Festival Drops Israel's Oscar Entry After Boycott Threats",
+      "source_url": "https://www.ynetnews.com/culture/article/sjvfabhsml",
+      "date": "2026-10-13"
+    },
+    {
+      "headline": "Pew Finds Americans' Economic Pessimism Deepening Ahead of the Midterms, Even Among Republicans",
+      "source_url": "https://www.pewresearch.org/politics/2026/10/08/economy-ranks-as-top-issue-in-midterms-for-all-voters-but-partisans-differ-over-the-importance-of-other-issues/",
+      "date": "2026-10-13"
+    },
+    {
+      "headline": "Trump Rages Over Losing the Nobel Peace Prize to Navi Pillay",
+      "source_url": "https://www.axios.com/2026/10/10/trump-nobel-peace-prize-reaction",
+      "date": "2026-10-13"
+    },
+    {
+      "headline": "LVMH's Fashion and Leather Sales Slide Again, Dashing Hopes of a Luxury Rebound",
+      "source_url": "https://www.cnbc.com/2026/10/12/lvmh-fashion-and-leather-sales-slide-in-q3-dashing-sector-hopes.html",
+      "date": "2026-10-13"
+    },
+    {
+      "headline": "Confucius's Ren (Benevolence)",
+      "source_url": "https://plato.stanford.edu/entries/confucius/",
+      "date": "2026-10-13"
     }
   ]
 }
