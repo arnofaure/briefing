@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Moonshot AI Targets $2 Billion in Annual Revenue as Kimi K3 Undercuts US Rivals",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-09-11/china-ai-star-moonshot-eyes-2-billion-annualized-sales-in-2026",
-      "date": "2026-09-13"
-    },
-    {
-      "headline": "DeepSeek's V4.1-Flash Beats Its Own Flagship, Prompting an Early Retirement for V4-Pro",
-      "source_url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/",
-      "date": "2026-09-13"
-    },
-    {
-      "headline": "May el-Toukhy's 'Woman Unknown' Wins the Golden Lion at Venice",
-      "source_url": "https://variety.com/2026/film/festivals/venice-film-festival-2026-award-winners-list-golden-lion-1236859418/",
-      "date": "2026-09-13"
-    },
-    {
-      "headline": "'Practical Magic 2' Ends Spider-Man's Six-Week Reign With a Soft $28-30 Million Opening",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/practical-magic-2-box-office-spider-man-domestic-record-1236698853/",
-      "date": "2026-09-13"
-    },
-    {
-      "headline": "Pew Finds Roughly 8 in 10 Americans Now Take a Dietary Supplement",
-      "source_url": "https://www.pewresearch.org/short-reads/2026/09/10/about-8-in-10-americans-take-supplements-and-many-see-them-as-important-to-their-health/",
-      "date": "2026-09-13"
-    },
-    {
-      "headline": "ICE Agents Clash Violently With Protesters After 40-Hour Frederick, Maryland Standoff",
-      "source_url": "https://www.thebanner.com/community/local-news/federal-immigration-agents-clash-frederick-protestors-BJOQ5H74Z5HP3ODX5IGQX27LR4/",
-      "date": "2026-09-13"
-    },
-    {
-      "headline": "EssilorLuxottica Executives Publicly Rally Behind CEO as Founder's Son Escalates Feud",
-      "source_url": "https://www.businessoffashion.com/news/news-analysis/essilorluxottica-managers-defend-ceo-after-heir-lashes-out/",
-      "date": "2026-09-13"
-    },
-    {
-      "headline": "Heidegger's Enframing (Gestell)",
-      "source_url": "https://plato.stanford.edu/entries/heidegger/",
-      "date": "2026-09-13"
-    },
-    {
       "headline": "Anthropic's Amodei Calls for Pacing AI Development, OpenAI and Musk Quickly Agree",
       "source_url": "https://darioamodei.com/post/we-must-pace-the-frontier",
       "date": "2026-09-14"
@@ -1254,6 +1214,46 @@
       "headline": "Confucius's Ren (Benevolence)",
       "source_url": "https://plato.stanford.edu/entries/confucius/",
       "date": "2026-10-13"
+    },
+    {
+      "headline": "Anthropic Warns Small AI Models Could Self-Replicate Onto Home Devices Within Months",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/13/ai-could-self-replicate-on-home-devices-within-months-anthropic-says",
+      "date": "2026-10-14"
+    },
+    {
+      "headline": "UK Lawmakers Grill OpenAI, Anthropic, Google DeepMind and Meta Over Whether AI Rules Are 'Not Fit for the Future'",
+      "source_url": "https://www.cityam.com/?p=2459408",
+      "date": "2026-10-14"
+    },
+    {
+      "headline": "Horror Film 'Other Mommy' Tops Box Office as Sony's 'The Social Reckoning' Flops",
+      "source_url": "https://abcnews.com/Entertainment/wireStory/mommy-tops-box-office-275m-social-reckoning-opens-137178115",
+      "date": "2026-10-14"
+    },
+    {
+      "headline": "Busan Film Festival Gives Its Camellia Award to Ann Hui for Five Decades Elevating Women in Cinema",
+      "source_url": "https://www.thestandard.com.hk/news/article/344772/Michelle-Yeoh-named-Asian-Filmmaker-of-the-Year-Ann-Hui-wins-Camellia-Award-in-Busan",
+      "date": "2026-10-14"
+    },
+    {
+      "headline": "India's Election-Chief Protests Escalate as Rahul Gandhi Petitions the Supreme Court",
+      "source_url": "https://time.com/article/2026/10/13/india-modi-protests-voter-removal-election-commission/",
+      "date": "2026-10-14"
+    },
+    {
+      "headline": "Meta's Threads Lets Users Tell Its Algorithm What They Want to See",
+      "source_url": "https://technologymagazine.com/news/how-meta-opens-the-content-black-box-with-threads-dear-algo",
+      "date": "2026-10-14"
+    },
+    {
+      "headline": "Events Giant Platform6 Buys Fashion-Show Production Agency Without Production",
+      "source_url": "https://wwd.com/business-news/mergers-acquisitions/platform6-expands-buys-without-production-agency-1239343268/",
+      "date": "2026-10-14"
+    },
+    {
+      "headline": "Walter Benjamin's Aura",
+      "source_url": "https://plato.stanford.edu/entries/benjamin/",
+      "date": "2026-10-14"
     }
   ]
 }
