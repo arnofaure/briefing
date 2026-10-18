@@ -1,51 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Google Ships Gemini 3.8 Live for Real-Time Multimodal Conversation",
-      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
-      "date": "2026-09-17"
-    },
-    {
-      "headline": "California Requires Disclosure of AI-Generated Performers in Ads",
-      "source_url": "https://www.gov.ca.gov/2026/09/16/governor-newsom-signs-new-law-to-protect-workers-require-disclosures-on-ai-generated-advertising/",
-      "date": "2026-09-17"
-    },
-    {
-      "headline": "Canada and Germany Commit Up to $300 Million to Bengio's Safety-First AI Lab",
-      "source_url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/09/canada-and-germany-invest-in-lawzero-to-build-a-new-approach-to-safe-sovereign-ai.html",
-      "date": "2026-09-17"
-    },
-    {
-      "headline": "Universal and Blumhouse Win Bidding War for TIFF Horror Film 'River'",
-      "source_url": "https://deadline.com/2026/09/river-blumhouse-universal-tiff-1237100328/",
-      "date": "2026-09-17"
-    },
-    {
-      "headline": "Netflix and Skydance Animation End Three-Year Partnership",
-      "source_url": "https://www.thewrap.com/creative-content/movies/netflix-skydance-animation-split/",
-      "date": "2026-09-17"
-    },
-    {
-      "headline": "Americans' Trust in Election Counts Falls Sharply, Deepfake Fears Rise",
-      "source_url": "https://today.ucsd.edu/story/fewer-than-half-of-americans-expect-free-and-fair-midterms",
-      "date": "2026-09-17"
-    },
-    {
-      "headline": "L'Or\u00e9al Overtakes LVMH as France's Most Valuable Listed Company",
-      "source_url": "https://www.businessoffashion.com/news/beauty/loreal-steals-french-stock-market-crown-from-lvmh/",
-      "date": "2026-09-17"
-    },
-    {
-      "headline": "Study Links Missing Brain Protein to ADHD-Like Behavior in Mice",
-      "source_url": "https://www.news-medical.net/news/20260916/Study-links-missing-brain-protein-to-ADHD-like-behaviors.aspx",
-      "date": "2026-09-17"
-    },
-    {
-      "headline": "Hegel's Master-Slave Dialectic",
-      "source_url": "https://iep.utm.edu/hegelsoc/",
-      "date": "2026-09-17"
-    },
-    {
       "headline": "OpenAI Publishes Misalignment Disclosure Framework, Reveals Six New Incidents",
       "source_url": "https://openai.com/index/model-misalignment-reporting-framework/",
       "date": "2026-09-18"
@@ -1239,6 +1194,46 @@
       "headline": "Plato's Allegory of the Cave",
       "source_url": "https://iep.utm.edu/republic/",
       "date": "2026-10-17"
+    },
+    {
+      "headline": "DeepSeek Ships V4.1-Flash-1017, a Faster, Leaner Update to Its Flagship Open Model",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-17/deepseek-pushes-out-updated-ai-model-it-says-is-faster-leaner",
+      "date": "2026-10-18"
+    },
+    {
+      "headline": "Anthropic Leans on Tens of Billions in Debt to Secure Chip Capacity Ahead of IPO",
+      "source_url": "https://implicator.ai/broadcom-agrees-to-lend-anthropic-up-to-42-billion-to-lease-chips-it-helps-design",
+      "date": "2026-10-18"
+    },
+    {
+      "headline": "Street Fighter Reboot Tops a Soft Box Office Weekend as A24's Elizabeth Holmes Documentary Steals the Show",
+      "source_url": "https://variety.com/2026/film/box-office/box-office-street-fighter-you-can-see-everything-whalefall-1236914827/",
+      "date": "2026-10-18"
+    },
+    {
+      "headline": "European Film Bodies Warn Proposed 30% Cut to AgoraEU Fund Would Be 'Devastating'",
+      "source_url": "https://www.screendaily.com/news/european-film-bodies-criticise-proposed-30-cut-to-agoraeu-cultural-fund/5221549.article",
+      "date": "2026-10-18"
+    },
+    {
+      "headline": "Hundreds of Thousands March Across France as Cost-of-Living Protests Turn Violent",
+      "source_url": "https://www.cbc.ca/news/world/livestory/france-protests-9.7385148",
+      "date": "2026-10-18"
+    },
+    {
+      "headline": "Survey Finds Most Working Americans Expect AI to Hollow Out the Meaning of Work",
+      "source_url": "https://www.elon.edu/u/news/?p=1060080",
+      "date": "2026-10-18"
+    },
+    {
+      "headline": "Brunello Cucinelli Raises 2026 Growth Forecast to 12% After Strong Third Quarter",
+      "source_url": "https://fashionunited.com/news/business/brunello-cucinelli-raises-2026-revenue-forecast/2026101575212",
+      "date": "2026-10-18"
+    },
+    {
+      "headline": "Kierkegaard's Leap of Faith",
+      "source_url": "https://plato.stanford.edu/entries/kierkegaard/",
+      "date": "2026-10-18"
     }
   ]
 }
