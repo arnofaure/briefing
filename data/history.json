@@ -1,51 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Anthropic Says Claude Now Leads 26% of Its Own AI Research",
-      "source_url": "https://www.engadget.com/2261909/anthropic-says-claude-leads-26-percent-of-its-ai-research-and-development/",
-      "date": "2026-09-19"
-    },
-    {
-      "headline": "OpenAI Launches Astra for Law, a GPT-6 Model Built for Legal Work",
-      "source_url": "https://openai.com/index/astra-for-law/",
-      "date": "2026-09-19"
-    },
-    {
-      "headline": "Judge Deals Early Setback to Actress's Avatar AI-Likeness Suit Against Cameron",
-      "source_url": "https://www.courthousenews.com/actress-suffers-early-setback-in-lawsuit-over-use-of-face-in-avatar/",
-      "date": "2026-09-19"
-    },
-    {
-      "headline": "Entertainment Industry Unites Behind Push for a Federal Film Production Tax Credit",
-      "source_url": "https://deadline.com/2026/09/entertainment-industry-film-tv-production-incentive-jobs-1237103806/",
-      "date": "2026-09-19"
-    },
-    {
-      "headline": "Pew: Most of the World Expects AI to Destroy More Jobs Than It Creates",
-      "source_url": "https://www.pewresearch.org/global/2026/09/17/globally-more-people-expect-ai-to-cause-job-loss-than-growth/",
-      "date": "2026-09-19"
-    },
-    {
-      "headline": "Civil Rights Coalition Sues to Keep Armed ICE Agents Away From Polling Places",
-      "source_url": "https://www.axios.com/local/denver/2026/09/17/denver-ice-polling-places-midterm-elections",
-      "date": "2026-09-19"
-    },
-    {
-      "headline": "Prada Bets on an Eight-Floor Milan Flagship as Its Answer to Digital Retail",
-      "source_url": "https://www.businessoffashion.com/news/luxury/prada-revamps-milan-flagship-to-cater-to-top-clients-and-new-shoppers/",
-      "date": "2026-09-19"
-    },
-    {
-      "headline": "Study Finds People Diagnosed With ADHD Have Grown to Resemble the General Population",
-      "source_url": "https://www.eurekalert.org/news-releases/1143569",
-      "date": "2026-09-19"
-    },
-    {
-      "headline": "Popper's Falsifiability Criterion",
-      "source_url": "https://plato.stanford.edu/entries/popper/",
-      "date": "2026-09-19"
-    },
-    {
       "headline": "Google Confirms Gemini Hacked Into Three Real Companies During a Safety Test",
       "source_url": "https://www.cnbc.com/2026/09/18/googles-gemini-becomes-latest-ai-model-to-break-out-and-hack-computer-systems.html",
       "date": "2026-09-20"
@@ -1229,6 +1184,46 @@
       "headline": "Hegel's Master-Slave Dialectic",
       "source_url": "https://plato.stanford.edu/entries/hegel/",
       "date": "2026-10-19"
+    },
+    {
+      "headline": "Schwab and JPMorgan Block Outside AI Agents From Customer Accounts",
+      "source_url": "https://www.americanbanker.com/news/schwab-blocks-unauthorized-ai-agents-points-clients-to-charley",
+      "date": "2026-10-20"
+    },
+    {
+      "headline": "OpenAI Discloses Internal Agent Used a Stranger's Crypto Wallet Without Authorization",
+      "source_url": "https://fortune.com/2026/10/16/rogue-openai-agent-crypto-wallet-funds-task/",
+      "date": "2026-10-20"
+    },
+    {
+      "headline": "Kuaishou Opens Kling 4.0 to All Users, Doubling Video Length to 30 Seconds",
+      "source_url": "https://letsdatascience.com/news/kling-ai-opens-kling-40-to-all-users-d9dc6422",
+      "date": "2026-10-20"
+    },
+    {
+      "headline": "CAA, WME and UTA Unite to Push Streamers Toward Indie Production Quotas",
+      "source_url": "https://www.thewrap.com/industry-news/industry-trends/american-entertainment-alliance-caa-wme-uta-independent-productions/",
+      "date": "2026-10-20"
+    },
+    {
+      "headline": "AFI Fest's 40th Edition Opens With Ten Countries' Oscar Submissions in Its Lineup",
+      "source_url": "https://www.screendaily.com/news/afi-fest-lineup-features-10-oscar-submissions-a-long-winter-iron-boy/5220885.article",
+      "date": "2026-10-20"
+    },
+    {
+      "headline": "Ousted Venezuelan Leader Maduro Pleads Not Guilty to US Torture Charges",
+      "source_url": "https://www.koreatimes.co.kr/world/20261016/venezuelas-maduro-and-wife-plead-not-guilty-to-us-torture-charges",
+      "date": "2026-10-20"
+    },
+    {
+      "headline": "Anthony Vaccarello Exits Saint Laurent After a Decade at the Helm",
+      "source_url": "https://www.thenationalnews.com/lifestyle/fashion-beauty/2026/10/09/anthony-vaccarello-exits-saint-laurent-after-a-decade/",
+      "date": "2026-10-20"
+    },
+    {
+      "headline": "Hobbes's Social Contract and the State of Nature",
+      "source_url": "https://plato.stanford.edu/entries/hobbes-moral/",
+      "date": "2026-10-20"
     }
   ]
 }
