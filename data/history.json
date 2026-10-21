@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Google Confirms Gemini Hacked Into Three Real Companies During a Safety Test",
-      "source_url": "https://www.cnbc.com/2026/09/18/googles-gemini-becomes-latest-ai-model-to-break-out-and-hack-computer-systems.html",
-      "date": "2026-09-20"
-    },
-    {
-      "headline": "Anthropic's Revenue Nears $100 Billion as It Targets a November IPO",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-09-18/anthropic-s-annualized-revenue-to-top-100-billion-in-2026-nyt",
-      "date": "2026-09-20"
-    },
-    {
-      "headline": "California Signs First-Ever Standalone Tax Credit for Post-Production Work",
-      "source_url": "https://deadline.com/2026/09/editors-guild-california-post-production-tax-credit-newsom-1237108455/",
-      "date": "2026-09-20"
-    },
-    {
-      "headline": "Zach Cregger's Resident Evil Reboot Scores the Franchise's Biggest Opening Ever",
-      "source_url": "https://deadline.com/2026/09/box-office-resident-evil-1237107316/",
-      "date": "2026-09-20"
-    },
-    {
-      "headline": "White House Bars CNN, MS NOW and Politico Reporters in Unprecedented Press Ban",
-      "source_url": "https://www.nbcnews.com/politics/white-house/ms-now-journalists-denied-access-white-house-trump-announced-ban-rcna598677",
-      "date": "2026-09-20"
-    },
-    {
-      "headline": "Meta's Oversight Board Calls the Company's AI Deepfake Rules 'Fundamentally Inadequate'",
-      "source_url": "https://www.engadget.com/2260894/oversight-board-says-metas-rules-ai-deepfakes-fundamentally-inadequate/",
-      "date": "2026-09-20"
-    },
-    {
-      "headline": "Alexander McQueen Returns to London Fashion Week for the First Time Since 2022",
-      "source_url": "https://wwd.com/fashion-news/fashion-features/alexander-mcqueen-london-fashion-week-september-runway-show-1239018868/",
-      "date": "2026-09-20"
-    },
-    {
-      "headline": "Descartes's Cogito Ergo Sum",
-      "source_url": "https://plato.stanford.edu/entries/descartes-epistemology/",
-      "date": "2026-09-20"
-    },
-    {
       "headline": "Trump Announces 'AI Force' and Plans to Name an AI Czar",
       "source_url": "https://www.axios.com/2026/09/19/trump-ai-czar-space-force-safety",
       "date": "2026-09-21"
@@ -366,7 +326,7 @@
       "date": "2026-09-28"
     },
     {
-      "headline": "Derrida's Différance",
+      "headline": "Derrida's Diff\u00e9rance",
       "source_url": "https://plato.stanford.edu/entries/derrida/",
       "date": "2026-09-28"
     },
@@ -736,7 +696,7 @@
       "date": "2026-10-08"
     },
     {
-      "headline": "Condé Nast CEO Roger Lynch Departs to Run Mattel",
+      "headline": "Cond\u00e9 Nast CEO Roger Lynch Departs to Run Mattel",
       "source_url": "https://www.thewrap.com/industry-news/business/roger-lynch-mattel-ceo-ynon-kreiz-exits/",
       "date": "2026-10-08"
     },
@@ -1224,6 +1184,41 @@
       "headline": "Hobbes's Social Contract and the State of Nature",
       "source_url": "https://plato.stanford.edu/entries/hobbes-moral/",
       "date": "2026-10-20"
+    },
+    {
+      "headline": "Google Adds Mid-Generation Review Controls to Gemini Notebook's Slides and Video",
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/",
+      "date": "2026-10-21"
+    },
+    {
+      "headline": "YouTube Music Begins Labeling Songs Made Primarily With Generative AI",
+      "source_url": "https://blog.youtube/news-and-events/youtube-music-ai-labels/",
+      "date": "2026-10-21"
+    },
+    {
+      "headline": "Netflix Film Chief Dan Lin Departs in Second Senior Exit Within a Week",
+      "source_url": "https://www.screendaily.com/news/film-head-dan-lin-out-at-netflix/5221595.article",
+      "date": "2026-10-21"
+    },
+    {
+      "headline": "France Orders Curfews After Cost-of-Living Protests Turn Into a Weekend of Rioting",
+      "source_url": "https://www.euronews.com/2026/10/19/french-pm-lecornu-calls-for-regional-authorities-to-impose-partial-curfews",
+      "date": "2026-10-21"
+    },
+    {
+      "headline": "Milan's Luxury District Shutters Storefronts as Italy Deploys Troops Against Unrest",
+      "source_url": "https://cyprus-mail.com/2026/10/19/milan-luxury-shops-close-for-fear-of-new-unrest-as-government-prepares-to-deploy-troops",
+      "date": "2026-10-21"
+    },
+    {
+      "headline": "Large Meta-Analysis Links ADHD to Sharply Higher Mortality Risk",
+      "source_url": "https://www.news-medical.net/news/20261019/UCL-study-reveals-broad-mortality-risks-faced-by-ADHD-individuals.aspx",
+      "date": "2026-10-21"
+    },
+    {
+      "headline": "Epictetus's Dichotomy of Control",
+      "source_url": "https://plato.stanford.edu/entries/epictetus/",
+      "date": "2026-10-21"
     }
   ]
 }
