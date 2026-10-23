@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "headline": "xAI Launches Grok 4.7 With Longer Reasoning Runs and New Safety Guardrails",
-      "source_url": "https://siliconangle.com/2026/09/21/spacex-launches-grok-4-7-with-long-horizon-processing-safety-upgrades/",
-      "date": "2026-09-22"
-    },
-    {
-      "headline": "OpenAI Forms Independent Math Advisory Board After Its AI Claims 100-Plus Solved Problems",
-      "source_url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
-      "date": "2026-09-22"
-    },
-    {
-      "headline": "Paramount Clears Last Hurdle to Close Warner Bros. Discovery Deal in 'About Two Weeks'",
-      "source_url": "https://deadline.com/2026/09/paramount-ceo-david-ellison-settlement-wbd-deal-1237109485/",
-      "date": "2026-09-22"
-    },
-    {
-      "headline": "Venice, Telluride and Toronto Wrap With Early Oscar Frontrunners Taking Shape",
-      "source_url": "https://www.indiewire.com/awards/predictions/fall-festival-best-picture-oscar-race-bola-negra-wild-horse-nine-1235217890/",
-      "date": "2026-09-22"
-    },
-    {
-      "headline": "Houthis Launch First-Ever Attack on Saudi Capital Riyadh, Opening New Front in Yemen War",
-      "source_url": "https://www.cnn.com/2026/09/21/middleeast/yemen-houthis-offensive-intl",
-      "date": "2026-09-22"
-    },
-    {
-      "headline": "Meta Sues UK Regulator Ofcom Over Toughest Online Safety Category for WhatsApp and Instagram",
-      "source_url": "https://www.medianama.com/2026/09/223-meta-ofcom-legal-challenge-whatsapp-instagram/",
-      "date": "2026-09-22"
-    },
-    {
-      "headline": "Glitzy Runway Shows in Milan and Paris Mask a Deepening Luxury Slowdown",
-      "source_url": "https://www.japantimes.co.jp/business/2026/09/22/companies/luxury-brands-catwalk-milan-paris/",
-      "date": "2026-09-22"
-    },
-    {
-      "headline": "Locke's Tabula Rasa",
-      "source_url": "https://plato.stanford.edu/entries/locke/",
-      "date": "2026-09-22"
-    },
-    {
       "headline": "Tencent Ships Hunyuan Image 3.5 Preview to Chase ByteDance and Alibaba",
       "source_url": "https://www.bloomberg.com/news/articles/2026-09-22/tencent-releases-ai-image-model-to-catch-bytedance-alibaba",
       "date": "2026-09-23"
@@ -286,7 +246,7 @@
       "date": "2026-09-28"
     },
     {
-      "headline": "Derrida's Diff\u00e9rance",
+      "headline": "Derrida's Différance",
       "source_url": "https://plato.stanford.edu/entries/derrida/",
       "date": "2026-09-28"
     },
@@ -656,7 +616,7 @@
       "date": "2026-10-08"
     },
     {
-      "headline": "Cond\u00e9 Nast CEO Roger Lynch Departs to Run Mattel",
+      "headline": "Condé Nast CEO Roger Lynch Departs to Run Mattel",
       "source_url": "https://www.thewrap.com/industry-news/business/roger-lynch-mattel-ceo-ynon-kreiz-exits/",
       "date": "2026-10-08"
     },
@@ -1224,6 +1184,51 @@
       "headline": "Heidegger's Being-Toward-Death",
       "source_url": "https://plato.stanford.edu/entries/heidegger/",
       "date": "2026-10-22"
+    },
+    {
+      "headline": "OpenAI Says Its AI Agents Disabled Their Own Safety Monitoring, One Lied About It",
+      "source_url": "https://abcnews.com/Business/openai-ai-agents-disabled-monitoring/story?id=137446567",
+      "date": "2026-10-23"
+    },
+    {
+      "headline": "OpenAI Races to Close $30 Billion Round at a $1.4 Trillion Valuation Ahead of Anthropic's IPO",
+      "source_url": "https://www.freepressjournal.in/tech/openai-rushes-to-close-30-billion-funding-round-ahead-of-anthropics-ipo",
+      "date": "2026-10-23"
+    },
+    {
+      "headline": "Anthropic Launches Claude Duet, a Proactive AI Agent App",
+      "source_url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
+      "date": "2026-10-23"
+    },
+    {
+      "headline": "'You Can See Everything' Keeps Outrunning New Releases at the Box Office",
+      "source_url": "https://deadline.com/2026/10/you-can-see-everything-clayface-box-office-1237168607/",
+      "date": "2026-10-23"
+    },
+    {
+      "headline": "Australia Moves to Sue Meta, TikTok, Snapchat and YouTube Over Under-16 Ban",
+      "source_url": "https://petapixel.com/2026/10/21/australia-to-sue-meta-and-tiktok-for-failing-to-enforce-under-16s-social-media-ban/",
+      "date": "2026-10-23"
+    },
+    {
+      "headline": "Brazil's Presidential Runoff Is a Dead Heat Days Before the Lula-Bolsonaro Vote",
+      "source_url": "https://en.mercopress.com/2026/10/17/bolsonaro-and-lula-head-into-the-final-stretch-of-brazil-s-campaign-in-a-statistical-tie",
+      "date": "2026-10-23"
+    },
+    {
+      "headline": "Kering's Gucci Sales Fall 6% as Group Raises Store-Closure Target",
+      "source_url": "https://wwd.com/business-news/financial/kering-q3-revenues-flat-gucci-organic-sales-down-6-percent-1239380710/",
+      "date": "2026-10-23"
+    },
+    {
+      "headline": "Study Challenges Concerns Linking ADHD Medication to Self-Harm Risk",
+      "source_url": "https://www.news-medical.net/news/20261022/Study-challenges-concerns-linking-ADHD-medication-to-self-harm-risk.aspx",
+      "date": "2026-10-23"
+    },
+    {
+      "headline": "Zhuangzi's Butterfly Dream",
+      "source_url": "https://plato.stanford.edu/entries/zhuangzi/",
+      "date": "2026-10-23"
     }
   ]
 }
