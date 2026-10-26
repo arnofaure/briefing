@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Google DeepMind Compresses Gemini 4 Timeline, Says Release Is Coming 'As Soon As Possible'",
-      "source_url": "https://9to5google.com/2026/09/24/google-says-gemini-4-release-is-coming-as-soon-as-possible/",
-      "date": "2026-09-25"
-    },
-    {
-      "headline": "Altman and Amodei Jointly Address UN Security Council, Call for Global AI Safety Rules",
-      "source_url": "https://www.cnn.com/2026/09/23/tech/altman-amodei-ai-safety-un-security-council",
-      "date": "2026-09-25"
-    },
-    {
-      "headline": "Jeffrey Katzenberg Tells Hollywood to Stop Resisting AI and Set the Terms Instead",
-      "source_url": "https://variety.com/2026/biz/news/jeffrey-katzenberg-hollywood-must-accept-not-going-away-1236873535/",
-      "date": "2026-09-25"
-    },
-    {
-      "headline": "Netflix Becomes France's Top Private Content Investor as State Broadcaster Faces Deep Cuts",
-      "source_url": "https://deadline.com/2026/09/french-film-tv-alarm-cuts-state-broadcaster-1237111142/",
-      "date": "2026-09-25"
-    },
-    {
-      "headline": "US Justice Department Moves to Back X Against EU's 120 Million Euro Content Fine",
-      "source_url": "https://www.justice.gov/opa/pr/united-states-files-request-intervene-case-brought-x-corp-and-elon-musk-seeking-annul",
-      "date": "2026-09-25"
-    },
-    {
-      "headline": "Mass Arrests and a Delegate Walkout Greet Netanyahu's UN General Assembly Address",
-      "source_url": "https://www.aljazeera.com/news/2026/9/25/more-than-100-arrested-as-new-yorkers-protest-netanyahus-un-visit",
-      "date": "2026-09-25"
-    },
-    {
-      "headline": "Arnault Family Moves to Tighten Control of LVMH, Will Delist Christian Dior",
-      "source_url": "https://www.businessoffashion.com/news/luxury/arnault-clan-to-change-lvmh-holding-structure-to-ensure-control/",
-      "date": "2026-09-25"
-    },
-    {
-      "headline": "Schopenhauer's Will to Life",
-      "source_url": "https://plato.stanford.edu/entries/schopenhauer/",
-      "date": "2026-09-25"
-    },
-    {
       "headline": "OpenAI, Anthropic and Google Plan a Self-Regulatory Body After Federal AI Oversight Stalls",
       "source_url": "https://www.techrepublic.com/article/news-google-openai-anthropic-ai-safety-standards-body/",
       "date": "2026-09-26"
@@ -1224,6 +1184,46 @@
       "headline": "Pascal's Wager",
       "source_url": "https://plato.stanford.edu/entries/pascal-wager/",
       "date": "2026-10-25"
+    },
+    {
+      "headline": "ElevenLabs Launches Realtime Speech Models Built for Voice Agents",
+      "source_url": "https://elevenlabs.io/blog/realtime",
+      "date": "2026-10-26"
+    },
+    {
+      "headline": "MIT Researchers Find AI Agents Left Alone Invent Their Own Games",
+      "source_url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+      "date": "2026-10-26"
+    },
+    {
+      "headline": "Legendary Entertainment Makes a Takeover Play for Lionsgate",
+      "source_url": "https://www.thewrap.com/industry-news/deals-ma/legendary-entertainment-lionsgate-takeover-bid/",
+      "date": "2026-10-26"
+    },
+    {
+      "headline": "Serbia's Student-Led Opposition Wins Snap Election, Vučić Concedes",
+      "source_url": "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won",
+      "date": "2026-10-26"
+    },
+    {
+      "headline": "Survey Finds AI Is Boosting Output but Making Management Harder",
+      "source_url": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
+      "date": "2026-10-26"
+    },
+    {
+      "headline": "Meta Freezes New Political Ads for Final Week Before US Midterms",
+      "source_url": "https://about.fb.com/news/2026/02/meta-prepares-for-2026-us-midterms/",
+      "date": "2026-10-26"
+    },
+    {
+      "headline": "Kering Shares Slide as Gucci's Turnaround Stalls in Weak Q3",
+      "source_url": "https://wwd.com/business-news/financial/kering-q3-revenues-flat-gucci-organic-sales-down-6-percent-1239380710/",
+      "date": "2026-10-26"
+    },
+    {
+      "headline": "Rousseau's General Will",
+      "source_url": "https://plato.stanford.edu/entries/rousseau/",
+      "date": "2026-10-26"
     }
   ]
 }
