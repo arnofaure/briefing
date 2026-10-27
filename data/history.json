@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "headline": "OpenAI, Anthropic and Google Plan a Self-Regulatory Body After Federal AI Oversight Stalls",
-      "source_url": "https://www.techrepublic.com/article/news-google-openai-anthropic-ai-safety-standards-body/",
-      "date": "2026-09-26"
-    },
-    {
-      "headline": "Google Rolls Out Lip-Synced AI Video Avatars for Gemini Enterprise",
-      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/",
-      "date": "2026-09-26"
-    },
-    {
-      "headline": "A24, Sony and The New York Times Circle Letterboxd in a $300 Million-Plus Sale",
-      "source_url": "https://deadline.com/2026/09/letterboxd-new-york-times-a24-acquisition-liontree-1237113055/",
-      "date": "2026-09-26"
-    },
-    {
-      "headline": "Bipartisan Lawmakers Formally Introduce a Federal Film and TV Tax Credit Bill",
-      "source_url": "https://variety.com/2026/film/news/lawmakers-federal-film-incentive-introduced-1236873572/",
-      "date": "2026-09-26"
-    },
-    {
-      "headline": "Grok Insists a Fake White House Dinner Photo Is Real, While Rival Chatbots Catch It",
-      "source_url": "https://leadstories.com/hoax-alert/2026/09/fact-check-fake-photo-trump-state-dinner-xi-elon-musk-jeff-bezos-head-table-ai-generated.html",
-      "date": "2026-09-26"
-    },
-    {
-      "headline": "Trump Rejects Iran's Ceasefire Offer, Plans to Resume Strikes After the Midterms",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-09-26/trump-rejects-iran-s-seven-day-ceasefire-proposal-wsj-reports",
-      "date": "2026-09-26"
-    },
-    {
-      "headline": "Gucci's Demna Debut Draws a Measurable Boost in Store Traffic",
-      "source_url": "https://www.businessoffashion.com/articles/luxury/guccis-demna-debut-boosting-store-traffic/",
-      "date": "2026-09-26"
-    },
-    {
-      "headline": "Nagel's 'What Is It Like to Be a Bat?'",
-      "source_url": "https://plato.stanford.edu/entries/qualia-knowledge/",
-      "date": "2026-09-26"
-    },
-    {
       "headline": "Black Forest Labs Extends Its Creative AI Models Into Robot Control With FLUX 3 Action",
       "source_url": "https://venturebeat.com/infrastructure/black-forest-labs-debuts-flux-3-action-an-open-weights-ai-robotics-model-that-tops-the-leaderboard-at-half-the-size-of-its-competition",
       "date": "2026-09-27"
@@ -1224,6 +1184,46 @@
       "headline": "Rousseau's General Will",
       "source_url": "https://plato.stanford.edu/entries/rousseau/",
       "date": "2026-10-26"
+    },
+    {
+      "headline": "Anthropic Files to Go Public, Disclosing a $417 Billion Compute Bill",
+      "source_url": "https://www.anthropic.com/news/s1-sec",
+      "date": "2026-10-27"
+    },
+    {
+      "headline": "Apollo's Chief Economist Says AI Has Delivered 'Zero Financial Payoff' Outside Tech",
+      "source_url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "date": "2026-10-27"
+    },
+    {
+      "headline": "'Clayface' Opens Below Target as Paramount-Warner Bros. Tests Its Newly Merged Slate",
+      "source_url": "https://deadline.com/2026/10/box-office-clayface-you-can-see-everything-1237171500/",
+      "date": "2026-10-27"
+    },
+    {
+      "headline": "China's First Fully AI-Generated Feature Film Opens to Nearly Empty Theaters",
+      "source_url": "https://www.thestandard.com.hk/china/article/346334/Chinas-first-AI-film-hits-cinemas-but-ticket-sales-lag",
+      "date": "2026-10-27"
+    },
+    {
+      "headline": "Cost-of-Living Protests Spread From France Into Italy, Spain, Portugal and Albania",
+      "source_url": "https://www.euronews.com/2026/10/24/protests-sweep-across-europe-from-france-to-albania-italy-spain-and-portugal",
+      "date": "2026-10-27"
+    },
+    {
+      "headline": "One in Five American Adults Now Regularly Get Their News From TikTok",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/10/19/1-in-5-americans-regularly-get-news-on-tiktok/",
+      "date": "2026-10-27"
+    },
+    {
+      "headline": "LVMH's Zenith Could Cut Half Its Swiss Workforce in a Push Upmarket",
+      "source_url": "https://theedgemalaysia.com/node/823072",
+      "date": "2026-10-27"
+    },
+    {
+      "headline": "Locke's Tabula Rasa",
+      "source_url": "https://plato.stanford.edu/entries/locke/",
+      "date": "2026-10-27"
     }
   ]
 }
