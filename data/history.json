@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Black Forest Labs Extends Its Creative AI Models Into Robot Control With FLUX 3 Action",
-      "source_url": "https://venturebeat.com/infrastructure/black-forest-labs-debuts-flux-3-action-an-open-weights-ai-robotics-model-that-tops-the-leaderboard-at-half-the-size-of-its-competition",
-      "date": "2026-09-27"
-    },
-    {
-      "headline": "Mike Leigh Wins San Sebastian's Top Prize in What May Be His Final Film",
-      "source_url": "https://deadline.com/2026/09/san-sebastian-mike-leigh-tender-loving-care-golden-shell-1237114543/",
-      "date": "2026-09-27"
-    },
-    {
-      "headline": "'Avengers: Endgame' Re-Release Tops a Blockbuster Weekend, Debuts Disney's New Premium Format",
-      "source_url": "https://variety.com/2026/film/box-office/box-office-avengers-endgame-encore-primetime-resident-evil-1236876380/",
-      "date": "2026-09-27"
-    },
-    {
-      "headline": "Meta and YouTube Reverse Course, Will Run Ads for Musk Documentary; X Still Refuses",
-      "source_url": "https://techcrunch.com/2026/09/26/meta-says-it-will-run-ads-for-musk-documentary-after-all/",
-      "date": "2026-09-27"
-    },
-    {
-      "headline": "Hurricane Nolo Triggers Catastrophic Flooding and Federal Disaster Declaration in Hawaii",
-      "source_url": "https://www.staradvertiser.com/2026/09/26/hawaii-news/federal-assistance-approved-as-hurricane-nolo-nears-hawaii/",
-      "date": "2026-09-27"
-    },
-    {
-      "headline": "La Perla Relaunches Under Billionaire Backing, Rehiring 220 Former Employees",
-      "source_url": "https://wwd.com/fashion-news/intimates/la-perla-ceo-alessio-vannetti-reboot-plans-atelier-1239246865/",
-      "date": "2026-09-27"
-    },
-    {
-      "headline": "New York Film Festival Opens With James Gray's Star-Studded 'Paper Tiger'",
-      "source_url": "https://deadline.com/2026/09/new-york-film-festival-2026-preview-1237114114/",
-      "date": "2026-09-27"
-    },
-    {
-      "headline": "Merleau-Ponty's Lived Body",
-      "source_url": "https://plato.stanford.edu/entries/merleau-ponty/",
-      "date": "2026-09-27"
-    },
-    {
       "headline": "OpenAI Pauses Its Most Capable Models After a Second AI Agent Escapes Its Sandbox",
       "source_url": "https://fortune.com/2026/09/26/openai-ai-agents-secure-sandbox-escape-training-pause-second-time-hugging-face-hack/",
       "date": "2026-09-28"
@@ -1224,6 +1184,51 @@
       "headline": "Locke's Tabula Rasa",
       "source_url": "https://plato.stanford.edu/entries/locke/",
       "date": "2026-10-27"
+    },
+    {
+      "headline": "Google DeepMind Unveils Genie 4, a World Model That Generates Its Own Soundtrack",
+      "source_url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+      "date": "2026-10-28"
+    },
+    {
+      "headline": "Oracle Opens Its Cloud to Google's TPUs, OpenAI's In-House Chip and Cerebras",
+      "source_url": "https://www.cnbc.com/2026/10/27/oracle-openai-chatgpt-codex-google-tpus.html",
+      "date": "2026-10-28"
+    },
+    {
+      "headline": "Tokyo International Film Festival Opens 39th Edition, Set to Honor Exiled Iranian Director Mohammad Rasoulof",
+      "source_url": "https://thedailyguardian.com/glamorama/hollywood/directors-mohammad-rasoulof-o-mipo-to-receive-kurosawa-akira-award-at-tokyo-intl-film-festival-202620260929102608-761277/",
+      "date": "2026-10-28"
+    },
+    {
+      "headline": "A24's Elden Ring Adaptation Becomes the Studio's Most Expensive Film Ever",
+      "source_url": "https://www.videogameschronicle.com/news/elden-ring-movie-cast-revealed-as-its-claimed-a24-film-has-a-budget-well-over-100m/",
+      "date": "2026-10-28"
+    },
+    {
+      "headline": "Lula Wins Brazil's Presidential Runoff, Defeating a Trump-Aligned Challenger",
+      "source_url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election",
+      "date": "2026-10-28"
+    },
+    {
+      "headline": "Meta and Snap Head to a New Trial Over Alleged Teen Social Media Harm",
+      "source_url": "https://www.thestar.com.my/tech/tech-news/2026/10/28/meta-snap-head-to-trial-in-another-case-about-social-media039s-harms",
+      "date": "2026-10-28"
+    },
+    {
+      "headline": "Europe's Luxury Giants Lose Roughly $350 Billion in Value as China Demand Stays Weak",
+      "source_url": "https://www.ksl.com/article/51635775/european-luxurys-350-billion-blowout",
+      "date": "2026-10-28"
+    },
+    {
+      "headline": "Large Study Finds a Child's Own Genes, Not Parents', Mainly Drive ADHD Traits",
+      "source_url": "https://www.psypost.org/child-s-own-genetics-drive-adhd-traits-more-than-family-environment-large-study/",
+      "date": "2026-10-28"
+    },
+    {
+      "headline": "Levinas's Face of the Other",
+      "source_url": "https://plato.stanford.edu/entries/levinas/",
+      "date": "2026-10-28"
     }
   ]
 }
