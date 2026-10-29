@@ -1,51 +1,6 @@
 {
   "seen": [
     {
-      "headline": "OpenAI Pauses Its Most Capable Models After a Second AI Agent Escapes Its Sandbox",
-      "source_url": "https://fortune.com/2026/09/26/openai-ai-agents-secure-sandbox-escape-training-pause-second-time-hugging-face-hack/",
-      "date": "2026-09-28"
-    },
-    {
-      "headline": "Akamai Signs a Record $11.6 Billion Multi-Year Deal With Anthropic",
-      "source_url": "https://www.akamai.com/newsroom/press-release/akamai-announces-11-6-billion-multi-year-agreement-with-anthropic-to-support-growing-demand",
-      "date": "2026-09-28"
-    },
-    {
-      "headline": "Lucasfilm Taps Jon Watts to Direct a New Star Wars Trilogy",
-      "source_url": "https://www.hollywoodreporter.com/news/general-news/star-wars-jon-watts-direct-next-movie-lucasfilm-1236712709/",
-      "date": "2026-09-28"
-    },
-    {
-      "headline": "Japanese Voice Actor Sues TikTok Over AI Voice Cloning in Landmark Case",
-      "source_url": "https://www.japantimes.co.jp/news/2026/09/27/japan/crime-legal/japan-voice-actor-court-fight-tiktok-ai-voice-cloning/",
-      "date": "2026-09-28"
-    },
-    {
-      "headline": "Survey Finds Most Americans Crave More In-Person Time and Have Considered Quitting Social Media",
-      "source_url": "https://www.financialcontent.com/article/newsfile-2026-9-24-new-research-reveals-americans-want-to-log-off-and-reconnect-but-america-is-running-out-of-places-to-do-so",
-      "date": "2026-09-28"
-    },
-    {
-      "headline": "Separate Mass Shootings in South African Townships Leave at Least 27 Dead",
-      "source_url": "https://www.npr.org/2026/09/27/nx-s1-5982488/south-africa-mass-shootings-killed-38-week",
-      "date": "2026-09-28"
-    },
-    {
-      "headline": "Louise Trotter's Bottega Veneta Finds Its Footing With a Craft-Driven Spring 2027 Show",
-      "source_url": "https://wwd.com/runway/spring-2027/milan/bottega-veneta/review/",
-      "date": "2026-09-28"
-    },
-    {
-      "headline": "Large Review Finds No Causal Link Between Tylenol in Pregnancy and ADHD or Autism",
-      "source_url": "https://www.cidrap.umn.edu/anti-science/tylenol-during-pregnancy-not-linked-autism-adhd-major-review-finds",
-      "date": "2026-09-28"
-    },
-    {
-      "headline": "Derrida's Différance",
-      "source_url": "https://plato.stanford.edu/entries/derrida/",
-      "date": "2026-09-28"
-    },
-    {
       "headline": "AMD to Acquire Fei-Fei Li's World Labs for $8.2 Billion",
       "source_url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
       "date": "2026-09-29"
@@ -1229,6 +1184,36 @@
       "headline": "Levinas's Face of the Other",
       "source_url": "https://plato.stanford.edu/entries/levinas/",
       "date": "2026-10-28"
+    },
+    {
+      "headline": "OpenAI Says Its AI System Disproved a 27-Year-Old Complexity Theory Conjecture",
+      "source_url": "https://www.aljazeera.com/economy/2026/10/27/ai-makes-discoveries-in-mathematics-computer-science-physics-openai-says",
+      "date": "2026-10-29"
+    },
+    {
+      "headline": "Anthropic Reports Early Results From Six Drug-Discovery Partners Using Claude",
+      "source_url": "https://www.pharmaceutical-technology.com/news/anthropic-launches-claude-science-ai-tool-drug-discovery/",
+      "date": "2026-10-29"
+    },
+    {
+      "headline": "Israel's Knesset Election Ends in a Historic Deadlock",
+      "source_url": "https://www.thestandard.com.hk/world/article/346700/Israeli-exit-polls-show-election-deadlock-no-clear-path-to-power",
+      "date": "2026-10-29"
+    },
+    {
+      "headline": "Share of Americans Using AI Chatbots Nearly Daily More Than Doubled in Five Months",
+      "source_url": "https://epoch.ai/data-insights/near-daily-ai-use-doubled",
+      "date": "2026-10-29"
+    },
+    {
+      "headline": "Frasers Group Takes Majority Control of Hugo Boss",
+      "source_url": "https://fashionunited.com/news/business/frasers-takes-control-of-hugo-boss-as-stake-crosses-50/2026102575366",
+      "date": "2026-10-29"
+    },
+    {
+      "headline": "Karl Popper's Falsifiability",
+      "source_url": "https://plato.stanford.edu/entries/popper/",
+      "date": "2026-10-29"
     }
   ]
 }
