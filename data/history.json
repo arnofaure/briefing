@@ -1,51 +1,6 @@
 {
   "seen": [
     {
-      "headline": "AMD to Acquire Fei-Fei Li's World Labs for $8.2 Billion",
-      "source_url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
-      "date": "2026-09-29"
-    },
-    {
-      "headline": "Kuaishou's Kling Unveils Kling 4.0 Ahead of Hong Kong Listing",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-09-28/kuaishou-s-ai-video-spinoff-unveils-new-model-in-bytedance-chase",
-      "date": "2026-09-29"
-    },
-    {
-      "headline": "Paramount Says Warner Bros. Discovery Deal Closing Timeline Still \"Not Yet Certain\"",
-      "source_url": "https://variety.com/2026/film/news/paramount-warner-bros-deal-close-not-yet-certain-warrants-issue-date-1236876018/",
-      "date": "2026-09-29"
-    },
-    {
-      "headline": "Brad Pitt's 'Heart of the Beast' Opens to $50 Million as Acclaimed 'Forgotten Island' Stumbles",
-      "source_url": "https://variety.com/2026/film/box-office/avengers-endgame-encore-box-office-rerelease-huge-86-million-globally-1236876861/",
-      "date": "2026-09-29"
-    },
-    {
-      "headline": "Supreme Court Lets Trump Administration Revive Contested Voter-Database Program",
-      "source_url": "https://www.nbcnews.com/politics/supreme-court/supreme-court-allows-trump-administration-use-expanded-database-potent-rcna596611",
-      "date": "2026-09-29"
-    },
-    {
-      "headline": "Meta Launches Enterprise AI Platform, Poaching MongoDB's CEO to Run It",
-      "source_url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
-      "date": "2026-09-29"
-    },
-    {
-      "headline": "Shein's Profit Plunges 67% in Its First Results as a Public Company",
-      "source_url": "https://us.fashionnetwork.com/news/Shares-of-fast-fashion-platform-shein-fall-6-after-quarterly-profit-slides-67-,1871194.html",
-      "date": "2026-09-29"
-    },
-    {
-      "headline": "Study Links Menstrual Symptom Severity to Higher ADHD, Depression and Anxiety in Teen Girls",
-      "source_url": "https://www.psychiatryadvisor.com/news/menstrual-symptoms-linked-to-depression-adhd-and-anxiety-in-adolescent-girls/",
-      "date": "2026-09-29"
-    },
-    {
-      "headline": "Aristotle's Eudaimonia",
-      "source_url": "https://plato.stanford.edu/entries/aristotle-ethics/",
-      "date": "2026-09-29"
-    },
-    {
       "headline": "Anthropic Launches Claude Sonnet 5.5, Cheaper and Faster Than Its Predecessor",
       "source_url": "https://www.anthropic.com/claude-sonnet-5-5",
       "date": "2026-09-30"
@@ -1214,6 +1169,46 @@
       "headline": "Karl Popper's Falsifiability",
       "source_url": "https://plato.stanford.edu/entries/popper/",
       "date": "2026-10-29"
+    },
+    {
+      "headline": "OpenAI Launches GPT-6.1 Terra, Cutting Prices in Half for Faster AI Agents",
+      "source_url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
+      "date": "2026-10-30"
+    },
+    {
+      "headline": "Mistral Releases Open Weights for Its Trillion-Parameter Large 4 Model",
+      "source_url": "https://fortune.com/2026/10/29/mistral-releases-new-model-large-4-and-claims-top-open-model-for-agentic-coding-and-cyber-defense",
+      "date": "2026-10-30"
+    },
+    {
+      "headline": "Iran Hands Cannes-Winning Director Jafar Panahi a New Five-Year Prison Sentence",
+      "source_url": "https://au.variety.com/2026/film/global/jafar-panahi-five-year-prison-term-new-ruling-42031/",
+      "date": "2026-10-30"
+    },
+    {
+      "headline": "Instagram Starts Testing 90-Minute Videos, Taking Direct Aim at YouTube",
+      "source_url": "https://www.avclub.com/instagram-90-minute-horizontal-long-form-videos-rollout",
+      "date": "2026-10-30"
+    },
+    {
+      "headline": "At Least 64 Killed as Spanish High-Speed Train Slams Into Stopped Train Near Toledo",
+      "source_url": "https://www.wbtv.com/2026/10/28/high-speed-train-hits-stopped-train-spain-killing-least-10/",
+      "date": "2026-10-30"
+    },
+    {
+      "headline": "Flávio Bolsonaro Defies Court Order, Flees Brazil for Florida After Losing Runoff to Lula",
+      "source_url": "https://www.mysuncoast.com/2026/10/28/defeated-presidential-candidate-flvio-bolsonaro-his-family-land-miami-after-leaving-brazil/",
+      "date": "2026-10-30"
+    },
+    {
+      "headline": "Louis Vuitton Creates New Chief Brand Creative Officer Role, Hires From Tiffany",
+      "source_url": "https://fashionunited.com/news/people/louis-vuitton-names-hector-muelas-chief-brand-creative-officer/2026102675372",
+      "date": "2026-10-30"
+    },
+    {
+      "headline": "Marx's Alienation",
+      "source_url": "https://plato.stanford.edu/entries/marx/",
+      "date": "2026-10-30"
     }
   ]
 }
