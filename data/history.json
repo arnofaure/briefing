@@ -1,51 +1,6 @@
 {
   "seen": [
     {
-      "headline": "FTC Opens Sweeping Probe Into OpenAI, Anthropic and Other Frontier AI Labs",
-      "source_url": "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
-      "date": "2026-10-01"
-    },
-    {
-      "headline": "Google Launches Gemini 4 Argon, Its Next Frontier Model, With Guardrail-Free Access Only for Vetted Defenders",
-      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-      "date": "2026-10-01"
-    },
-    {
-      "headline": "Paramount-Warner Bros. Discovery Merger Clears Final Legal Hurdle, Set to Close October 6",
-      "source_url": "https://deadline.com/2026/09/paramount-warner-merger-a-go-a-approves-legal-setttlement-1237143611/",
-      "date": "2026-10-01"
-    },
-    {
-      "headline": "Appeals Court Hands Down First Federal Ruling on AI-Training Fair Use, Siding Against Ross Intelligence",
-      "source_url": "https://kfgo.com/2026/09/29/us-appeals-court-upholds-thomson-reuters-landmark-win-in-ai-training-lawsuit/",
-      "date": "2026-10-01"
-    },
-    {
-      "headline": "Tennessee Halts Executions After Christa Pike Survives a Lethal Injection Attempt",
-      "source_url": "https://www.npr.org/2026/10/01/nx-s1-5986822/tennessee-governor-halts-executions",
-      "date": "2026-10-01"
-    },
-    {
-      "headline": "Study Finds Online Support Does Far Less to Ease Loneliness Than Real-Life Relationships",
-      "source_url": "https://news.oregonstate.edu/news/best-social-media-connections-unlikely-make-you-less-lonely-research-suggests",
-      "date": "2026-10-01"
-    },
-    {
-      "headline": "Kering CEO Rules Out Shifting Production Out of Italy, Bets on Training a New Generation of Artisans",
-      "source_url": "https://www.businessoffashion.com/news/luxury/luca-de-meo-says-italy-remains-key-rules-out-production-shift/",
-      "date": "2026-10-01"
-    },
-    {
-      "headline": "Kant's Categorical Imperative",
-      "source_url": "https://plato.stanford.edu/entries/kant-moral/",
-      "date": "2026-10-01"
-    },
-    {
-      "headline": "ADHD Medication Prescriptions for Irish Adults Surged 314% Over the Past Decade",
-      "source_url": "https://www.thejournal.ie/adhd-prescriptions-ireland-7176871-Sep2026/",
-      "date": "2026-10-01"
-    },
-    {
       "headline": "OpenAI Adds Virtual Clothing Try-On and a Favorites Library to ChatGPT Shopping",
       "source_url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
       "date": "2026-10-02"
@@ -281,7 +236,7 @@
       "date": "2026-10-08"
     },
     {
-      "headline": "Cond\u00e9 Nast CEO Roger Lynch Departs to Run Mattel",
+      "headline": "Condé Nast CEO Roger Lynch Departs to Run Mattel",
       "source_url": "https://www.thewrap.com/industry-news/business/roger-lynch-mattel-ceo-ynon-kreiz-exits/",
       "date": "2026-10-08"
     },
@@ -821,7 +776,7 @@
       "date": "2026-10-22"
     },
     {
-      "headline": "Italy Nearly Triples Its Film and TV Tax Credit to \u20ac100 Million as Rome's MIA Market Opens",
+      "headline": "Italy Nearly Triples Its Film and TV Tax Credit to €100 Million as Rome's MIA Market Opens",
       "source_url": "https://www.screendaily.com/news/romes-mia-market-unveils-expanded-2026-programme-including-launch-of-european-investment-hub/5220937.article",
       "date": "2026-10-22"
     },
@@ -926,7 +881,7 @@
       "date": "2026-10-24"
     },
     {
-      "headline": "Herm\u00e8s Growth Slows to Its Weakest Pace Since 2020 as China Stalls",
+      "headline": "Hermès Growth Slows to Its Weakest Pace Since 2020 as China Stalls",
       "source_url": "https://jingdaily.com/posts/hermes-q3-sales-china",
       "date": "2026-10-24"
     },
@@ -991,7 +946,7 @@
       "date": "2026-10-26"
     },
     {
-      "headline": "Serbia's Student-Led Opposition Wins Snap Election, Vu\u010di\u0107 Concedes",
+      "headline": "Serbia's Student-Led Opposition Wins Snap Election, Vučić Concedes",
       "source_url": "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won",
       "date": "2026-10-26"
     },
@@ -1156,7 +1111,7 @@
       "date": "2026-10-30"
     },
     {
-      "headline": "Fl\u00e1vio Bolsonaro Defies Court Order, Flees Brazil for Florida After Losing Runoff to Lula",
+      "headline": "Flávio Bolsonaro Defies Court Order, Flees Brazil for Florida After Losing Runoff to Lula",
       "source_url": "https://www.mysuncoast.com/2026/10/28/defeated-presidential-candidate-flvio-bolsonaro-his-family-land-miami-after-leaving-brazil/",
       "date": "2026-10-30"
     },
@@ -1209,6 +1164,46 @@
       "headline": "Aristotle's Eudaimonia",
       "source_url": "https://plato.stanford.edu/entries/aristotle-ethics/",
       "date": "2026-10-31"
+    },
+    {
+      "headline": "Google, OpenAI, Anthropic and Microsoft Back a Unified AI-Crawling Opt-Out Standard",
+      "source_url": "https://siliconangle.com/2026/10/30/google-anthropic-and-others-to-support-new-ai-crawling-opt-out-standard/",
+      "date": "2026-11-01"
+    },
+    {
+      "headline": "Anthropic Confirms 'ANT' Nasdaq Ticker, Targets IPO Debut Before Thanksgiving",
+      "source_url": "https://www.freepressjournal.in/tech/anthropic-files-s-1-with-sec-for-proposed-ipo-plans-nasdaq-listing-under-ant",
+      "date": "2026-11-01"
+    },
+    {
+      "headline": "A24's 'You Can See Everything' Edges Out 'Clayface' for the Halloween Weekend Box Office Win",
+      "source_url": "https://www.goldderby.com/film/2026/you-can-see-everything-clayface-halloween-box-office-weekend/",
+      "date": "2026-11-01"
+    },
+    {
+      "headline": "Cinemark and AMC Loosen Their Stance on Netflix's Short Theatrical Windows",
+      "source_url": "https://pastemagazine.com/movies/movie-theaters/cinemark-netflix-movies-screening-red-notice-amc-regal-theaters",
+      "date": "2026-11-01"
+    },
+    {
+      "headline": "Israel's Election Ends in Deadlock, Leaving No Clear Path to a Government",
+      "source_url": "https://www.axios.com/2026/10/28/israel-elections-results-netanyahu-eisenkot-what-happens",
+      "date": "2026-11-01"
+    },
+    {
+      "headline": "New Research Finds Most Teens Now Regularly Use AI Chatbots",
+      "source_url": "https://www.opb.org/article/2026/10/30/new-research-looks-at-teen-mental-health-and-ai-chatbot-use/",
+      "date": "2026-11-01"
+    },
+    {
+      "headline": "Gucci Unveils Demna's New Store Concept at a Reopened Avenue Montaigne Flagship",
+      "source_url": "https://wwd.com/wwd-publications/digital-daily/2026-10-30-1239392607/",
+      "date": "2026-11-01"
+    },
+    {
+      "headline": "Schopenhauer's Will to Live",
+      "source_url": "https://plato.stanford.edu/entries/schopenhauer/",
+      "date": "2026-11-01"
     }
   ]
 }
