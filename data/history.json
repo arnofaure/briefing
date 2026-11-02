@@ -1,51 +1,6 @@
 {
   "seen": [
     {
-      "headline": "OpenAI Adds Virtual Clothing Try-On and a Favorites Library to ChatGPT Shopping",
-      "source_url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
-      "date": "2026-10-02"
-    },
-    {
-      "headline": "Suno Launches Speech, Fusing a Cloned Voice and Original Music Into One Track",
-      "source_url": "https://www.bloomberg.com/news/articles/2026-10-01/ai-startup-suno-s-new-tool-puts-music-to-spoken-word",
-      "date": "2026-10-02"
-    },
-    {
-      "headline": "Tokyo Court Rules AI-Cloned Voices Can Violate a Performer's Rights",
-      "source_url": "https://www.washingtontimes.com/news/2026/oct/1/japanese-court-grants-legal-protection-human-voices-ai-clone-case",
-      "date": "2026-10-02"
-    },
-    {
-      "headline": "Disney Confirms a Third Round of Layoffs This Year",
-      "source_url": "https://deadline.com/2026/10/dana-walden-addresses-disney-layoffs-1237144558",
-      "date": "2026-10-02"
-    },
-    {
-      "headline": "Ipsos's Global Trends Report Finds Positivity Falling and Faith in Progress Eroding",
-      "source_url": "https://www.ipsos.com/en-ca/ipsos-global-trends-10th-edition-release",
-      "date": "2026-10-02"
-    },
-    {
-      "headline": "Violent Student Protests Spread Across France as Government Unveils Austerity Budget",
-      "source_url": "https://foreignpolicy.com/2026/10/01/france-budget-proposal-2027-violent-student-protests-lecornu-macron/",
-      "date": "2026-10-02"
-    },
-    {
-      "headline": "Glenn Martens Exits Diesel After Six Years, Staying on at Maison Margiela",
-      "source_url": "https://www.theindustry.fashion/glenn-martens-leaves-diesel-final-show/",
-      "date": "2026-10-02"
-    },
-    {
-      "headline": "Low Placental Growth Factor in Pregnancy Linked to Higher ADHD Risk in Children",
-      "source_url": "https://www.miragenews.com/placental-problems-linked-to-adhd-1752994/",
-      "date": "2026-10-02"
-    },
-    {
-      "headline": "Nietzsche's Eternal Recurrence",
-      "source_url": "https://plato.stanford.edu/entries/nietzsche/",
-      "date": "2026-10-02"
-    },
-    {
       "headline": "OpenAI Safety Employee Resigns, Says Company's Culture Is 'Broken'",
       "source_url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
       "date": "2026-10-04"
@@ -1204,6 +1159,51 @@
       "headline": "Schopenhauer's Will to Live",
       "source_url": "https://plato.stanford.edu/entries/schopenhauer/",
       "date": "2026-11-01"
+    },
+    {
+      "headline": "Google Launches Gemini 4 Carbon, a Model Built for Cyber Defense and Long-Horizon Tasks",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "date": "2026-11-02"
+    },
+    {
+      "headline": "Bank of America Tells Customers Not to Share Banking Passwords With AI Agents",
+      "source_url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
+      "date": "2026-11-02"
+    },
+    {
+      "headline": "Sir Patrick Stewart, Star of Star Trek and X-Men, Dies at 86",
+      "source_url": "https://abc7news.com/story/hollywood-mourns-patrick-stewart-death-86/19996592/",
+      "date": "2026-11-02"
+    },
+    {
+      "headline": "Reese Witherspoon's Hello Sunshine Cuts Roughly Half Its Staff After Buyback",
+      "source_url": "https://www.thewrap.com/industry-news/business/reese-witherspoon-hello-sunshine-layoffs-50-percent-of-staff",
+      "date": "2026-11-02"
+    },
+    {
+      "headline": "Meta Indefinitely Delays Its New AI and Commercial Terms After Publisher Pushback",
+      "source_url": "https://www.niemanlab.org/2026/10/meta-delays-rollout-of-terms-that-would-allow-broad-scraping-of-news-sites-legal-experts-are-still-skeptical/",
+      "date": "2026-11-02"
+    },
+    {
+      "headline": "Pew: Americans Are Open to AI in Healthcare but Want a Human Making the Final Call",
+      "source_url": "https://www.pewresearch.org/science/2026/10/29/americans-are-open-to-ai-in-healthcare-but-want-humans-making-final-calls/",
+      "date": "2026-11-02"
+    },
+    {
+      "headline": "Versace to Return to Paris Haute Couture in January, Marking Pieter Mulier's Debut",
+      "source_url": "https://www.journalduluxe.fr/fr/mode/versace-haute-couture-retour-defile-paris-janvier-2027",
+      "date": "2026-11-02"
+    },
+    {
+      "headline": "Nearly One in Five Women Treated for Anxiety or Depression Also Have ADHD, Study Finds",
+      "source_url": "https://www.psypost.org/hidden-adhd-common-in-women-seeking-treatment-for-depression-and-anxiety/",
+      "date": "2026-11-02"
+    },
+    {
+      "headline": "Kant's Categorical Imperative",
+      "source_url": "https://plato.stanford.edu/entries/kant-moral/",
+      "date": "2026-11-02"
     }
   ]
 }
