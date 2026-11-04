@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "headline": "OpenAI Safety Employee Resigns, Says Company's Culture Is 'Broken'",
-      "source_url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
-      "date": "2026-10-04"
-    },
-    {
-      "headline": "Trump Rebrands AI as 'Super Intelligence,' Tech CEOs Sign Voluntary Safety Pledge",
-      "source_url": "https://www.axios.com/2026/09/30/ai-constitution-trump-white-house",
-      "date": "2026-10-04"
-    },
-    {
-      "headline": "Paramount-Warner Bros. Discovery Merger Will Create Skydance Corp",
-      "source_url": "https://deadline.com/2026/10/paramount-warner-bros-skydance-david-ellison-1237143716/",
-      "date": "2026-10-04"
-    },
-    {
-      "headline": "Apple Studios Visual Effects Workers Ratify Their First IATSE Contract",
-      "source_url": "https://variety.com/2026/artisans/news/apple-studios-visual-effects-workers-secure-iatse-contract-1236893814/",
-      "date": "2026-10-04"
-    },
-    {
-      "headline": "Tom Cruise's 'Digger' Bombs at the Box Office Despite Hefty Budget",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/tom-cruise-digger-box-office-opening-verity-2-1236721548/",
-      "date": "2026-10-04"
-    },
-    {
-      "headline": "French Unions Escalate Strikes as Lecornu Faces Oct. 7 Budget Deadline",
-      "source_url": "https://www.arabnews.com/node/2616569/world",
-      "date": "2026-10-04"
-    },
-    {
-      "headline": "CFDA Names Hildy Kuryk Interim CEO After Steven Kolb's Exit",
-      "source_url": "https://fashionunited.uk/news/people/cfda-appoints-hildy-kuryk-as-interim-ceo-following-steven-kolbs-resignation/2026092990598",
-      "date": "2026-10-04"
-    },
-    {
-      "headline": "Arendt's Banality of Evil",
-      "source_url": "https://plato.stanford.edu/entries/arendt/",
-      "date": "2026-10-04"
-    },
-    {
       "headline": "OpenAI Scraps GPT-6.1 Astra Release Over Safety and Deception Concerns",
       "source_url": "https://www.irishtimes.com/technology/big-tech/2026/09/29/openai-scraps-release-of-new-ai-model-over-safety-concerns/",
       "date": "2026-10-05"
@@ -1234,6 +1194,46 @@
       "headline": "Nietzsche's Eternal Recurrence",
       "source_url": "https://plato.stanford.edu/entries/nietzsche/",
       "date": "2026-11-03"
+    },
+    {
+      "headline": "Anthropic's Revised IPO Filing Flags How Close AI Is to Improving Itself",
+      "source_url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+      "date": "2026-11-04"
+    },
+    {
+      "headline": "CrowdStrike to Spend Nearly $500 Million Buying Two AI Agent Security Startups",
+      "source_url": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/",
+      "date": "2026-11-04"
+    },
+    {
+      "headline": "Skydance's New Streaming Chief Triggers a Wave of Senior Departures",
+      "source_url": "https://variety.com/2026/tv/news/skydance-jb-perrette-leadership-team-departures-1236934597/",
+      "date": "2026-11-04"
+    },
+    {
+      "headline": "Democrats Sweep Control of Congress in 2026 Midterms",
+      "source_url": "https://www.npr.org/2026/11/03/nx-s1-5992757/election-day-live-updates-key-races",
+      "date": "2026-11-04"
+    },
+    {
+      "headline": "Reddit Stock Plunges Roughly 30% as Google's AI Search Erodes Its Traffic",
+      "source_url": "https://decrypt.co/382276/reddit-stock-plunges-30-googles-ai-search",
+      "date": "2026-11-04"
+    },
+    {
+      "headline": "Pew Finds Trust in News Outlets Rising While Trust in Social Media Stalls",
+      "source_url": "https://www.pewresearch.org/newsletter/internet-science-and-tech/internet-science-and-tech-newsletter-november-2-2026/",
+      "date": "2026-11-04"
+    },
+    {
+      "headline": "Hermès Overtakes Louis Vuitton as the World's Most Valuable Luxury Brand",
+      "source_url": "https://www.journalduluxe.fr/fr/business/classement-interbrand-2026-hermes-chanel-progressent-contre-courant-luxe-sous-tension/",
+      "date": "2026-11-04"
+    },
+    {
+      "headline": "Husserl's Epoché",
+      "source_url": "https://plato.stanford.edu/entries/husserl/",
+      "date": "2026-11-04"
     }
   ]
 }
