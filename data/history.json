@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "headline": "OpenAI Scraps GPT-6.1 Astra Release Over Safety and Deception Concerns",
-      "source_url": "https://www.irishtimes.com/technology/big-tech/2026/09/29/openai-scraps-release-of-new-ai-model-over-safety-concerns/",
-      "date": "2026-10-05"
-    },
-    {
-      "headline": "Nvidia Launches Open Agent Safety Platform After a Summer of Rogue AI Agents",
-      "source_url": "https://abcnews.com/amp/Technology/wireStory/nvidia-unveils-security-platform-stop-ai-agents-rogue-136817232",
-      "date": "2026-10-05"
-    },
-    {
-      "headline": "Anne Hathaway's 'Verity' Crushes Tom Cruise's 'Digger' at the Box Office",
-      "source_url": "https://variety.com/2026/film/box-office/verity-box-office-opening-weekend-projection-1236893670/",
-      "date": "2026-10-05"
-    },
-    {
-      "headline": "Paramount Skydance's $111 Billion Takeover of Warner Bros. Discovery Set to Close Tuesday",
-      "source_url": "https://s201.q4cdn.com/336605034/files/doc_news/Paramount-Skydance-and-Warner-Bros--Discovery-Announce-Anticipated-Closing-Date-of-Paramount-Merger-2026.pdf",
-      "date": "2026-10-05"
-    },
-    {
-      "headline": "US Withdraws All Bombers From UK Base After Terror Plot Investigation",
-      "source_url": "https://www.airforcetimes.com/news/your-air-force/2026/10/05/us-removes-b-1-bombers-from-uk-base-amid-security-concerns/",
-      "date": "2026-10-05"
-    },
-    {
-      "headline": "Meta's AI Agent Muse Had a Flaw That Could Expose Users' Emails and Files",
-      "source_url": "https://www.thestar.com.my/tech/tech-news/2026/09/26/meta-bolsters-muse-safety-warning-after-security-vulnerability-found-the-information-reports",
-      "date": "2026-10-05"
-    },
-    {
-      "headline": "Patek Philippe's Stern Family Rules Out a Sale, Grooms the Next Generation",
-      "source_url": "https://www.businessoffashion.com/news/news-analysis/patek-philippe-chairman-says-company-is-not-for-sale/",
-      "date": "2026-10-05"
-    },
-    {
-      "headline": "Camus's The Absurd",
-      "source_url": "https://plato.stanford.edu/entries/camus/",
-      "date": "2026-10-05"
-    },
-    {
       "headline": "Reflection AI Launches Beam, a 501-Billion-Parameter Open-Weight Model",
       "source_url": "https://thenextweb.com/news/reflection-ai-beam-open-weight-model",
       "date": "2026-10-06"
@@ -1234,6 +1194,41 @@
       "headline": "Husserl's Epoché",
       "source_url": "https://plato.stanford.edu/entries/husserl/",
       "date": "2026-11-04"
+    },
+    {
+      "headline": "Meta Seeks Up to $25 Billion in Bonds as AI Spending Pressures Its Cash Flow",
+      "source_url": "https://www.thestar.com.my/tech/tech-news/2026/11/03/meta-eyes-at-least-20-billion-from-potential-bond-offerings-bloomberg-news-reports",
+      "date": "2026-11-05"
+    },
+    {
+      "headline": "Pixar Names Jonathan Garson President, Moves Jim Morris to Emeritus Role",
+      "source_url": "https://deadline.com/2026/11/pixar-new-president-1237213798/",
+      "date": "2026-11-05"
+    },
+    {
+      "headline": "Newsom Proposes Raising California's Film and TV Tax Credit Cap to $1 Billion",
+      "source_url": "https://finance.yahoo.com/media-advertising/articles/newsom-proposes-1-billion-171622794.html",
+      "date": "2026-11-05"
+    },
+    {
+      "headline": "Lionsgate Forms Joint Venture With Steven Paul's SP Media",
+      "source_url": "https://www.thewrap.com/industry-news/business/lionsgate-steven-paul-sp-media-joint-venture/",
+      "date": "2026-11-05"
+    },
+    {
+      "headline": "Meta, TikTok and X Lose UK Court Challenge Over Ofcom's Safety Data Demands",
+      "source_url": "https://www.courthousenews.com/meta-x-and-tiktok-lose-challenge-to-uk-online-safety-regulator/",
+      "date": "2026-11-05"
+    },
+    {
+      "headline": "Prada Reclaims No. 1 Spot in Lyst's Q3 2026 Hottest Brands Index",
+      "source_url": "https://www.journalduluxe.fr/fr/mode/prada-detrone-chanel-en-tete-classement-lyst/amp",
+      "date": "2026-11-05"
+    },
+    {
+      "headline": "Simone de Beauvoir's The Other",
+      "source_url": "https://plato.stanford.edu/entries/beauvoir/",
+      "date": "2026-11-05"
     }
   ]
 }
