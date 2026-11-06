@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Reflection AI Launches Beam, a 501-Billion-Parameter Open-Weight Model",
-      "source_url": "https://thenextweb.com/news/reflection-ai-beam-open-weight-model",
-      "date": "2026-10-06"
-    },
-    {
-      "headline": "Lightricks Ships 'VFX Week' Updates to Its Open LTX-2.5 Video Model",
-      "source_url": "https://www.cgchannel.com/2026/10/new-3d-software-you-may-have-missed-4-october-2026/",
-      "date": "2026-10-06"
-    },
-    {
-      "headline": "Paramount Skydance and Warner Bros. Discovery Merger Officially Closes",
-      "source_url": "https://www.npr.org/2026/10/06/nx-s1-5988283/paramount-warner-bros-skydance-merger-david-ellison",
-      "date": "2026-10-06"
-    },
-    {
-      "headline": "Disney Breaks With Its Exclusivity Strategy, Licenses Titles to Netflix",
-      "source_url": "https://www.thewrap.com/media-platforms/streaming/disney-netflix-licensing-deal-percy-jackson-ice-age/",
-      "date": "2026-10-06"
-    },
-    {
-      "headline": "YouTube Overhauls Shorts Algorithm to Penalize Recycled Clips",
-      "source_url": "https://www.socialmediatoday.com/news/youtube-updates-shorts-algorithm-to-put-more-focus-on-original-content/831976/",
-      "date": "2026-10-06"
-    },
-    {
-      "headline": "Brazil's Presidential Race Heads to a Runoff as Bolsonaro Outperforms Polling",
-      "source_url": "https://www.npr.org/2026/10/04/nx-s1-5981181/brazil-presidential-lula-bolsonaro",
-      "date": "2026-10-06"
-    },
-    {
-      "headline": "Matthieu Blazy's Second Chanel Collection Confirms His Successful Turnaround",
-      "source_url": "https://businessoffashion.com/reviews/fashion-week/paris-fashion-week-chanel-spring-summer-2027",
-      "date": "2026-10-06"
-    },
-    {
-      "headline": "Rawls's Veil of Ignorance",
-      "source_url": "https://plato.stanford.edu/entries/original-position/",
-      "date": "2026-10-06"
-    },
-    {
       "headline": "Cohere Launches North 2, a Rebuilt Enterprise AI Agent Platform",
       "source_url": "https://siliconangle.com/2026/10/05/cohere-unveils-north-2-ai-agent-platform-with-rebuilt-orchestration-and-token-spending-caps/",
       "date": "2026-10-07"
@@ -1229,6 +1189,46 @@
       "headline": "Simone de Beauvoir's The Other",
       "source_url": "https://plato.stanford.edu/entries/beauvoir/",
       "date": "2026-11-05"
+    },
+    {
+      "headline": "Google Ties School Search Access to AI Tool Adoption, Drawing Backlash",
+      "source_url": "https://www.cbsnews.com/news/google-search-access-schools-ai-tools/",
+      "date": "2026-11-06"
+    },
+    {
+      "headline": "Anthropic Says Claude Accessed Paywalled Georgia Vote Data Without Authorization",
+      "source_url": "https://abcnews4.com/news/nation-world/anthropic-model-accessed-publicly-available-georgia-voter-data-no-human-authorization-artificial-intelligence",
+      "date": "2026-11-06"
+    },
+    {
+      "headline": "IMAX Posts Record Quarter as 'The Odyssey' Becomes Its Highest-Grossing Release Ever",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0000921582/000162828026070630/imax-q32026epr.htm",
+      "date": "2026-11-06"
+    },
+    {
+      "headline": "Italy's Chamber of Deputies Approves Sweeping Cinema-Sector Reform",
+      "source_url": "https://en.ilsole24ore.com/art/new-cinema-bill-aims-to-overhaul-tax-credits-and-controls-chamber-of-deputies-bill-AJYWP8T",
+      "date": "2026-11-06"
+    },
+    {
+      "headline": "Academy to Honor Ridley Scott and Glenn Close With Honorary Oscars",
+      "source_url": "https://britishcinematographer.co.uk/academy-2026-governors-awards/",
+      "date": "2026-11-06"
+    },
+    {
+      "headline": "India's Supreme Court Restricts Indefinite Occupation of Protest Sites",
+      "source_url": "https://www.outlookindia.com/national/supreme-court-ruling-on-protest-rights-and-right-to-livelihood-in-india",
+      "date": "2026-11-06"
+    },
+    {
+      "headline": "Kering Names Martine Rose Creative Director of Balenciaga",
+      "source_url": "https://drapersonline.com/news/martine-rose-appointed-as-creative-director-of-balenciaga",
+      "date": "2026-11-06"
+    },
+    {
+      "headline": "Camus's The Absurd",
+      "source_url": "https://plato.stanford.edu/entries/camus/",
+      "date": "2026-11-06"
     }
   ]
 }
