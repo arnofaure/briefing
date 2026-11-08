@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Mistral Opens Public Preview of Large 4, a Trillion-Parameter Model",
-      "source_url": "https://www.vktr.com/ai-platforms/mistral-large-4-debuts-as-1t-parameter-open-weight-model/",
-      "date": "2026-10-08"
-    },
-    {
-      "headline": "Trump Names Intelligence Chief Jay Clayton as AI Czar, Creates 'Super Intelligence Force'",
-      "source_url": "https://govciomedia.com/intel-chief-jay-clayton-heads-super-intelligence-force-as-ai-czar/",
-      "date": "2026-10-08"
-    },
-    {
-      "headline": "Report Finds China's AI Data Center Capacity Has Surged to 24 Gigawatts",
-      "source_url": "https://newsletter.semianalysis.com/p/the-chinese-ai-infrastructure-boom",
-      "date": "2026-10-08"
-    },
-    {
-      "headline": "Skydance Denies Plans to Sell Hollywood and Burbank Studio Lots",
-      "source_url": "https://www.thewrap.com/industry-news/deals-ma/paramount-studio-lot-changes-after-warner-bros-merger-report/",
-      "date": "2026-10-08"
-    },
-    {
-      "headline": "Tony Gilroy's 'Behemoth!' Premieres at New York Film Festival as Centerpiece",
-      "source_url": "https://www.thewrap.com/creative-content/movies/behemoth-review-new-york-film-festival/",
-      "date": "2026-10-08"
-    },
-    {
-      "headline": "Voters Are Turning to ChatGPT to Help Decide Their Midterm Ballots",
-      "source_url": "https://www.wunc.org/politics/2026-10-05/people-are-asking-chatgpt-to-help-them-decide-how-to-vote-in-the-midterms",
-      "date": "2026-10-08"
-    },
-    {
-      "headline": "Cond\u00e9 Nast CEO Roger Lynch Departs to Run Mattel",
-      "source_url": "https://www.thewrap.com/industry-news/business/roger-lynch-mattel-ceo-ynon-kreiz-exits/",
-      "date": "2026-10-08"
-    },
-    {
-      "headline": "Hume's Problem of Induction",
-      "source_url": "https://plato.stanford.edu/entries/induction-problem/",
-      "date": "2026-10-08"
-    },
-    {
       "headline": "Google Cuts Free Gemini Users Down to a Single, Weaker Model",
       "source_url": "https://www.techrepublic.com/article/news-google-gemini-free-flash-lite-access/",
       "date": "2026-10-09"
@@ -1224,6 +1184,46 @@
       "headline": "Rawls's Veil of Ignorance",
       "source_url": "https://plato.stanford.edu/entries/original-position/",
       "date": "2026-11-07"
+    },
+    {
+      "headline": "OpenAI Rolls Out ChatGPT Images 2.6 With Faster Generation and Native GIF Creation",
+      "source_url": "https://thenextweb.com/news/chatgpt-animated-gifs-images-2-6-openai",
+      "date": "2026-11-08"
+    },
+    {
+      "headline": "Nasdaq Plunges Into Correction as AI Stocks Sink Over Fears of Tighter Data-Center Rules",
+      "source_url": "https://www.thestar.com.my/business/2026/11/06/ai-regulation-fears-trigger-nasdaq-sell-off",
+      "date": "2026-11-08"
+    },
+    {
+      "headline": "Hollywood Studios Quietly Ban Staff From Betting on Prediction Markets",
+      "source_url": "https://decrypt.co/382626/hollywood-studios-quietly-ban-staff-from-betting-on-prediction-markets-report",
+      "date": "2026-11-08"
+    },
+    {
+      "headline": "'Godzilla Minus Zero' Breaks Japan's Opening-Day Record, Tracks Toward a Rare US Box-Office Win",
+      "source_url": "https://www.thewrap.com/creative-content/movies/godzilla-minus-zero-cat-in-the-hat-box-office-tracking/",
+      "date": "2026-11-08"
+    },
+    {
+      "headline": "Meta, Google and TikTok Sue California to Block New Teen Social-Media Law",
+      "source_url": "https://news.bloomberglaw.com/litigation/meta-tiktok-sue-california-over-social-media-restriction-law",
+      "date": "2026-11-08"
+    },
+    {
+      "headline": "Israel's Eisenkot Leads Coalition Race as Herzog Opens Formal Talks on Who Gets the Mandate",
+      "source_url": "https://www.ynetnews.com/article/sjzk4rutmg",
+      "date": "2026-11-08"
+    },
+    {
+      "headline": "Paris Label Coperni Ceases Operations After Collapse of Distributor Deal",
+      "source_url": "https://www.journalduluxe.fr/fr/mode/coperni-ferme-son-activite/",
+      "date": "2026-11-08"
+    },
+    {
+      "headline": "Hannah Arendt's Banality of Evil",
+      "source_url": "https://plato.stanford.edu/entries/arendt/",
+      "date": "2026-11-08"
     }
   ]
 }
