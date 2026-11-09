@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Google Cuts Free Gemini Users Down to a Single, Weaker Model",
-      "source_url": "https://www.techrepublic.com/article/news-google-gemini-free-flash-lite-access/",
-      "date": "2026-10-09"
-    },
-    {
-      "headline": "ElevenLabs Doubles Valuation to $22 Billion on Enterprise AI Agent Growth",
-      "source_url": "https://fintech.global/2026/10/07/elevenlabs-hits-22bn-as-financial-firms-adopt-ai-agents/",
-      "date": "2026-10-09"
-    },
-    {
-      "headline": "Busan Film Festival Gains Top-Tier Status and a New Path to the Oscars",
-      "source_url": "https://www.scmp.com/lifestyle/entertainment/article/3369752/what-does-busan-international-film-festivals-new-pathway-oscars-mean-asia",
-      "date": "2026-10-09"
-    },
-    {
-      "headline": "Skydance Warns of 'Difficult Decisions' as It Chases $6 Billion in Post-Merger Savings",
-      "source_url": "https://www.semafor.com/article/10/07/2026/new-ceo-kreiz-will-be-ellisons-enforcer-at-skydance",
-      "date": "2026-10-09"
-    },
-    {
-      "headline": "Ofcom Opens Its First-Ever Online Safety Act Investigation Into Meta",
-      "source_url": "https://techrepublic.com/article/news-ofcom-meta-instagram-instants-online-safety-act-probe-uk-emea",
-      "date": "2026-10-09"
-    },
-    {
-      "headline": "Mass Protests Demanding India's Election Chief Resign Enter a Second Week",
-      "source_url": "https://www.aljazeera.com/news/2026/10/4/mass-protests-demanding-poll-chief-resignation-shake-india-for-third-day",
-      "date": "2026-10-09"
-    },
-    {
-      "headline": "US Luxury Spending Falls for a Third Straight Month, Citi Finds",
-      "source_url": "https://www.emarketer.com/content/us-luxury-spending-decline-affluent-consumers",
-      "date": "2026-10-09"
-    },
-    {
-      "headline": "Sartre's Bad Faith",
-      "source_url": "https://plato.stanford.edu/entries/sartre/",
-      "date": "2026-10-09"
-    },
-    {
       "headline": "Anthropic Releases Claude Haiku 5.5, Its Cheapest and Fastest Model Yet",
       "source_url": "https://www.anthropic.com/claude-haiku-5-5",
       "date": "2026-10-10"
@@ -531,7 +491,7 @@
       "date": "2026-10-22"
     },
     {
-      "headline": "Italy Nearly Triples Its Film and TV Tax Credit to \u20ac100 Million as Rome's MIA Market Opens",
+      "headline": "Italy Nearly Triples Its Film and TV Tax Credit to €100 Million as Rome's MIA Market Opens",
       "source_url": "https://www.screendaily.com/news/romes-mia-market-unveils-expanded-2026-programme-including-launch-of-european-investment-hub/5220937.article",
       "date": "2026-10-22"
     },
@@ -636,7 +596,7 @@
       "date": "2026-10-24"
     },
     {
-      "headline": "Herm\u00e8s Growth Slows to Its Weakest Pace Since 2020 as China Stalls",
+      "headline": "Hermès Growth Slows to Its Weakest Pace Since 2020 as China Stalls",
       "source_url": "https://jingdaily.com/posts/hermes-q3-sales-china",
       "date": "2026-10-24"
     },
@@ -701,7 +661,7 @@
       "date": "2026-10-26"
     },
     {
-      "headline": "Serbia's Student-Led Opposition Wins Snap Election, Vu\u010di\u0107 Concedes",
+      "headline": "Serbia's Student-Led Opposition Wins Snap Election, Vučić Concedes",
       "source_url": "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won",
       "date": "2026-10-26"
     },
@@ -866,7 +826,7 @@
       "date": "2026-10-30"
     },
     {
-      "headline": "Fl\u00e1vio Bolsonaro Defies Court Order, Flees Brazil for Florida After Losing Runoff to Lula",
+      "headline": "Flávio Bolsonaro Defies Court Order, Flees Brazil for Florida After Losing Runoff to Lula",
       "source_url": "https://www.mysuncoast.com/2026/10/28/defeated-presidential-candidate-flvio-bolsonaro-his-family-land-miami-after-leaving-brazil/",
       "date": "2026-10-30"
     },
@@ -1026,7 +986,7 @@
       "date": "2026-11-03"
     },
     {
-      "headline": "Investment Firm Style Capital Acquires Alessandro Dell'Acqua's N\u00b021",
+      "headline": "Investment Firm Style Capital Acquires Alessandro Dell'Acqua's N°21",
       "source_url": "https://businessoffashion.com/news/luxury/style-capital-n21",
       "date": "2026-11-03"
     },
@@ -1066,12 +1026,12 @@
       "date": "2026-11-04"
     },
     {
-      "headline": "Herm\u00e8s Overtakes Louis Vuitton as the World's Most Valuable Luxury Brand",
+      "headline": "Hermès Overtakes Louis Vuitton as the World's Most Valuable Luxury Brand",
       "source_url": "https://www.journalduluxe.fr/fr/business/classement-interbrand-2026-hermes-chanel-progressent-contre-courant-luxe-sous-tension/",
       "date": "2026-11-04"
     },
     {
-      "headline": "Husserl's Epoch\u00e9",
+      "headline": "Husserl's Epoché",
       "source_url": "https://plato.stanford.edu/entries/husserl/",
       "date": "2026-11-04"
     },
@@ -1224,6 +1184,46 @@
       "headline": "Hannah Arendt's Banality of Evil",
       "source_url": "https://plato.stanford.edu/entries/arendt/",
       "date": "2026-11-08"
+    },
+    {
+      "headline": "OpenAI Launches GPT-6 Cyber, a Frontier Model for Vulnerability Research",
+      "source_url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+      "date": "2026-11-09"
+    },
+    {
+      "headline": "Moonshot AI Releases Open Weights for Kimi K3.1 Pro",
+      "source_url": "https://technode.com/2026/11/05/moonshot-ai-releases-kimi-k3-1-pro-model-weights/",
+      "date": "2026-11-09"
+    },
+    {
+      "headline": "Baidu Open-Sources ERNIE 5.5 Flash Base, a 280-Billion-Parameter Model",
+      "source_url": "https://tech-insider.org/baidu-ernie-5-5-flash-base-280b-moe-33-5t-tokens-2026/",
+      "date": "2026-11-09"
+    },
+    {
+      "headline": "Fox Completes $22 Billion Acquisition of Roku",
+      "source_url": "https://www.thewrap.com/industry-news/deals-ma/fox-completes-22-billion-roku-acquisition/",
+      "date": "2026-11-09"
+    },
+    {
+      "headline": "Netflix's Purchase of Radford Studio Center Stays on Track",
+      "source_url": "https://deadline.com/2026/11/netflix-radford-studio-purchase-latest-1237216149/",
+      "date": "2026-11-09"
+    },
+    {
+      "headline": "Most US Kids Now Use AI, and Many Say They'd Struggle to Quit",
+      "source_url": "https://institute.commonsensemedia.org/new-youth-research-identifies-signs-of-ai-dependency",
+      "date": "2026-11-09"
+    },
+    {
+      "headline": "PAI Partners to Buy Luxury Skincare Brand Elemis From L'Occitane",
+      "source_url": "https://beautymatter.com/articles/pai-to-acquire-elemis-from-loccitane-group",
+      "date": "2026-11-09"
+    },
+    {
+      "headline": "Spinoza's Conatus",
+      "source_url": "https://plato.stanford.edu/entries/spinoza-psychological/",
+      "date": "2026-11-09"
     }
   ]
 }
