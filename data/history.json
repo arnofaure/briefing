@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Anthropic Releases Claude Haiku 5.5, Its Cheapest and Fastest Model Yet",
-      "source_url": "https://www.anthropic.com/claude-haiku-5-5",
-      "date": "2026-10-10"
-    },
-    {
-      "headline": "OpenAI Fires Three Staffers Tied to Safety Work, Reigniting Internal Dissent",
-      "source_url": "https://www.thestar.com.my/tech/tech-news/2026/10/02/openai-says-three-staffers-fired-for-mishandling-039sensitive039-info",
-      "date": "2026-10-10"
-    },
-    {
-      "headline": "Microsoft Rebuilds Windows Around AI Agents, Adds New Execution Controls",
-      "source_url": "https://redmondmag.com/articles/2026/10/07/microsoft-new-windows-strategy-pushes-ai-workloads.aspx",
-      "date": "2026-10-10"
-    },
-    {
-      "headline": "David Zaslav Set for $606 Million Payout as Warner Bros. Discovery-Paramount Deal Closes",
-      "source_url": "https://au.variety.com/2026/tv/news/david-zaslav-exit-package-warner-bros-discovery-paramount-merger-41118/",
-      "date": "2026-10-10"
-    },
-    {
-      "headline": "Netflix Greenlights Bridgerton Prequel Centered on Young Lady Violet",
-      "source_url": "https://www.thewrap.com/creative-content/tv-shows/violet-bridgerton-prequel-series-netflix-shonda-rhimes/",
-      "date": "2026-10-10"
-    },
-    {
-      "headline": "Protests Demanding Resignation of India's Election Chief Escalate Into a Second Week",
-      "source_url": "https://www.scmp.com/news/asia/south-asia/article/3369713/india-election-chief-faces-calls-resign-protesters-opposition",
-      "date": "2026-10-10"
-    },
-    {
-      "headline": "France Begins Fining Shein and Temu Under Its New Fast-Fashion Law",
-      "source_url": "https://www.thestandard.com.hk/world/article/341504/France-targets-Shein-and-Temu-with-fast-fashion-fines",
-      "date": "2026-10-10"
-    },
-    {
-      "headline": "Foucault's Panopticon",
-      "source_url": "https://plato.stanford.edu/entries/foucault/",
-      "date": "2026-10-10"
-    },
-    {
       "headline": "Google Launches Playground, a No-Code AI Tool for Building Games",
       "source_url": "https://www.techrepublic.com/article/news-google-playground-ai-game-builder-no-code/",
       "date": "2026-10-11"
@@ -1224,6 +1184,46 @@
       "headline": "Spinoza's Conatus",
       "source_url": "https://plato.stanford.edu/entries/spinoza-psychological/",
       "date": "2026-11-09"
+    },
+    {
+      "headline": "Anthropic Ships Claude Fable 5.2 and Mythos 5.2, Faster Models With Coding and Reasoning Gains",
+      "source_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "date": "2026-11-10"
+    },
+    {
+      "headline": "Anthropic Strikes Its First News-Licensing Deal, Paying AP for Election Data",
+      "source_url": "https://www.adweek.com/media/anthropic-licensing-deal-ap-election/",
+      "date": "2026-11-10"
+    },
+    {
+      "headline": "Oscar-Winning Director Sebastián Lelio Dies at 52",
+      "source_url": "https://buenosairesherald.com/politics/chilean-filmmaker-sebastian-lelio-dies-at-52",
+      "date": "2026-11-10"
+    },
+    {
+      "headline": "American Film Market Opens 47th Edition With a New AI-Focused Innovation Hub",
+      "source_url": "https://senalnews.com/en/events/afm-2026-adds-opening-day-summit-and-expands-conference-program",
+      "date": "2026-11-10"
+    },
+    {
+      "headline": "US Mediates New Round of Russia-Ukraine Peace Talks in Abu Dhabi",
+      "source_url": "https://www.khaleejtimes.com/world/us-mediate-russia-ukraine-talks-abu-dhabi-november-witkoff",
+      "date": "2026-11-10"
+    },
+    {
+      "headline": "Snap Settles Social-Media Addiction Suit, Ending the Last Holdout Trial",
+      "source_url": "https://www.jurist.org/news/2026/11/snap-settles-california-social-media-addiction-lawsuit-days-after-meta-to-avert-trial/",
+      "date": "2026-11-10"
+    },
+    {
+      "headline": "Dior's 'Hand-Drawn' Christmas Film Draws AI Suspicion as Prada's Animated Campaign Wins Praise",
+      "source_url": "https://www.creativebloq.com/news/diors-christmas-ad-is-the-opposite-to-pradas-classy-animation",
+      "date": "2026-11-10"
+    },
+    {
+      "headline": "Hume's Is-Ought Problem",
+      "source_url": "https://plato.stanford.edu/entries/hume-moral/",
+      "date": "2026-11-10"
     }
   ]
 }
