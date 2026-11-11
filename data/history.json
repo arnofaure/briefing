@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Google Launches Playground, a No-Code AI Tool for Building Games",
-      "source_url": "https://www.techrepublic.com/article/news-google-playground-ai-game-builder-no-code/",
-      "date": "2026-10-11"
-    },
-    {
-      "headline": "Google Ships Nano Banana 2.1, a Faster, Cheaper Image Model",
-      "source_url": "https://decrypt.co/380257/google-launches-nano-banana-2-1",
-      "date": "2026-10-11"
-    },
-    {
-      "headline": "Turner Classic Movies Placed Under Skydance Motion Picture Group",
-      "source_url": "https://www.thewrap.com/creative-content/movies/turner-classic-movies-falls-under-skydance-film-group",
-      "date": "2026-10-11"
-    },
-    {
-      "headline": "Netflix Says It Has Used Generative AI on Roughly 300 Titles, Insists on a \"Human Touch\"",
-      "source_url": "https://www.hollywoodreporter.com/business/business-news/netflix-ai-300-titles-busan-film-fest-1236727138/",
-      "date": "2026-10-11"
-    },
-    {
-      "headline": "Navi Pillay Wins the 2026 Nobel Peace Prize",
-      "source_url": "https://www.aljazeera.com/news/2026/10/9/2026-nobel-peace-prize-awarded-to-navi-pillay",
-      "date": "2026-10-11"
-    },
-    {
-      "headline": "Watchdog Rates ChatGPT's Teen Mode \"Unacceptable Risk\" After Testing Thousands of Prompts",
-      "source_url": "https://thenextweb.com/news/chatgpt-for-teens-is-unsafe-for-under-18s",
-      "date": "2026-10-11"
-    },
-    {
-      "headline": "Anthony Vaccarello Exits Saint Laurent After a Decade as Creative Director",
-      "source_url": "https://www.thenationalnews.com/lifestyle/fashion-beauty/2026/10/09/anthony-vaccarello-exits-saint-laurent-after-a-decade/",
-      "date": "2026-10-11"
-    },
-    {
-      "headline": "Simone de Beauvoir's \"Woman as Other\"",
-      "source_url": "https://plato.stanford.edu/entries/beauvoir/",
-      "date": "2026-10-11"
-    },
-    {
       "headline": "Anthropic Ships Claude Dashboards and Claude Motion, Frees Docs and Slides From Beta",
       "source_url": "https://thenewstack.io/claude-dashboards-data-motion/",
       "date": "2026-10-12"
@@ -1224,6 +1184,46 @@
       "headline": "Hume's Is-Ought Problem",
       "source_url": "https://plato.stanford.edu/entries/hume-moral/",
       "date": "2026-11-10"
+    },
+    {
+      "headline": "US Justice Department Forms Task Force to Police AI Misuse",
+      "source_url": "https://www.nextgov.com/artificial-intelligence/2026/11/department-justice-forms-ai-task-force/417074/",
+      "date": "2026-11-11"
+    },
+    {
+      "headline": "Google Pairs New AI Chip With AMD to Keep Data Encrypted During Processing",
+      "source_url": "https://newsroom.amd.com/news/amd-epyc-expands-leadership-foundation-ai/",
+      "date": "2026-11-11"
+    },
+    {
+      "headline": "James Gunn and Peter Safran Depart DC Studios, Replaced by Jeremy Latcham",
+      "source_url": "https://www.thewrap.com/creative-content/movies/james-gunn-and-peter-safran-out-at-dc-studios-jeremy-latcham-named-new-president-and-chief-creative-officer/",
+      "date": "2026-11-11"
+    },
+    {
+      "headline": "Godzilla Minus Zero Sets US Opening-Weekend Record for a Foreign-Language Film",
+      "source_url": "https://www.thedailybeast.com/godzilla-minus-zero-crushes-box-office-record-in-opening-weekend",
+      "date": "2026-11-11"
+    },
+    {
+      "headline": "Meta Expands AI Age-Detection for Teens to Instagram Users Worldwide",
+      "source_url": "https://thenextweb.com/news/meta-instagram-ai-age-estimation-global",
+      "date": "2026-11-11"
+    },
+    {
+      "headline": "Supreme Court Lets Border Wall Construction Resume at Big Bend National Park",
+      "source_url": "https://www.ajc.com/news/2026/11/supreme-court-clears-the-way-for-border-wall-construction-in-texass-big-bend-to-resume/",
+      "date": "2026-11-11"
+    },
+    {
+      "headline": "Secondhand Luxury Boom in China Puts Pressure on Western Brands",
+      "source_url": "https://fashionunited.uk/news/business/western-brands-under-pressure-as-pre-owned-luxury-booms-in-china/2026101990910",
+      "date": "2026-11-11"
+    },
+    {
+      "headline": "Foucault's Panopticon",
+      "source_url": "https://plato.stanford.edu/entries/foucault/",
+      "date": "2026-11-11"
     }
   ]
 }
