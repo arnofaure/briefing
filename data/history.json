@@ -1,51 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Anthropic Ships Claude Dashboards and Claude Motion, Frees Docs and Slides From Beta",
-      "source_url": "https://thenewstack.io/claude-dashboards-data-motion/",
-      "date": "2026-10-12"
-    },
-    {
-      "headline": "OpenAI Rolls Out GPT-6 With \"Intelligent UI,\" Lets ChatGPT Answer in Interactive Widgets",
-      "source_url": "https://openai.com/index/gpt-6-for-everyone/",
-      "date": "2026-10-12"
-    },
-    {
-      "headline": "US Domestic Box Office Crosses $8 Billion, Its Fastest Pace to the Mark Since 2011",
-      "source_url": "https://deadline.com/2026/10/box-office-domestic-8-billion-milestone-1237154358/",
-      "date": "2026-10-12"
-    },
-    {
-      "headline": "MIPCOM Cannes Opens With a New AI Entertainment Forum as Netflix and YouTube Headline",
-      "source_url": "https://senalnews.com/en/events/netflix-and-youtube-to-headline-mipcom-cannes-2026",
-      "date": "2026-10-12"
-    },
-    {
-      "headline": "Meta Bars TikTok Parent ByteDance From Advertising on Its Apps in Seven Countries",
-      "source_url": "https://thenextweb.com/news/meta-bans-bytedance-tiktok-ads",
-      "date": "2026-10-12"
-    },
-    {
-      "headline": "Houthi Missile Strikes Kill Three at Riyadh Airport, Including an Airline Captain",
-      "source_url": "https://www.aljazeera.com/news/2026/10/9/saudi-arabia-reopens-riyadh-airport-after-houthi-attack-kills-three",
-      "date": "2026-10-12"
-    },
-    {
-      "headline": "LVMH and Kering Jointly Raise Minimum Model Age to 18, Add Harassment and Audit Rules",
-      "source_url": "https://www.journalduluxe.fr/fr/mode/lvmh-et-kering-renforcent-leur-charte-pour-proteger-les-mannequins-dans-le-luxe/",
-      "date": "2026-10-12"
-    },
-    {
-      "headline": "Adults With ADHD Face Higher Risk of Dementia Later in Life, Large Study Finds",
-      "source_url": "https://www.news-medical.net/news/20261007/Adults-with-ADHD-face-higher-risk-of-developing-dementia-later-in-life.aspx",
-      "date": "2026-10-12"
-    },
-    {
-      "headline": "Mill's Harm Principle",
-      "source_url": "https://plato.stanford.edu/entries/mill/",
-      "date": "2026-10-12"
-    },
-    {
       "headline": "Anthropic's Claude Filed a False Murder Tip With Philadelphia Police During a Safety Test",
       "source_url": "https://www.foxbusiness.com/technology/anthropics-claude-ai-fabricates-eyewitness-account-submits-false-murder-tip-police-website",
       "date": "2026-10-13"
@@ -1224,6 +1179,51 @@
       "headline": "Foucault's Panopticon",
       "source_url": "https://plato.stanford.edu/entries/foucault/",
       "date": "2026-11-11"
+    },
+    {
+      "headline": "Google DeepMind Debuts Gemini Robotics 2.5, Its Most Capable Robot Model Yet",
+      "source_url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "date": "2026-11-12"
+    },
+    {
+      "headline": "Anthropic Kicks Off Its IPO Roadshow, Targeting a Nasdaq Debut Before Thanksgiving",
+      "source_url": "https://www.axios.com/2026/11/11/anthropic-ipo-ai-nvidia-midterms",
+      "date": "2026-11-12"
+    },
+    {
+      "headline": "Hollywood Producers Press for Year-End Vote on a Federal Film Tax Credit",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/afm-producers-trump-federal-film-incentive-1236752752/",
+      "date": "2026-11-12"
+    },
+    {
+      "headline": "Netflix Poised to Pick Up Radford Studio Lot at a Steep Discount in Foreclosure Sale",
+      "source_url": "https://hollywoodreporter.com/business/business-news/netflix-radford-studio-lot-at-auction-for-steep-discount-1236753290/",
+      "date": "2026-11-12"
+    },
+    {
+      "headline": "Spain Holds Its First Joint General Strike Since 2012 Over Housing and Wages",
+      "source_url": "https://www.cnbc.com/2026/11/11/spain-protests-general-strikes-election.html",
+      "date": "2026-11-12"
+    },
+    {
+      "headline": "A Third of US Adults Say They've Walked Away From an Online Community",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/11/06/about-a-third-of-americans-have-left-an-online-community/",
+      "date": "2026-11-12"
+    },
+    {
+      "headline": "Independent Watchmaker Rexhep Rexhepi Takes Top Prize at Watchmaking's 'Oscars'",
+      "source_url": "https://www.fratellowatches.com/the-2026-gphg-winners-rexhep-rexhepis-chronograph/",
+      "date": "2026-11-12"
+    },
+    {
+      "headline": "Study Suggests ADHD Reflects a Brain Tipping Toward Overly Synchronized Activity",
+      "source_url": "https://www.psypost.org/adhd-symptoms-may-reflect-a-brain-shifting-toward-overly-synchronized-activity-study-suggests/",
+      "date": "2026-11-12"
+    },
+    {
+      "headline": "Kierkegaard's Leap of Faith",
+      "source_url": "https://plato.stanford.edu/entries/kierkegaard/",
+      "date": "2026-11-12"
     }
   ]
 }
