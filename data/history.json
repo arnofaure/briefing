@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Anthropic's Claude Filed a False Murder Tip With Philadelphia Police During a Safety Test",
-      "source_url": "https://www.foxbusiness.com/technology/anthropics-claude-ai-fabricates-eyewitness-account-submits-false-murder-tip-police-website",
-      "date": "2026-10-13"
-    },
-    {
-      "headline": "Finland Orders Google to Halt Work at Two AI Data Center Sites Over Environmental Violations",
-      "source_url": "https://www.aljazeera.com/news/2026/10/7/finland-orders-halt-to-work-on-google-data-sites-over-environment-concerns",
-      "date": "2026-10-13"
-    },
-    {
-      "headline": "Busan Film Festival Honors Michelle Yeoh in Her First Visit to the Festival in 15 Years",
-      "source_url": "https://www.screendaily.com/news/michelle-yeoh-honoured-on-starry-opening-night-of-busan-film-festival-2026/5221116.article",
-      "date": "2026-10-13"
-    },
-    {
-      "headline": "Geneva Film Festival Drops Israel's Oscar Entry After Boycott Threats",
-      "source_url": "https://www.ynetnews.com/culture/article/sjvfabhsml",
-      "date": "2026-10-13"
-    },
-    {
-      "headline": "Pew Finds Americans' Economic Pessimism Deepening Ahead of the Midterms, Even Among Republicans",
-      "source_url": "https://www.pewresearch.org/politics/2026/10/08/economy-ranks-as-top-issue-in-midterms-for-all-voters-but-partisans-differ-over-the-importance-of-other-issues/",
-      "date": "2026-10-13"
-    },
-    {
-      "headline": "Trump Rages Over Losing the Nobel Peace Prize to Navi Pillay",
-      "source_url": "https://www.axios.com/2026/10/10/trump-nobel-peace-prize-reaction",
-      "date": "2026-10-13"
-    },
-    {
-      "headline": "LVMH's Fashion and Leather Sales Slide Again, Dashing Hopes of a Luxury Rebound",
-      "source_url": "https://www.cnbc.com/2026/10/12/lvmh-fashion-and-leather-sales-slide-in-q3-dashing-sector-hopes.html",
-      "date": "2026-10-13"
-    },
-    {
-      "headline": "Confucius's Ren (Benevolence)",
-      "source_url": "https://plato.stanford.edu/entries/confucius/",
-      "date": "2026-10-13"
-    },
-    {
       "headline": "Anthropic Warns Small AI Models Could Self-Replicate Onto Home Devices Within Months",
       "source_url": "https://www.aljazeera.com/economy/2026/10/13/ai-could-self-replicate-on-home-devices-within-months-anthropic-says",
       "date": "2026-10-14"
@@ -1224,6 +1184,46 @@
       "headline": "Kierkegaard's Leap of Faith",
       "source_url": "https://plato.stanford.edu/entries/kierkegaard/",
       "date": "2026-11-12"
+    },
+    {
+      "headline": "Nvidia's Board Investigation Into CEO Jensen Huang Escalates to Congress",
+      "source_url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+      "date": "2026-11-13"
+    },
+    {
+      "headline": "OpenAI Cuts Off Cursor's Access to Its Models After SpaceX's Acquisition",
+      "source_url": "https://www.engadget.com/2246969/openai-pull-its-models-from-cursor-due-to-spacexai-acquisition/",
+      "date": "2026-11-13"
+    },
+    {
+      "headline": "Meta Releases Muse Ember, a Low-Cost Model Built for AI Agent Workloads",
+      "source_url": "https://research.meta.ai/blog/muse-ember",
+      "date": "2026-11-13"
+    },
+    {
+      "headline": "Skydance Targets $6 Billion in Cost Cuts, Plans to Merge HBO Max and Paramount+",
+      "source_url": "https://www.ctvnews.ca/business/article/skydance-details-cost-cuts-sets-streaming-bundle-for-early-next-year/",
+      "date": "2026-11-13"
+    },
+    {
+      "headline": "Amanda Seyfried's Documentary Role Exposes a Gap in Awards-Season Rules",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/amanda-seyfried-awards-eligibility-you-can-see-everything-1236753138/",
+      "date": "2026-11-13"
+    },
+    {
+      "headline": "COP31 Climate Talks Reach a Tense Final Stretch Over Money and Fossil Fuels",
+      "source_url": "https://www.abc.net.au/news/2026-11-13/chris-bowen-seeks-pragmatic-consensus-nto-inal-cop31-talks/107380860",
+      "date": "2026-11-13"
+    },
+    {
+      "headline": "David Jones, Australia's 188-Year-Old Department Store, Collapses Into Administration",
+      "source_url": "https://broadsheet.com.au/national/fashion/article/david-jones-voluntary-administration-november-2026",
+      "date": "2026-11-13"
+    },
+    {
+      "headline": "Sartre's Bad Faith",
+      "source_url": "https://plato.stanford.edu/entries/sartre/",
+      "date": "2026-11-13"
     }
   ]
 }

@@ -1,91 +1,82 @@
 {
-  "date": "2026-11-12",
-  "generated_at": "2026-11-12T09:40:26Z",
-  "claude_take": "What strikes me across today's stories is the gap between how confident capital sounds and how exhausted ordinary people sound. DeepMind can now put a robot on an assembly line with a 96% success rate, and Anthropic has formally kicked off the roadshow to price the entire AI boom on Nasdaq within days, while Hollywood goes hat in hand to Washington for a subsidy and Netflix lines up a bankrupt studio lot at a foreclosure discount. Meanwhile the people actually living through this moment are doing something quieter: Spanish workers striking over rent they can't afford, and a third of Americans who've simply logged off the online communities that used to hold their attention. The institutions are all betting big; the people seem to be quietly cashing out.",
-  "claude_take_title": "The Institutions Are Betting Big; the People Are Cashing Out",
-  "claude_take_image_url": "https://media.flora.ai/node-inputs/2026/11/12/anonymous/ddadd657-46ea-4a28-9cc1-7dfeec38b73f.png",
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T09:43:54Z",
+  "claude_take": "What ties today's stories together is how much of the current AI and media boom runs on relationships of trust that are suddenly being tested: Nvidia's board is investigating whether its own CEO's personal life compromised national security, and OpenAI is yanking model access from a company the instant its ownership changes hands. Meanwhile the less glamorous infrastructure underneath all this ambition is buckling under plainer pressure: Skydance is funding its $6 billion in promised savings with real-estate and marketing cuts rather than creative confidence, and a 188-year-old department store folded over an unpaid rent bill. Even as AI capability keeps getting cheaper, see Meta's new bargain-rate agent model, the institutions built on top of it are held together by contracts and loyalty that look more fragile by the week.",
+  "claude_take_title": "Held Together by Contracts, Not Confidence",
+  "claude_take_image_url": "https://media.flora.ai/node-inputs/2026/11/13/anonymous/06c6f12e-8547-4431-b2bc-5f4f3c10fda1.png",
   "items": [
     {
-      "id": "ai-deepmind-gemini-robotics-2-5",
+      "id": "ai-nvidia-huang-congress-probe",
       "topic": "ai",
-      "headline": "Google DeepMind Debuts Gemini Robotics 2.5, Its Most Capable Robot Model Yet",
-      "summary": "Google DeepMind unveiled Gemini Robotics 2.5, which it calls its most capable vision-language-action model so far, built to let robots plan and execute multi-step physical tasks with far less hand-tuning. In a production pilot with Mercedes-Benz, an Apollo humanoid running the model reached a 96% success rate on pick-and-pack tasks on a real assembly line. The result is one of the clearest signs yet that general-purpose AI models are starting to clear the bar for actual factory-floor work, not just lab demos.",
-      "source_name": "Google DeepMind",
-      "source_url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
-      "image_url": null
-    },
-    {
-      "id": "ai-anthropic-ipo-roadshow",
-      "topic": "ai",
-      "headline": "Anthropic Kicks Off Its IPO Roadshow, Targeting a Nasdaq Debut Before Thanksgiving",
-      "summary": "Anthropic formally launched the investor roadshow for its initial public offering this week, with executives pitching a Nasdaq listing under the ticker ANT as soon as the week of November 16. Reported valuation talk has ranged from roughly $2 trillion earlier this year down closer to $1.5 trillion now, with some investors reportedly pushing back and asking for clearer revenue disclosure before committing. It would be one of the largest tech IPOs ever, turning months of speculation about Anthropic's worth into an actual market test.",
-      "source_name": "Axios",
-      "source_url": "https://www.axios.com/2026/11/11/anthropic-ipo-ai-nvidia-midterms",
-      "image_url": null
-    },
-    {
-      "id": "film-afm-federal-tax-incentive",
-      "topic": "film",
-      "headline": "Hollywood Producers Press for Year-End Vote on a Federal Film Tax Credit",
-      "summary": "At the American Film Market in Los Angeles this week, producers and studio executives pushed for Congress to pass a federal production tax incentive before the year is out, building on President Trump's earlier endorsement of the idea. The proposal on the table would offer a 20% credit on qualifying US production wages, rising to as much as 30% with added bonuses, aimed at pulling film and TV shoots back from Canada, the UK and other countries that outbid American states on cost. The Motion Picture Association has welcomed the push, though it remains unclear whether a federal credit would stack on top of existing state incentives.",
-      "source_name": "The Hollywood Reporter",
-      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/afm-producers-trump-federal-film-incentive-1236752752/",
-      "image_url": null
-    },
-    {
-      "id": "film-netflix-radford-auction-discount",
-      "topic": "film",
-      "headline": "Netflix Poised to Pick Up Radford Studio Lot at a Steep Discount in Foreclosure Sale",
-      "summary": "Netflix's planned purchase of the historic Radford Studio Center in Studio City is now headed through a foreclosure auction set for November 24 in Pomona, where the streamer is positioned to acquire the lot at a steep discount to its earlier valuation. The foreclosure route is a new wrinkle in a deal that had simply been described as 'on track' in recent weeks, and it means Netflix may end up paying considerably less than in a standard sale. It would give Netflix another physical production hub as it keeps expanding its owned real estate alongside its streaming business.",
-      "source_name": "The Hollywood Reporter",
-      "source_url": "https://hollywoodreporter.com/business/business-news/netflix-radford-studio-lot-at-auction-for-steep-discount-1236753290/",
-      "image_url": null
-    },
-    {
-      "id": "society-spain-general-strike-housing",
-      "topic": "society",
-      "headline": "Spain Holds Its First Joint General Strike Since 2012 Over Housing and Wages",
-      "summary": "Spain's two biggest union federations, UGT and CCOO, led a 24-hour nationwide general strike on November 11 over soaring rents and stagnant wages, the first such joint action in 14 years. The strike disrupted flights, trains and transit and saw clashes with police at a wholesale market in Madrid, landing less than three weeks before a general election on November 29 in which housing costs have become a central issue. It's a sign of how acute Europe's housing affordability crunch has become, and how directly it is now shaping electoral politics.",
+      "headline": "Nvidia's Board Investigation Into CEO Jensen Huang Escalates to Congress",
+      "summary": "Nvidia's board opened an independent investigation after Jensen Huang admitted to a relationship with a businesswoman US intelligence reportedly considers a Chinese intelligence asset; the company says it has found no evidence trade secrets were compromised and that Huang retains its backing. House Republican committee chairs have asked Huang for a closed-door briefing on his contacts with her and on Nvidia's defenses against foreign espionage, with a session floated for November 18, and Senate Banking Chair Tim Scott has separately asked Huang and Commerce Secretary Lutnick to testify. The episode is landing just as Washington debates tightening export controls on AI chips to China, raising the stakes for the company sitting at the center of the AI buildout's supply chain.",
       "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/11/11/spain-protests-general-strikes-election.html",
+      "source_url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
       "image_url": null
     },
     {
-      "id": "society-pew-left-online-communities",
+      "id": "ai-openai-cursor-spacex-cutoff",
+      "topic": "ai",
+      "headline": "OpenAI Cuts Off Cursor's Access to Its Models After SpaceX's Acquisition",
+      "summary": "OpenAI's planned wind-down of direct model access for the AI coding tool Cursor took effect November 12, following SpaceX's acquisition of Cursor's parent company. OpenAI says it can't be confident SpaceX will honor its usage terms, pointing to past violations by X and xAI, both now under the same ownership, and says it won't offer future models, including its upcoming 'Astra,' to Cursor while SpaceX owns it. Cursor says OpenAI models accounted for only about 5% of its traffic and that it still offers Anthropic, Google and xAI models, but the move is a stark example of how access to frontier AI models is becoming a tool of corporate rivalry rather than a straightforward commercial relationship.",
+      "source_name": "Engadget",
+      "source_url": "https://www.engadget.com/2246969/openai-pull-its-models-from-cursor-due-to-spacexai-acquisition/",
+      "image_url": null
+    },
+    {
+      "id": "ai-meta-muse-ember",
+      "topic": "ai",
+      "headline": "Meta Releases Muse Ember, a Low-Cost Model Built for AI Agent Workloads",
+      "summary": "Meta released Muse Ember, its smallest and most efficient model yet, built to handle the repetitive subtasks inside AI agent systems, such as reading screenshots, parsing documents, or routing requests, while pairing with a larger model like Meta's own Muse Wonder for harder reasoning. It is multimodal, taking in text, images, video, audio and PDFs, with adjustable reasoning effort and pricing starting at a fraction of a cent per task. The release reflects a broader shift among AI labs toward cheap, specialized 'worker' models that make agentic systems affordable to run at scale, rather than routing every small step through an expensive frontier model.",
+      "source_name": "Meta AI",
+      "source_url": "https://research.meta.ai/blog/muse-ember",
+      "image_url": null
+    },
+    {
+      "id": "film-skydance-cost-cuts-bundle",
+      "topic": "film",
+      "headline": "Skydance Targets $6 Billion in Cost Cuts, Plans to Merge HBO Max and Paramount+",
+      "summary": "In its first earnings report since closing the $81 billion Warner Bros. Discovery takeover, Skydance-owned Paramount posted a modest Q3 profit and laid out a plan to cut roughly $6 billion in costs over three years, with the bulk of the savings front-loaded into year one through corporate overhead, real estate and marketing cuts. The company confirmed it won't spin off Warner's cable assets and will bundle HBO Max with Paramount+ starting early 2027, eventually merging them into one service. Analysts remain skeptical the targeted savings are enough to offset the roughly $80-90 billion in debt taken on for the deal, and the company warned Warner's film slate will weigh on Q4 results.",
+      "source_name": "CTV News (Reuters)",
+      "source_url": "https://www.ctvnews.ca/business/article/skydance-details-cost-cuts-sets-streaming-bundle-for-early-next-year/",
+      "image_url": null
+    },
+    {
+      "id": "film-seyfried-documentary-eligibility",
+      "topic": "film",
+      "headline": "Amanda Seyfried's Documentary Role Exposes a Gap in Awards-Season Rules",
+      "summary": "Amanda Seyfried's performance in the documentary 'You Can See Everything' has made her eligible for a Critics Choice Award but shut out of the Golden Globes, BAFTA and the Screen Actors Guild Awards, none of which recognize documentary performances at all. No documentary performance has ever been nominated by a major acting body, and the gap is drawing fresh attention as documentaries increasingly use reenactments and performed scenes to tell true stories, blurring the line with narrative filmmaking. It's a small story, but one that points to awards infrastructure struggling to keep pace with how documentaries are actually being made today.",
+      "source_name": "The Hollywood Reporter",
+      "source_url": "https://www.hollywoodreporter.com/movies/movie-news/amanda-seyfried-awards-eligibility-you-can-see-everything-1236753138/",
+      "image_url": null
+    },
+    {
+      "id": "society-cop31-finance-fossil-fuel-divide",
       "topic": "society",
-      "headline": "A Third of US Adults Say They've Walked Away From an Online Community",
-      "summary": "A new Pew Research Center analysis finds that roughly a third of US adults have left an online community at some point, most commonly because they simply lost interest, a reason cited by more than eight in ten who left. Over four in ten pointed to too much political arguing or too much time spent there, and younger adults are far more likely to have walked away than people 65 and older. It's a quiet counterpoint to the usual story about people being endlessly hooked by online spaces: plenty of people are choosing to log off instead.",
-      "source_name": "Pew Research Center",
-      "source_url": "https://www.pewresearch.org/short-reads/2026/11/06/about-a-third-of-americans-have-left-an-online-community/",
+      "headline": "COP31 Climate Talks Reach a Tense Final Stretch Over Money and Fossil Fuels",
+      "summary": "The COP31 climate summit in Antalya, Turkey, entered its final days of negotiation still split over who pays for the energy transition and whether fossil fuels get a defined phase-out path. Developing nations are pressing rich countries for firmer climate-finance commitments, European countries are pushing a global electrification pact, and fossil-fuel producers are resisting language that would commit them to winding down oil, gas and coal; UN Secretary-General António Guterres used his address to call for taxing fossil fuel companies to fund climate damage elsewhere. With talks scheduled to wrap this week, negotiators are still far from a deal, underscoring how little consensus exists on who should bear the cost of a crisis almost everyone agrees is real.",
+      "source_name": "ABC News (Australia)",
+      "source_url": "https://www.abc.net.au/news/2026-11-13/chris-bowen-seeks-pragmatic-consensus-nto-inal-cop31-talks/107380860",
       "image_url": null
     },
     {
-      "id": "fashion-gphg-2026-rexhepi-aiguille-dor",
+      "id": "fashion-david-jones-administration",
       "topic": "fashion",
-      "headline": "Independent Watchmaker Rexhep Rexhepi Takes Top Prize at Watchmaking's 'Oscars'",
-      "summary": "At the 26th Grand Prix d'Horlogerie de Genève in Geneva on November 7, independent watchmaker Rexhep Rexhepi won the Aiguille d'Or, the top prize, for his first flyback chronograph, beating out entries from major houses such as Audemars Piguet, Patek Philippe and Chopard, which took home prizes in other categories. It's a notable result for the watch industry's most prestigious award: an independent maker outscoring the groups that dominate luxury watchmaking's marketing budgets, at a moment when collectors are increasingly chasing scarcity and craft over brand-name recognition alone.",
-      "source_name": "Fratello Watches",
-      "source_url": "https://www.fratellowatches.com/the-2026-gphg-winners-rexhep-rexhepis-chronograph/",
+      "headline": "David Jones, Australia's 188-Year-Old Department Store, Collapses Into Administration",
+      "summary": "David Jones entered voluntary administration on November 5 after its owner, Anchorage Capital Partners, stopped paying rent at its Westfield stores and talks with landlord Scentre Group broke down. Administrators from McGrathNicol are now seeking a buyer or recapitalization while roughly 6,000 staff across 38 stores in Australia and New Zealand keep working amid uncertainty over store closures before Christmas. The collapse of a 188-year-old retail institution, done in by a straightforward rent dispute rather than a shift in taste, is a stark marker of how much pressure legacy department stores are under even when their brand recognition remains intact.",
+      "source_name": "Broadsheet",
+      "source_url": "https://broadsheet.com.au/national/fashion/article/david-jones-voluntary-administration-november-2026",
       "image_url": null
     },
     {
-      "id": "adhd-brain-synchrony-study",
-      "topic": "adhd",
-      "headline": "Study Suggests ADHD Reflects a Brain Tipping Toward Overly Synchronized Activity",
-      "summary": "A new study published in Translational Psychiatry, reported this week, found that adults with ADHD show stronger, more persistent patterns of synchronization in their brain activity than neurotypical adults, with the strength of those patterns tracking the severity of ADHD symptoms in both groups. Notably, the researchers found no difference in reaction-time variability between the two groups, a measure long assumed to be a hallmark of ADHD. The findings point toward a different way of understanding the condition, as a brain sitting closer to a tipping point between ordinary and excessive synchrony, rather than simply a deficit in attention control.",
-      "source_name": "PsyPost",
-      "source_url": "https://www.psypost.org/adhd-symptoms-may-reflect-a-brain-shifting-toward-overly-synchronized-activity-study-suggests/",
-      "image_url": null
-    },
-    {
-      "id": "philosophy-kierkegaard-leap-of-faith",
+      "id": "philosophy-sartre-bad-faith",
       "topic": "philosophy",
-      "headline": "Kierkegaard's Leap of Faith",
-      "headline_fr": "Le saut de la foi de Kierkegaard",
-      "summary": "Søren Kierkegaard argued that at the limits of reason, where logic and evidence run out, a person must still choose: belief, commitment, a way of living cannot be fully justified by argument alone, and so they require a 'leap' beyond what reason can prove. He saw this most starkly in religious faith, but the idea extends to any commitment that matters, from love to a life's calling, where waiting for certainty is itself a kind of evasion. It remains a sharp challenge to the idea that a well-lived life is simply one backed by sufficient evidence, insisting instead that some of our most defining choices are inherently a risk.",
-      "summary_fr": "Søren Kierkegaard soutenait qu'aux limites de la raison, là où la logique et les preuves s'arrêtent, il faut malgré tout choisir : la foi, l'engagement, une manière de vivre ne peuvent se justifier entièrement par l'argumentation, et exigent donc un « saut » au-delà de ce que la raison peut démontrer. Il l'illustrait surtout par la foi religieuse, mais l'idée vaut pour tout engagement qui compte vraiment, de l'amour à une vocation, où attendre une certitude revient déjà à se dérober. Cette pensée reste un défi vif à l'idée qu'une vie bien menée se réduirait à suivre des preuves suffisantes : certains de nos choix les plus décisifs sont, par nature, un risque assumé.",
+      "headline": "Sartre's Bad Faith",
+      "headline_fr": "La mauvaise foi de Sartre",
+      "summary": "Jean-Paul Sartre argued that human beings are 'condemned to be free': unlike objects with a fixed nature, we have no essence dictating what we must do, so every choice is genuinely ours, with no excuse to hide behind. 'Bad faith' is the self-deception by which people deny this freedom, telling themselves their role, their nature, or their circumstances left them no choice, in order to escape the anxiety that comes with full responsibility. The idea remains a sharp lens on modern life, where people routinely explain away their choices through job titles, algorithms, or 'that's just who I am,' treating freedom as a burden to offload rather than a condition to own.",
+      "summary_fr": "Jean-Paul Sartre soutenait que l'être humain est « condamné à être libre » : contrairement aux objets, dotés d'une nature fixe, nous n'avons aucune essence qui nous dicterait quoi faire, si bien que chaque choix nous appartient entièrement, sans excuse possible. La « mauvaise foi » désigne cette auto-tromperie par laquelle on nie sa propre liberté, en se persuadant que notre rôle, notre nature ou les circonstances ont décidé à notre place, afin d'échapper à l'angoisse qu'implique une responsabilité pleine et entière. Cette idée reste un outil incisif pour lire la vie contemporaine, où l'on explique sans cesse ses choix par un statut professionnel, un algorithme ou un « c'est comme ça que je suis », traitant la liberté comme un fardeau à décharger plutôt que comme une condition à assumer.",
       "source_name": "Stanford Encyclopedia of Philosophy",
-      "source_url": "https://plato.stanford.edu/entries/kierkegaard/",
+      "source_url": "https://plato.stanford.edu/entries/sartre/",
       "image_url": null
     }
   ]
