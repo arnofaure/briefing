@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Anthropic Warns Small AI Models Could Self-Replicate Onto Home Devices Within Months",
-      "source_url": "https://www.aljazeera.com/economy/2026/10/13/ai-could-self-replicate-on-home-devices-within-months-anthropic-says",
-      "date": "2026-10-14"
-    },
-    {
-      "headline": "UK Lawmakers Grill OpenAI, Anthropic, Google DeepMind and Meta Over Whether AI Rules Are 'Not Fit for the Future'",
-      "source_url": "https://www.cityam.com/?p=2459408",
-      "date": "2026-10-14"
-    },
-    {
-      "headline": "Horror Film 'Other Mommy' Tops Box Office as Sony's 'The Social Reckoning' Flops",
-      "source_url": "https://abcnews.com/Entertainment/wireStory/mommy-tops-box-office-275m-social-reckoning-opens-137178115",
-      "date": "2026-10-14"
-    },
-    {
-      "headline": "Busan Film Festival Gives Its Camellia Award to Ann Hui for Five Decades Elevating Women in Cinema",
-      "source_url": "https://www.thestandard.com.hk/news/article/344772/Michelle-Yeoh-named-Asian-Filmmaker-of-the-Year-Ann-Hui-wins-Camellia-Award-in-Busan",
-      "date": "2026-10-14"
-    },
-    {
-      "headline": "India's Election-Chief Protests Escalate as Rahul Gandhi Petitions the Supreme Court",
-      "source_url": "https://time.com/article/2026/10/13/india-modi-protests-voter-removal-election-commission/",
-      "date": "2026-10-14"
-    },
-    {
-      "headline": "Meta's Threads Lets Users Tell Its Algorithm What They Want to See",
-      "source_url": "https://technologymagazine.com/news/how-meta-opens-the-content-black-box-with-threads-dear-algo",
-      "date": "2026-10-14"
-    },
-    {
-      "headline": "Events Giant Platform6 Buys Fashion-Show Production Agency Without Production",
-      "source_url": "https://wwd.com/business-news/mergers-acquisitions/platform6-expands-buys-without-production-agency-1239343268/",
-      "date": "2026-10-14"
-    },
-    {
-      "headline": "Walter Benjamin's Aura",
-      "source_url": "https://plato.stanford.edu/entries/benjamin/",
-      "date": "2026-10-14"
-    },
-    {
       "headline": "Google Opens Gemini 4 Argon to the Public via the Gemini App",
       "source_url": "https://www.androidheadlines.com/2026/10/google-rolls-out-gemini-4-argon-ai-model.html",
       "date": "2026-10-15"
@@ -1224,6 +1184,46 @@
       "headline": "Sartre's Bad Faith",
       "source_url": "https://plato.stanford.edu/entries/sartre/",
       "date": "2026-11-13"
+    },
+    {
+      "headline": "Adobe Turns Firefly Into an AI Creative Studio With Agents and Rival Models",
+      "source_url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+      "date": "2026-11-14"
+    },
+    {
+      "headline": "Anthropic Launches Claude Meetings, Putting an AI Participant Inside Google Meet Calls",
+      "source_url": "https://www.axios.com/2026/11/10/anthropic-claude-meetings-knowledge-work",
+      "date": "2026-11-14"
+    },
+    {
+      "headline": "ElevenLabs Ships Scribe v3 and Scribe v3 Live Transcription Models",
+      "source_url": "https://elevenlabs.io/blog/scribe-v3",
+      "date": "2026-11-14"
+    },
+    {
+      "headline": "Christopher Nolan Says Studios, Not the DGA, Must Lead on Blocking AI Training on Films",
+      "source_url": "https://au.variety.com/2026/film/news/christopher-nolan-odyssey-dga-netflix-warner-bros-ai-trump-32654",
+      "date": "2026-11-14"
+    },
+    {
+      "headline": "Netflix's Long-Rumored Radford Studio Deal Heads to a Foreclosure Auction Instead",
+      "source_url": "https://labusinessjournal.com/featured/scoop-lenders-set-foreclosure-auction-for-radford-studio-center/",
+      "date": "2026-11-14"
+    },
+    {
+      "headline": "Survey Finds Seven in Ten Americans Now Say the Country Is in Decline",
+      "source_url": "https://pbs.org/newshour/nation/new-survey-finds-more-than-two-thirds-of-americans-believe-their-country-is-in-decline",
+      "date": "2026-11-14"
+    },
+    {
+      "headline": "Capri Holdings Names Estée Lauder Veteran Justin Boxford CEO, Ending John Idol's 23-Year Run",
+      "source_url": "https://fashionunited.uk/news/people/capri-holdings-appoints-justin-boxford-as-ceo-john-idol-prepares-to-retire/2026111191330",
+      "date": "2026-11-14"
+    },
+    {
+      "headline": "Mill's Harm Principle",
+      "source_url": "https://plato.stanford.edu/entries/mill-moral-political/",
+      "date": "2026-11-14"
     }
   ]
 }
