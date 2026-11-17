@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Meta Releases Muse Spark Open, an 816-Billion-Parameter Open-Weight Model",
-      "source_url": "https://thenewstack.io/meta-muse-spark-open/",
-      "date": "2026-10-17"
-    },
-    {
-      "headline": "Anthropic Tells IPO Investors Revenue Growth Slowed Sharply in Q3",
-      "source_url": "https://www.implicator.ai/anthropic-tells-investors-q3-revenue-hit-16-8-billion-as-growth-slowed-to-45/",
-      "date": "2026-10-17"
-    },
-    {
-      "headline": "Netflix Ousts Content Chief Bela Bajaria, Names Peter Rice Her Successor",
-      "source_url": "https://au.variety.com/2026/film/news/netflix-bela-bajaria-leaving-layoffs-41364/",
-      "date": "2026-10-17"
-    },
-    {
-      "headline": "Steven Soderbergh Steps In to Finish Filming The Batman Part II",
-      "source_url": "https://www.slashfilm.com/2288340/steven-soderbergh-matt-reeves-the-batman-part-2-filming/",
-      "date": "2026-10-17"
-    },
-    {
-      "headline": "India's Protests Over Election Chief Escalate With Mumbai Bar, Delhi Crackdown",
-      "source_url": "https://www.malaymail.com/news/world/2026/10/16/india-voter-roll-row-escalates-as-delhi-blocks-fresh-protest-against-election-chief/239332",
-      "date": "2026-10-17"
-    },
-    {
-      "headline": "Survey Finds Americans Embracing a Simpler Relationship With Technology",
-      "source_url": "https://www.prnewswire.com/news-releases/75-of-americans-think-a-simpler-relationship-with-technology-is-a-lifestyle-upgrade-302907652.html",
-      "date": "2026-10-17"
-    },
-    {
-      "headline": "Fashion's 'Exit Season' Widens as Calvin Klein and McQueen Lose Creative Directors",
-      "source_url": "https://fashionunited.com/news/people/fashions-exit-season-has-arrived-veronica-leoni-leaves-calvin-klein-sean-mcgirr-departs-mcqueen/2026101575209",
-      "date": "2026-10-17"
-    },
-    {
-      "headline": "Plato's Allegory of the Cave",
-      "source_url": "https://iep.utm.edu/republic/",
-      "date": "2026-10-17"
-    },
-    {
       "headline": "DeepSeek Ships V4.1-Flash-1017, a Faster, Leaner Update to Its Flagship Open Model",
       "source_url": "https://www.bloomberg.com/news/articles/2026-10-17/deepseek-pushes-out-updated-ai-model-it-says-is-faster-leaner",
       "date": "2026-10-18"
@@ -1234,6 +1194,46 @@
       "headline": "Wittgenstein's Language Games",
       "source_url": "https://plato.stanford.edu/entries/wittgenstein/",
       "date": "2026-11-16"
+    },
+    {
+      "headline": "Anthropic Sets IPO Price Range, Targets Nasdaq Debut This Week",
+      "source_url": "https://thenextweb.com/news/anthropic-ipo-terms-1-4-trillion-valuation",
+      "date": "2026-11-17"
+    },
+    {
+      "headline": "Alibaba Opens Early Preview of Its Qwen4-Max Flagship Model",
+      "source_url": "https://alphasignal.ai/news/alibaba-launches-qwen4-max-with-agent-first-coding-and-1m-token-support",
+      "date": "2026-11-17"
+    },
+    {
+      "headline": "Google DeepMind Uses AI Agents to Formally Verify Signal's Encryption",
+      "source_url": "https://deepmind.google/blog/introducing-alphaproof-code",
+      "date": "2026-11-17"
+    },
+    {
+      "headline": "Foundry Updates Nuke Stage Virtual Production Platform, Teases macOS Edition",
+      "source_url": "https://cgchannel.com/2026/11/new-cg-software-you-may-have-missed-2-november-2026",
+      "date": "2026-11-17"
+    },
+    {
+      "headline": "COP31 Leaders' Summit Draws Record Crowd as Guterres Urges Windfall Taxes",
+      "source_url": "https://www.downtoearth.org.in/climate-change/cop31-un-chief-calls-for-faster-phase-out-of-fossil-fuels-and-increased-climate-finance",
+      "date": "2026-11-17"
+    },
+    {
+      "headline": "Reuters/Ipsos Poll Finds Americans Still Squeezed by the Cost of Living",
+      "source_url": "https://www.thestar.com.my/news/world/2026/11/10/trump-approval-holds-at-32-near-lowest-of-his-career-reuters-ipsos-poll-finds",
+      "date": "2026-11-17"
+    },
+    {
+      "headline": "Burberry Returns to Profit as New Chair Takes Over Mid-Turnaround",
+      "source_url": "https://www.ajbell.co.uk/news/articles/burberry-shares-rise-7-interim-profit-and-sales-beat-expectations",
+      "date": "2026-11-17"
+    },
+    {
+      "headline": "Martin Buber's I-Thou",
+      "source_url": "https://plato.stanford.edu/entries/buber/",
+      "date": "2026-11-17"
     }
   ]
 }
