@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Schwab and JPMorgan Block Outside AI Agents From Customer Accounts",
-      "source_url": "https://www.americanbanker.com/news/schwab-blocks-unauthorized-ai-agents-points-clients-to-charley",
-      "date": "2026-10-20"
-    },
-    {
-      "headline": "OpenAI Discloses Internal Agent Used a Stranger's Crypto Wallet Without Authorization",
-      "source_url": "https://fortune.com/2026/10/16/rogue-openai-agent-crypto-wallet-funds-task/",
-      "date": "2026-10-20"
-    },
-    {
-      "headline": "Kuaishou Opens Kling 4.0 to All Users, Doubling Video Length to 30 Seconds",
-      "source_url": "https://letsdatascience.com/news/kling-ai-opens-kling-40-to-all-users-d9dc6422",
-      "date": "2026-10-20"
-    },
-    {
-      "headline": "CAA, WME and UTA Unite to Push Streamers Toward Indie Production Quotas",
-      "source_url": "https://www.thewrap.com/industry-news/industry-trends/american-entertainment-alliance-caa-wme-uta-independent-productions/",
-      "date": "2026-10-20"
-    },
-    {
-      "headline": "AFI Fest's 40th Edition Opens With Ten Countries' Oscar Submissions in Its Lineup",
-      "source_url": "https://www.screendaily.com/news/afi-fest-lineup-features-10-oscar-submissions-a-long-winter-iron-boy/5220885.article",
-      "date": "2026-10-20"
-    },
-    {
-      "headline": "Ousted Venezuelan Leader Maduro Pleads Not Guilty to US Torture Charges",
-      "source_url": "https://www.koreatimes.co.kr/world/20261016/venezuelas-maduro-and-wife-plead-not-guilty-to-us-torture-charges",
-      "date": "2026-10-20"
-    },
-    {
-      "headline": "Anthony Vaccarello Exits Saint Laurent After a Decade at the Helm",
-      "source_url": "https://www.thenationalnews.com/lifestyle/fashion-beauty/2026/10/09/anthony-vaccarello-exits-saint-laurent-after-a-decade/",
-      "date": "2026-10-20"
-    },
-    {
-      "headline": "Hobbes's Social Contract and the State of Nature",
-      "source_url": "https://plato.stanford.edu/entries/hobbes-moral/",
-      "date": "2026-10-20"
-    },
-    {
       "headline": "Google Adds Mid-Generation Review Controls to Gemini Notebook's Slides and Video",
       "source_url": "https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/",
       "date": "2026-10-21"
@@ -1239,6 +1199,46 @@
       "headline": "Walter Benjamin's Aura",
       "source_url": "https://plato.stanford.edu/entries/benjamin/",
       "date": "2026-11-19"
+    },
+    {
+      "headline": "Nvidia Halts AI Chip Shipments to China Despite US Approval",
+      "source_url": "https://www.foxbusiness.com/fox-news-tech/nvidia-halts-china-ai-chip-shipments-despite-us-approval",
+      "date": "2026-11-20"
+    },
+    {
+      "headline": "Anthropic Shares Close Up 17% in Nasdaq Debut Despite a Broader Market Selloff",
+      "source_url": "https://www.cbsnews.com/news/anthropic-ipo-nasdaq-debut-claude-ai/",
+      "date": "2026-11-20"
+    },
+    {
+      "headline": "'The Hunger Games: Sunrise on the Reaping' Opens to a Critical Split",
+      "source_url": "https://www.thewrap.com/creative-content/movies/the-hunger-games-sunrise-on-the-reaping-review/",
+      "date": "2026-11-20"
+    },
+    {
+      "headline": "Steven Spielberg's First Western Targets a 2027 Shoot, With Janusz Kaminski Returning",
+      "source_url": "https://filmstories.co.uk/news/steven-spielberg-his-next-film-looks-like-finally-being-a-western-shooting-in-2027/",
+      "date": "2026-11-20"
+    },
+    {
+      "headline": "Google Refuses UK Government's Request to Pull Russell Brand's YouTube Channel",
+      "source_url": "https://www.1news.co.nz/2026/11/19/uk-government-asks-google-to-deactivate-brands-youtube-report/",
+      "date": "2026-11-20"
+    },
+    {
+      "headline": "COP31 Draft Deal Drops All Mention of Fossil Fuels as Summit Runs Past Deadline",
+      "source_url": "https://www.rte.ie/news/world/2026/1119/1599773-cop31-thursday/",
+      "date": "2026-11-20"
+    },
+    {
+      "headline": "Tod's Nears €400 Million Debt Refinancing, Backed by Its Own Owners",
+      "source_url": "https://www.businessoffashion.com/news/luxury/tods-nears-400-million-debt-refinancing-backed-by-owners/",
+      "date": "2026-11-20"
+    },
+    {
+      "headline": "Hegel's Master-Slave Dialectic",
+      "source_url": "https://plato.stanford.edu/entries/hegel/",
+      "date": "2026-11-20"
     }
   ]
 }
