@@ -1,41 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Google Adds Mid-Generation Review Controls to Gemini Notebook's Slides and Video",
-      "source_url": "https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/",
-      "date": "2026-10-21"
-    },
-    {
-      "headline": "YouTube Music Begins Labeling Songs Made Primarily With Generative AI",
-      "source_url": "https://blog.youtube/news-and-events/youtube-music-ai-labels/",
-      "date": "2026-10-21"
-    },
-    {
-      "headline": "Netflix Film Chief Dan Lin Departs in Second Senior Exit Within a Week",
-      "source_url": "https://www.screendaily.com/news/film-head-dan-lin-out-at-netflix/5221595.article",
-      "date": "2026-10-21"
-    },
-    {
-      "headline": "France Orders Curfews After Cost-of-Living Protests Turn Into a Weekend of Rioting",
-      "source_url": "https://www.euronews.com/2026/10/19/french-pm-lecornu-calls-for-regional-authorities-to-impose-partial-curfews",
-      "date": "2026-10-21"
-    },
-    {
-      "headline": "Milan's Luxury District Shutters Storefronts as Italy Deploys Troops Against Unrest",
-      "source_url": "https://cyprus-mail.com/2026/10/19/milan-luxury-shops-close-for-fear-of-new-unrest-as-government-prepares-to-deploy-troops",
-      "date": "2026-10-21"
-    },
-    {
-      "headline": "Large Meta-Analysis Links ADHD to Sharply Higher Mortality Risk",
-      "source_url": "https://www.news-medical.net/news/20261019/UCL-study-reveals-broad-mortality-risks-faced-by-ADHD-individuals.aspx",
-      "date": "2026-10-21"
-    },
-    {
-      "headline": "Epictetus's Dichotomy of Control",
-      "source_url": "https://plato.stanford.edu/entries/epictetus/",
-      "date": "2026-10-21"
-    },
-    {
       "headline": "Nvidia Unveils Containerized 'DSX POD' AI Factories at GTC Berlin",
       "source_url": "https://siliconangle.com/2026/10/21/nvidia-turns-the-ai-factory-into-a-product-and-agents-into-the-workload",
       "date": "2026-10-22"
@@ -1239,6 +1204,51 @@
       "headline": "Hegel's Master-Slave Dialectic",
       "source_url": "https://plato.stanford.edu/entries/hegel/",
       "date": "2026-11-20"
+    },
+    {
+      "headline": "Kuaishou Ships Kling Image 4.0 With Native 8K Output",
+      "source_url": "https://technode.com/2026/11/18/kuaishou-launches-kling-image-4-0-with-native-8k-generation/",
+      "date": "2026-11-21"
+    },
+    {
+      "headline": "Suno Launches Visuals, Turning AI Songs Into Full Music Videos",
+      "source_url": "https://suno.com/blog/introducing-visuals",
+      "date": "2026-11-21"
+    },
+    {
+      "headline": "'Sunrise on the Reaping' Posts the Franchise's Best Opening in a Decade",
+      "source_url": "https://deadline.com/2026/11/box-office-hunger-games-sunrise-on-the-reaping-1237229925/",
+      "date": "2026-11-21"
+    },
+    {
+      "headline": "Skydance Sets Up Court-Mandated Independent Film Fund as It Finalizes Leadership",
+      "source_url": "https://www.screendaily.com/news/skydance-indie-fund-in-the-works-as-studio-unveils-film-leadership-structure/5222496.article",
+      "date": "2026-11-21"
+    },
+    {
+      "headline": "UN's Top Court Rules Myanmar Committed Genocide Against the Rohingya",
+      "source_url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide",
+      "date": "2026-11-21"
+    },
+    {
+      "headline": "A Week of Unrelated Outages Hits Banks, Flights and Email at Once",
+      "source_url": "https://www.bostonglobe.com/2026/11/19/business/tech-outages-artificial-intelligence-stakes/",
+      "date": "2026-11-21"
+    },
+    {
+      "headline": "L'Oréal and EssilorLuxottica Line Up for an Armani Stake as LVMH Drops Out",
+      "source_url": "https://fashionunited.com/news/business/loreal-reportedly-targets-10-percent-stake-in-armani-essilorluxottica-up-to-5-percent/2026111975850",
+      "date": "2026-11-21"
+    },
+    {
+      "headline": "Stanford Study Finds Three Brain 'Biotypes' Cutting Across ADHD and Anxiety",
+      "source_url": "https://news.stanford.edu/stories/2026/11/three-brain-biotypes-found-in-kids-with-adhd-anxiety",
+      "date": "2026-11-21"
+    },
+    {
+      "headline": "Hobbes's State of Nature",
+      "source_url": "https://plato.stanford.edu/entries/hobbes-moral/",
+      "date": "2026-11-21"
     }
   ]
 }
