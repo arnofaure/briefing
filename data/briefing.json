@@ -1,91 +1,91 @@
 {
-  "date": "2026-11-21",
-  "generated_at": "2026-11-21T09:38:12Z",
-  "claude_take": "Today's stories share one throughline: how far ahead consolidation and automation are running of accountability. Kling and Suno keep compressing what used to take a full production crew into a single prompt, the same week a cluster of unrelated outages shows how much of daily life already runs on infrastructure nobody fully controls. Skydance only funds independent film because a court forced it to, and Armani is trading independence for a beauty-licensing lifeline rather than fighting to stay its own company. Even the ICJ's historic Myanmar ruling fits the pattern -- real justice, arriving a decade late, because deliberation can't move at the speed consolidation does.",
-  "claude_take_title": "Scale Moves Fast. Accountability Limps Behind.",
-  "claude_take_image_url": "https://media.flora.ai/node-inputs/2026/11/21/anonymous/7b079d42-621b-4aad-8344-1f01ae38a370.png",
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T11:05:00Z",
+  "claude_take": "Every story that depended on someone else's permission moved slowly today, and every story that didn't moved instantly. Nvidia's board closed the Jensen Huang chapter in one sentence and reported record profits in the next; Netflix is positioned to pick up a legendary studio lot for roughly a third of what its lenders first demanded. Meanwhile a Milan court postponed a child-safety case against Meta and TikTok until Italy's parliament finishes writing the law it's waiting on, and three nuclear-armed leaders held an unprecedented summit that produced mostly promises to keep talking. The tell is in the luxury numbers: European stocks with nothing to do with AI got dragged down anyway, purely on fear of a tech correction -- proof that capital's nerves now run through everything else's bloodstream.",
+  "claude_take_title": "Capital Moves Fast. Everything Else Waits.",
+  "claude_take_image_url": "https://media.flora.ai/node-inputs/2026/11/22/anonymous/b11e0590-8395-4038-9ae9-204edb678b52.png",
   "items": [
     {
-      "id": "kling-image-4-0",
+      "id": "nvidia-huang-return-rejected",
       "topic": "ai",
-      "headline": "Kuaishou Ships Kling Image 4.0 With Native 8K Output",
-      "summary": "Kuaishou released Kling Image 4.0, the latest version of its tracked image-generation family, adding native 8K output, up to ten coordinated images in a single prompt, and in-image text rendering across more than 70 fonts and dozens of languages. The release pushes Kling further into professional production use, competing directly with Google's Nano Banana and OpenAI's image tools on fidelity and control. It is aimed squarely at studios and agencies that need print- and billboard-ready output straight out of a generator.",
-      "source_name": "TechNode",
-      "source_url": "https://technode.com/2026/11/18/kuaishou-launches-kling-image-4-0-with-native-8k-generation/",
-      "image_url": null
-    },
-    {
-      "id": "suno-visuals",
-      "topic": "ai",
-      "headline": "Suno Launches Visuals, Turning AI Songs Into Full Music Videos",
-      "summary": "Suno introduced Visuals, a tool that converts its AI-generated songs into lip-synced music videos, lyric clips, and album art built on MiniMax's H3 video model. The feature folds video production into the same pipeline that already generates the music and vocals, with likeness-blocking safeguards meant to limit impersonation. It marks one of the clearest moves yet by a music-generation platform into full audiovisual production, not just audio.",
-      "source_name": "Suno",
-      "source_url": "https://suno.com/blog/introducing-visuals",
-      "image_url": null
-    },
-    {
-      "id": "hunger-games-reaping-opening",
-      "topic": "film",
-      "headline": "'Sunrise on the Reaping' Posts the Franchise's Best Opening in a Decade",
-      "summary": "'The Hunger Games: Sunrise on the Reaping' opened to roughly $110 million domestically, including the second-best previews total in the franchise's history, making it the fourth-best debut in the series despite mixed reviews. The result is a rare win for a big theatrical tentpole in a year when streaming and AI-adjacent anxieties have dominated industry headlines. It updates a story noted yesterday as a critical split -- the box office says audiences showed up anyway.",
-      "source_name": "Deadline",
-      "source_url": "https://deadline.com/2026/11/box-office-hunger-games-sunrise-on-the-reaping-1237229925/",
-      "image_url": null
-    },
-    {
-      "id": "skydance-indie-fund",
-      "topic": "film",
-      "headline": "Skydance Sets Up Court-Mandated Independent Film Fund as It Finalizes Leadership",
-      "summary": "Skydance finalized its post-merger film leadership structure under Dana Goldberg and Josh Greenstein, and stood up a $5 million-a-year, five-year independent-film acquisitions fund required by the Justice Department's consent decree for the Paramount-Warner Bros. Discovery merger. Longtime Warner Bros. distribution veteran Jeff Goldstein is departing after 48 years as the reshuffle lands. The fund is a concrete test of whether regulators can keep space for independent film inside a newly consolidated major.",
-      "source_name": "Screen Daily",
-      "source_url": "https://www.screendaily.com/news/skydance-indie-fund-in-the-works-as-studio-unveils-film-leadership-structure/5222496.article",
-      "image_url": null
-    },
-    {
-      "id": "icj-myanmar-genocide",
-      "topic": "society",
-      "headline": "UN's Top Court Rules Myanmar Committed Genocide Against the Rohingya",
-      "summary": "The International Court of Justice ruled, 9-6, that Myanmar's military committed genocide against the Rohingya during its 2016-17 'clearance operations' -- the first time the court has found a state responsible for genocide. Judges estimated roughly 10,000 people were killed and found Myanmar also failed its duties to prevent and punish the violence; the ruling is final and cannot be appealed. The case was brought by The Gambia in 2019, and enforcement against Myanmar's military-backed government remains an open question.",
+      "headline": "Nvidia's Board Formally Rejects Jensen Huang's Return as CEO, Even as Profit Doubles",
+      "summary": "Nvidia board chair Harvey Jones told investors the company has no plans to reinstate Jensen Huang after his abrupt resignation, calling it voluntary and final, even as Huang said he would be \"honoured\" to return. The announcement came alongside record results: $115.8 billion in quarterly revenue, up 103 percent year-over-year, with guidance of $130 billion for the current quarter. Huang is set to testify before Congress on December 1 over concerns that advanced US chips reached China, and the board is creating a new committee to oversee national-security and trade compliance.",
       "source_name": "Al Jazeera",
-      "source_url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide",
+      "source_url": "https://www.aljazeera.com/economy/2026/11/18/nvidia-shoots-down-calls-for-jensen-huangs-return-amid-strong-earnings",
       "image_url": null
     },
     {
-      "id": "tech-outages-cascade",
+      "id": "nano-banana-2-1-google-pics",
+      "topic": "ai",
+      "headline": "Google Quietly Makes Nano Banana 2.1 the Default Engine Behind Google Pics",
+      "summary": "Google has rolled out Nano Banana 2.1, the latest version of its closely tracked image model, as the engine behind Google Pics' generation and editing tools for Google AI Pro, Plus and Ultra subscribers. The update keeps edits closer to the original image, makes fewer unrequested changes to surrounding elements, and improves text rendering in both new generations and edits. No user action is required: the model simply takes over behind the scenes in the standalone app and inside Google Docs and Slides.",
+      "source_name": "Android Authority",
+      "source_url": "https://androidauthority.com/google-pics-nano-banana-2-1-3736470",
+      "image_url": null
+    },
+    {
+      "id": "netflix-radford-studio-auction",
+      "topic": "film",
+      "headline": "Netflix Positioned to Buy Radford Studio Center for a Third of What Lenders Wanted",
+      "summary": "A foreclosure auction for the historic Radford Studio Center in Studio City is set for November 24, with lenders led by Goldman Sachs seeking $1.3 billion to cover their claim. Netflix, long under contract to buy the lot, is reportedly positioned to take it for roughly $400 million -- a steep discount secured by having Goldman foreclose rather than closing a conventional sale. The deal would hand Netflix a storied production hub at a fraction of its earlier valuation, underscoring how much distressed real estate is reshaping studio footprints right now.",
+      "source_name": "Bisnow",
+      "source_url": "https://www.bisnow.com/news/los-angeles/capital-markets/radford-studio-lot-heads-to-auction-netflix-lined-up-to-buy",
+      "image_url": null
+    },
+    {
+      "id": "gotham-awards-2026-nominations",
+      "topic": "film",
+      "headline": "Gotham Awards Nominations Kick Off Hollywood's Awards Season, Led by Small Indies",
+      "summary": "The 36th Gotham Awards nominations named \"The Invite,\" \"All of a Sudden,\" \"Clarissa,\" \"Possible Love\" and \"La Gradiva\" among the films leading the field, chosen by juries of film professionals rather than a broad membership vote. The nominations formally open the run-up to the Oscars, with the ceremony set for November 30. Arriving the same week major studios keep absorbing each other into bigger conglomerates, the Gothams remain one of the few prizes built specifically to spotlight the kind of small, independent film that mergers tend to squeeze out.",
+      "source_name": "TheWrap",
+      "source_url": "https://www.thewrap.com/industry-news/awards/gotham-awards-2026-nominations/",
+      "image_url": null
+    },
+    {
+      "id": "trump-xi-putin-trilateral-summit",
       "topic": "society",
-      "headline": "A Week of Unrelated Outages Hits Banks, Flights and Email at Once",
-      "summary": "A Microsoft/Outlook outage, a multi-hour nationwide FAA ground stop, and a JPMorgan Chase software bug all struck within days of each other, with officials saying the incidents are unrelated and not the result of any cyberattack. The cluster renewed questions about how concentrated and brittle the systems underlying everyday banking, travel and communication have become. It lands just as the industry heads into the holiday travel season, when any one of those systems failing again would be far more disruptive.",
-      "source_name": "The Boston Globe (AP)",
-      "source_url": "https://www.bostonglobe.com/2026/11/19/business/tech-outages-artificial-intelligence-stakes/",
+      "headline": "Trump, Xi and Putin Hold First-Ever Trilateral Summit on Nuclear Arms, Reach Only Modest Agreements",
+      "summary": "On the sidelines of the APEC summit in Shenzhen, Trump, Xi and Putin held an unprecedented three-way meeting with nuclear arms control at the center of the agenda -- the first leader-level talks on the subject since the New START treaty expired. Xi argued publicly that nuclear weapons should be \"prohibited\" and \"eliminated,\" while the concrete outcomes were limited to modest commitments on UN reform, fuel supplies and continued dialogue. The summit's mere existence, bringing together three nuclear-armed rivals in this format for the first time, matters more than what it actually produced.",
+      "source_name": "AJC (AP)",
+      "source_url": "https://www.ajc.com/news/2026/11/trump-xi-and-putin-hold-rare-3-way-talks-on-nuclear-risks-but-deliver-no-breakthroughs/",
       "image_url": null
     },
     {
-      "id": "armani-stake-sale",
+      "id": "italy-meta-tiktok-minors-case-delay",
+      "topic": "society",
+      "headline": "Milan Court Delays Meta and TikTok Child-Safety Case Until Italy Finishes Writing a Law",
+      "summary": "A Milan court postponed its ruling in a class action brought by the Italian parents' group Moige against Meta and TikTok over weak age-verification for users under 14, pushing the decision to January 21, 2027. The judges want to wait for Italy's parliament to finish a planned decree barring children under 13 from holding social media accounts before ruling. Parents involved in the case said their children remain exposed to the platforms in the meantime, a stark illustration of how far behind legislation is lagging platform design.",
+      "source_name": "The Star (Reuters)",
+      "source_url": "https://www.thestar.com.my/tech/tech-news/2026/11/19/italian-court-delays-ruling-in-meta-tiktok-social-media-case-pending-government-curbs",
+      "image_url": null
+    },
+    {
+      "id": "luxury-stocks-ai-selloff-fears",
       "topic": "fashion",
-      "headline": "L'Oréal and EssilorLuxottica Line Up for an Armani Stake as LVMH Drops Out",
-      "summary": "L'Oréal is reportedly negotiating for roughly 10 percent of Armani and EssilorLuxottica for up to 5 percent, with LVMH said to have lost interest in a deal once expected to be split three ways. The sale would move toward fulfilling Giorgio Armani's will, which called for heirs to sell about 15 percent of the house within 12 to 18 months of his death, though people close to the talks say the timeline isn't strictly binding. L'Oréal's interest is tied to protecting its Armani beauty license, which runs to 2050, underscoring how much of the house's value now sits in licensing rather than runway independence.",
+      "headline": "European Luxury Stocks Slide as Fears of an AI Correction Spread to the Wealthy",
+      "summary": "Shares in Hermès, Kering, Burberry and LVMH fell between roughly 2 and 4 percent as investors worried that a renewed selloff in AI stocks could cool the US wealth creation that has been propping up luxury spending while Chinese demand stays weak. Morgan Stanley has rated the sector \"underweight\" heading into 2027, even while noting the houses have little direct exposure to AI itself. The drop shows how tightly luxury's fortunes are now tied to a tech rally that has nothing to do with handbags or watches.",
       "source_name": "FashionUnited",
-      "source_url": "https://fashionunited.com/news/business/loreal-reportedly-targets-10-percent-stake-in-armani-essilorluxottica-up-to-5-percent/2026111975850",
+      "source_url": "https://fashionunited.com/news/business/luxury-stocks-fall-on-fears-ai-sell-off-will-hit-spending-by-wealthy-us-shoppers/2026111875823",
       "image_url": null
     },
     {
-      "id": "adhd-brain-biotypes",
+      "id": "adhd-brain-iron-levels",
       "topic": "adhd",
-      "headline": "Stanford Study Finds Three Brain 'Biotypes' Cutting Across ADHD and Anxiety",
-      "summary": "Using deep learning on brain scans from more than 3,500 children in the long-running ABCD study, Stanford Medicine researchers identified three distinct brain 'biotypes' that cut across standard ADHD and anxiety diagnoses rather than mapping cleanly onto either label. The finding suggests current diagnostic categories may not reflect how these conditions actually show up in the brain, which could eventually reshape how clinicians screen for and treat both conditions. The research was published in Nature Mental Health.",
-      "source_name": "Stanford Medicine",
-      "source_url": "https://news.stanford.edu/stories/2026/11/three-brain-biotypes-found-in-kids-with-adhd-anxiety",
+      "headline": "Brain Scans Show Children With ADHD Have Lower Iron Levels in Specific Regions",
+      "summary": "Presenting at the Society for Neuroscience's Neuroscience 2026 meeting, researcher Jonathan Ahern of UC San Diego reported that children and adolescents with ADHD show lower iron levels than neurotypical peers in specific brain regions, with the pattern shifting across different regions over time. Iron is a cofactor for the enzyme that helps produce dopamine, which has made it a longstanding target of interest in ADHD research, though earlier studies on the question have produced mixed results. The findings add to a broader set of results presented at the same meeting on how ADHD affects mental and physical health across the lifespan.",
+      "source_name": "EurekAlert (Society for Neuroscience)",
+      "source_url": "https://www.eurekalert.org/news-releases/1149821",
       "image_url": null
     },
     {
-      "id": "hobbes-state-of-nature",
+      "id": "machiavelli-virtu-fortuna",
       "topic": "philosophy",
-      "headline": "Hobbes's State of Nature",
-      "headline_fr": "L'état de nature de Hobbes",
-      "summary": "Thomas Hobbes argued that without a common power to keep people in check, life would collapse into a 'war of every man against every man' -- a state of nature where competition for scarce resources makes trust and cooperation impossible. His solution was the social contract: free, self-interested people surrender some of their liberty to a sovereign strong enough to enforce peace. The idea still underwrites how societies justify government and law, treating them as artificial but necessary bulwarks against our own worst instincts rather than natural or divinely given.",
-      "summary_fr": "Pour Thomas Hobbes, en l'absence d'un pouvoir commun capable de contenir les individus, la vie humaine se réduirait à une guerre de tous contre tous : un état de nature où la rareté des ressources rend la méfiance et la violence inévitables. Sa solution est le contrat social : des individus libres et intéressés renoncent à une part de leur liberté pour se soumettre à une autorité assez forte pour imposer la paix. Cette idée reste au fondement de notre manière de justifier l'État et le droit, non comme des ordres naturels ou divins, mais comme des remparts artificiels contre nos propres penchants destructeurs.",
+      "headline": "Machiavelli's Virtù and Fortuna",
+      "headline_fr": "La Virtù et la Fortuna de Machiavel",
+      "summary": "Niccolò Machiavelli argued that political success depends on the interplay between virtù -- a ruler's skill, foresight and willingness to act decisively -- and fortuna, the unpredictable force of chance and circumstance that no amount of preparation can fully master. In The Prince, he likened fortune to a river that floods without warning, arguing the wise ruler builds dikes and levees in calm times rather than being caught unprepared. The idea still shapes how we think about leadership and risk: skill cannot guarantee outcomes, but unpreparedness guarantees failure when chance turns against you.",
+      "summary_fr": "Nicolas Machiavel soutient que la réussite politique dépend de la tension entre la virtù -- l'habileté, la lucidité et la capacité d'un dirigeant à agir avec décision -- et la fortuna, cette part imprévisible du hasard et des circonstances qu'aucune préparation ne peut totalement maîtriser. Dans Le Prince, il compare la fortune à un fleuve qui déborde sans prévenir, estimant que le dirigeant avisé construit des digues par temps calme plutôt que de se laisser surprendre. Cette idée façonne encore notre manière de penser le pouvoir et le risque : l'habileté ne garantit jamais le résultat, mais l'impréparation garantit l'échec quand le hasard se retourne contre nous.",
       "source_name": "Stanford Encyclopedia of Philosophy",
-      "source_url": "https://plato.stanford.edu/entries/hobbes-moral/",
+      "source_url": "https://plato.stanford.edu/entries/machiavelli/",
       "image_url": null
     }
   ]

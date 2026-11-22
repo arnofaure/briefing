@@ -1,51 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Nvidia Unveils Containerized 'DSX POD' AI Factories at GTC Berlin",
-      "source_url": "https://siliconangle.com/2026/10/21/nvidia-turns-the-ai-factory-into-a-product-and-agents-into-the-workload",
-      "date": "2026-10-22"
-    },
-    {
-      "headline": "OpenAI Begins Testing Visual Ads Inside ChatGPT's Image Generator",
-      "source_url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-will-show-visual-ads-in-chatgpt-while-you-generate-images/",
-      "date": "2026-10-22"
-    },
-    {
-      "headline": "Netflix Shares Slide as Ad Revenue Falls Short and Growth Slows",
-      "source_url": "https://www.euronews.com/2026/10/21/netflix-shares-drop-on-slowing-engagement-and-revenue-growth",
-      "date": "2026-10-22"
-    },
-    {
-      "headline": "Italy Nearly Triples Its Film and TV Tax Credit to €100 Million as Rome's MIA Market Opens",
-      "source_url": "https://www.screendaily.com/news/romes-mia-market-unveils-expanded-2026-programme-including-launch-of-european-investment-hub/5220937.article",
-      "date": "2026-10-22"
-    },
-    {
-      "headline": "Meta Apologizes After Suspending a Protest Group's Instagram Account on a National Day of Action",
-      "source_url": "https://www.thestar.com.my/tech/tech-news/2026/10/19/meta-apologizes-after-suspending-no-kings-instagram-account",
-      "date": "2026-10-22"
-    },
-    {
-      "headline": "Philippine Supreme Court Voids Billions in 'Unprogrammed' Budget Spending as Unconstitutional",
-      "source_url": "https://www.philstar.com/headlines/2026/10/22/2564858/palace-appeal-sc-ruling-budget",
-      "date": "2026-10-22"
-    },
-    {
-      "headline": "Kering Confirms Alexander McQueen's Creative Director Is Out as CEO Presses a Sweeping Overhaul",
-      "source_url": "https://wwd.com/fashion-news/designer-luxury/luca-de-meo-interview-kering-creativity-1239311651/",
-      "date": "2026-10-22"
-    },
-    {
-      "headline": "Study Links Childhood ADHD Diagnosis to Lower Religious Attendance in Adulthood",
-      "source_url": "https://www.psypost.org/childhood-adhd-diagnosis-linked-to-lower-adult-religious-attendance/",
-      "date": "2026-10-22"
-    },
-    {
-      "headline": "Heidegger's Being-Toward-Death",
-      "source_url": "https://plato.stanford.edu/entries/heidegger/",
-      "date": "2026-10-22"
-    },
-    {
       "headline": "OpenAI Says Its AI Agents Disabled Their Own Safety Monitoring, One Lied About It",
       "source_url": "https://abcnews.com/Business/openai-ai-agents-disabled-monitoring/story?id=137446567",
       "date": "2026-10-23"
@@ -1249,6 +1204,51 @@
       "headline": "Hobbes's State of Nature",
       "source_url": "https://plato.stanford.edu/entries/hobbes-moral/",
       "date": "2026-11-21"
+    },
+    {
+      "headline": "Nvidia's Board Formally Rejects Jensen Huang's Return as CEO, Even as Profit Doubles",
+      "source_url": "https://www.aljazeera.com/economy/2026/11/18/nvidia-shoots-down-calls-for-jensen-huangs-return-amid-strong-earnings",
+      "date": "2026-11-22"
+    },
+    {
+      "headline": "Google Quietly Makes Nano Banana 2.1 the Default Engine Behind Google Pics",
+      "source_url": "https://androidauthority.com/google-pics-nano-banana-2-1-3736470",
+      "date": "2026-11-22"
+    },
+    {
+      "headline": "Netflix Positioned to Buy Radford Studio Center for a Third of What Lenders Wanted",
+      "source_url": "https://www.bisnow.com/news/los-angeles/capital-markets/radford-studio-lot-heads-to-auction-netflix-lined-up-to-buy",
+      "date": "2026-11-22"
+    },
+    {
+      "headline": "Gotham Awards Nominations Kick Off Hollywood's Awards Season, Led by Small Indies",
+      "source_url": "https://www.thewrap.com/industry-news/awards/gotham-awards-2026-nominations/",
+      "date": "2026-11-22"
+    },
+    {
+      "headline": "Trump, Xi and Putin Hold First-Ever Trilateral Summit on Nuclear Arms, Reach Only Modest Agreements",
+      "source_url": "https://www.ajc.com/news/2026/11/trump-xi-and-putin-hold-rare-3-way-talks-on-nuclear-risks-but-deliver-no-breakthroughs/",
+      "date": "2026-11-22"
+    },
+    {
+      "headline": "Milan Court Delays Meta and TikTok Child-Safety Case Until Italy Finishes Writing a Law",
+      "source_url": "https://www.thestar.com.my/tech/tech-news/2026/11/19/italian-court-delays-ruling-in-meta-tiktok-social-media-case-pending-government-curbs",
+      "date": "2026-11-22"
+    },
+    {
+      "headline": "European Luxury Stocks Slide as Fears of an AI Correction Spread to the Wealthy",
+      "source_url": "https://fashionunited.com/news/business/luxury-stocks-fall-on-fears-ai-sell-off-will-hit-spending-by-wealthy-us-shoppers/2026111875823",
+      "date": "2026-11-22"
+    },
+    {
+      "headline": "Brain Scans Show Children With ADHD Have Lower Iron Levels in Specific Regions",
+      "source_url": "https://www.eurekalert.org/news-releases/1149821",
+      "date": "2026-11-22"
+    },
+    {
+      "headline": "Machiavelli's Virtù and Fortuna",
+      "source_url": "https://plato.stanford.edu/entries/machiavelli/",
+      "date": "2026-11-22"
     }
   ]
 }
