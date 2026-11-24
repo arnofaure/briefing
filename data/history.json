@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Canva Launches Craft, Its First In-House AI Image Model",
-      "source_url": "https://techradar.com/pro/canva-launches-craft-its-first-image-generation-model-trained-on-human-designed-templates",
-      "date": "2026-10-24"
-    },
-    {
-      "headline": "Google Cloud Brings Nvidia's Next-Generation Vera Rubin Chips Online",
-      "source_url": "https://cloud.google.com/blog/topics/ai-infrastructure/google-cloud-infrastructure-at-nvidia-gtc-berlin-2026",
-      "date": "2026-10-24"
-    },
-    {
-      "headline": "Hollywood Coalition Formally Backs Federal Film Tax Incentive",
-      "source_url": "https://variety.com/2026/film/news/american-entertainment-alliance-film-incentive-1236921707/",
-      "date": "2026-10-24"
-    },
-    {
-      "headline": "California Film Production Keeps Falling Despite State Incentives",
-      "source_url": "https://variety.com/2026/film/news/california-film-credit-filmla-report-q3-1236918175/",
-      "date": "2026-10-24"
-    },
-    {
-      "headline": "Supreme Court Rulings Reshape the Midterm Election Battlefield",
-      "source_url": "https://thedailyrecord.com/2026/10/23/supreme-court-rulings-reshape-midterm-election-washington/",
-      "date": "2026-10-24"
-    },
-    {
-      "headline": "Most Americans Now Say AI Is Bad for Society, Poll Finds",
-      "source_url": "https://abc30.com/story/most-americans-say-ai-is-bad-society-oppose-more-data-centers-abcpostipsos-poll/19964027/",
-      "date": "2026-10-24"
-    },
-    {
-      "headline": "Hermès Growth Slows to Its Weakest Pace Since 2020 as China Stalls",
-      "source_url": "https://jingdaily.com/posts/hermes-q3-sales-china",
-      "date": "2026-10-24"
-    },
-    {
-      "headline": "Descartes's Cogito Ergo Sum",
-      "source_url": "https://plato.stanford.edu/entries/descartes-epistemology/",
-      "date": "2026-10-24"
-    },
-    {
       "headline": "Replit Makes OpenAI Its Default AI Partner, Steps Back From Anthropic",
       "source_url": "https://techcrunch.com/2026/10/20/replit-is-no-longer-working-with-anthropic-ceo-says/",
       "date": "2026-10-25"
@@ -1244,6 +1204,46 @@
       "headline": "Heidegger's Being-Toward-Death",
       "source_url": "https://plato.stanford.edu/entries/heidegger/",
       "date": "2026-11-23"
+    },
+    {
+      "headline": "Nvidia Reinstates Jensen Huang as CEO Just Days After His Resignation",
+      "source_url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "date": "2026-11-24"
+    },
+    {
+      "headline": "CrowdStrike to Acquire Zscaler for $43.9 Billion in All-Stock Deal",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001535527/000153552726000035/crwd-20261123xex991.htm",
+      "date": "2026-11-24"
+    },
+    {
+      "headline": "Netflix's First-Ever IMAX Release Opens Without Regal or Cinemark",
+      "source_url": "https://www.thewrap.com/creative-content/movies/the-further-mis-adventures-of-cliff-booth-netflix-imax-not-playing-regal-cinemark/",
+      "date": "2026-11-24"
+    },
+    {
+      "headline": "UK Actors Secure First Collective AI Rights, but Gaps Remain",
+      "source_url": "https://www.screendaily.com/news/equity-secures-landmark-ai-protections-deal-with-pact/5222462.article",
+      "date": "2026-11-24"
+    },
+    {
+      "headline": "Tens of Thousands March in Paris as Cost-of-Living Protests Stretch Toward France's Election",
+      "source_url": "https://democracynow.org/2026/11/23/headlines",
+      "date": "2026-11-24"
+    },
+    {
+      "headline": "Denmark's Top Court Upholds Housing Law Targeting 'Non-Western' Residents",
+      "source_url": "https://www.aljazeera.com/news/2026/11/23/danish-top-courts-ghetto-law-ruling-supports-hardline-immigration-policy",
+      "date": "2026-11-24"
+    },
+    {
+      "headline": "Gucci's Watch Division Cuts 30 Jobs in Switzerland, Shifts Work to Italy",
+      "source_url": "https://fashionunited.com/news/business/gucci-watchmaking-division-cuts-30-jobs-in-switzerland/2026111875838",
+      "date": "2026-11-24"
+    },
+    {
+      "headline": "Epicurus's Tetrapharmakos",
+      "source_url": "https://plato.stanford.edu/entries/epicurus/",
+      "date": "2026-11-24"
     }
   ]
 }
