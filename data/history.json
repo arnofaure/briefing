@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "headline": "ElevenLabs Launches Realtime Speech Models Built for Voice Agents",
-      "source_url": "https://elevenlabs.io/blog/realtime",
-      "date": "2026-10-26"
-    },
-    {
-      "headline": "MIT Researchers Find AI Agents Left Alone Invent Their Own Games",
-      "source_url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
-      "date": "2026-10-26"
-    },
-    {
-      "headline": "Legendary Entertainment Makes a Takeover Play for Lionsgate",
-      "source_url": "https://www.thewrap.com/industry-news/deals-ma/legendary-entertainment-lionsgate-takeover-bid/",
-      "date": "2026-10-26"
-    },
-    {
-      "headline": "Serbia's Student-Led Opposition Wins Snap Election, Vučić Concedes",
-      "source_url": "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won",
-      "date": "2026-10-26"
-    },
-    {
-      "headline": "Survey Finds AI Is Boosting Output but Making Management Harder",
-      "source_url": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
-      "date": "2026-10-26"
-    },
-    {
-      "headline": "Meta Freezes New Political Ads for Final Week Before US Midterms",
-      "source_url": "https://about.fb.com/news/2026/02/meta-prepares-for-2026-us-midterms/",
-      "date": "2026-10-26"
-    },
-    {
-      "headline": "Kering Shares Slide as Gucci's Turnaround Stalls in Weak Q3",
-      "source_url": "https://wwd.com/business-news/financial/kering-q3-revenues-flat-gucci-organic-sales-down-6-percent-1239380710/",
-      "date": "2026-10-26"
-    },
-    {
-      "headline": "Rousseau's General Will",
-      "source_url": "https://plato.stanford.edu/entries/rousseau/",
-      "date": "2026-10-26"
-    },
-    {
       "headline": "Anthropic Files to Go Public, Disclosing a $417 Billion Compute Bill",
       "source_url": "https://www.anthropic.com/news/s1-sec",
       "date": "2026-10-27"
@@ -1244,6 +1204,46 @@
       "headline": "Isaiah Berlin's Two Concepts of Liberty",
       "source_url": "https://plato.stanford.edu/entries/liberty-positive-negative/",
       "date": "2026-11-25"
+    },
+    {
+      "headline": "David Fincher Explains How He Used AI in Post-Production on 'Cliff Booth'",
+      "source_url": "https://variety.com/2026/film/news/david-fincher-explains-ai-use-cliff-booth-1236958022",
+      "date": "2026-11-26"
+    },
+    {
+      "headline": "Walmart Partners With Meta's Muse AI Agent for Black Friday Shopping",
+      "source_url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+      "date": "2026-11-26"
+    },
+    {
+      "headline": "Netflix Closes Its Roughly $400 Million Purchase of Radford Studio Center",
+      "source_url": "https://deadline.com/2026/11/netflix-buys-radford-studios-1237232812/",
+      "date": "2026-11-26"
+    },
+    {
+      "headline": "Oscars Visual Effects Branch Narrows Field to 20, Disney Leads With Four Films",
+      "source_url": "https://variety.com/2026/film/awards/oscars-visual-effects-top-20-shortlist-disney-dune-odyssey-1236957450",
+      "date": "2026-11-26"
+    },
+    {
+      "headline": "Meta Brings Its Muse AI Agent Directly Into Instagram DMs",
+      "source_url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+      "date": "2026-11-26"
+    },
+    {
+      "headline": "Federal Judge Rules FCC's Review of ABC's Licenses Violated the First Amendment",
+      "source_url": "https://www.npr.org/2026/11/26/nx-s1-6000576/fcc-disney-abc-first-amendment-trump-brendan-carr",
+      "date": "2026-11-26"
+    },
+    {
+      "headline": "Is LVMH's Louis Vuitton Past Its Peak?",
+      "source_url": "https://www.businessoffashion.com/articles/luxury/have-we-reached-peak-louis-vuitton/",
+      "date": "2026-11-26"
+    },
+    {
+      "headline": "Descartes's Cogito, Ergo Sum",
+      "source_url": "https://plato.stanford.edu/entries/descartes-epistemology/",
+      "date": "2026-11-26"
     }
   ]
 }
