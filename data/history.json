@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Anthropic Files to Go Public, Disclosing a $417 Billion Compute Bill",
-      "source_url": "https://www.anthropic.com/news/s1-sec",
-      "date": "2026-10-27"
-    },
-    {
-      "headline": "Apollo's Chief Economist Says AI Has Delivered 'Zero Financial Payoff' Outside Tech",
-      "source_url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-      "date": "2026-10-27"
-    },
-    {
-      "headline": "'Clayface' Opens Below Target as Paramount-Warner Bros. Tests Its Newly Merged Slate",
-      "source_url": "https://deadline.com/2026/10/box-office-clayface-you-can-see-everything-1237171500/",
-      "date": "2026-10-27"
-    },
-    {
-      "headline": "China's First Fully AI-Generated Feature Film Opens to Nearly Empty Theaters",
-      "source_url": "https://www.thestandard.com.hk/china/article/346334/Chinas-first-AI-film-hits-cinemas-but-ticket-sales-lag",
-      "date": "2026-10-27"
-    },
-    {
-      "headline": "Cost-of-Living Protests Spread From France Into Italy, Spain, Portugal and Albania",
-      "source_url": "https://www.euronews.com/2026/10/24/protests-sweep-across-europe-from-france-to-albania-italy-spain-and-portugal",
-      "date": "2026-10-27"
-    },
-    {
-      "headline": "One in Five American Adults Now Regularly Get Their News From TikTok",
-      "source_url": "https://www.pewresearch.org/short-reads/2026/10/19/1-in-5-americans-regularly-get-news-on-tiktok/",
-      "date": "2026-10-27"
-    },
-    {
-      "headline": "LVMH's Zenith Could Cut Half Its Swiss Workforce in a Push Upmarket",
-      "source_url": "https://theedgemalaysia.com/node/823072",
-      "date": "2026-10-27"
-    },
-    {
-      "headline": "Locke's Tabula Rasa",
-      "source_url": "https://plato.stanford.edu/entries/locke/",
-      "date": "2026-10-27"
-    },
-    {
       "headline": "Google DeepMind Unveils Genie 4, a World Model That Generates Its Own Soundtrack",
       "source_url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
       "date": "2026-10-28"
@@ -1244,6 +1204,46 @@
       "headline": "Descartes's Cogito, Ergo Sum",
       "source_url": "https://plato.stanford.edu/entries/descartes-epistemology/",
       "date": "2026-11-26"
+    },
+    {
+      "headline": "OpenAI and Anthropic Staff Say They Fear Unreleased Models Are Too Unsafe",
+      "source_url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks",
+      "date": "2026-11-27"
+    },
+    {
+      "headline": "Nvidia Halts AI Chip Shipments to Southeast Asia Over Export Loophole",
+      "source_url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "date": "2026-11-27"
+    },
+    {
+      "headline": "Disney's 'Hexed' Stumbles Out of the Gate on a Soft Thanksgiving Weekend",
+      "source_url": "https://variety.com/2026/film/box-office/sunrise-on-the-reaping-box-office-hunger-games-thanksgiving-eve-focker-in-law-1236958999/",
+      "date": "2026-11-27"
+    },
+    {
+      "headline": "Shawn Levy's 21 Laps Signs Overall Film Deal With Sony Pictures",
+      "source_url": "https://deadline.com/2026/11/shawn-levy-sony-21-laps-deal-1237231675/",
+      "date": "2026-11-27"
+    },
+    {
+      "headline": "X Rolls Out Parental Controls, Two Decades After Launch",
+      "source_url": "https://techcrunch.com/2026/11/26/x-finally-gets-parental-controls-after-20-years/",
+      "date": "2026-11-27"
+    },
+    {
+      "headline": "Shoppers Will Let AI Hunt for Holiday Deals, but Not Hit \"Buy\"",
+      "source_url": "https://www.kantar.com/north-america/inspiration/retail/holiday-2026-shoppers-trust-ai",
+      "date": "2026-11-27"
+    },
+    {
+      "headline": "Puig's Dries Van Noten Names Moncler Grenoble Chief Adrian Ward-Rees President",
+      "source_url": "https://theimpression.com/?p=12073165",
+      "date": "2026-11-27"
+    },
+    {
+      "headline": "Zhuangzi's Butterfly Dream",
+      "source_url": "https://plato.stanford.edu/entries/zhuangzi/",
+      "date": "2026-11-27"
     }
   ]
 }
