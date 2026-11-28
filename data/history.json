@@ -1,51 +1,6 @@
 {
   "seen": [
     {
-      "headline": "Google DeepMind Unveils Genie 4, a World Model That Generates Its Own Soundtrack",
-      "source_url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
-      "date": "2026-10-28"
-    },
-    {
-      "headline": "Oracle Opens Its Cloud to Google's TPUs, OpenAI's In-House Chip and Cerebras",
-      "source_url": "https://www.cnbc.com/2026/10/27/oracle-openai-chatgpt-codex-google-tpus.html",
-      "date": "2026-10-28"
-    },
-    {
-      "headline": "Tokyo International Film Festival Opens 39th Edition, Set to Honor Exiled Iranian Director Mohammad Rasoulof",
-      "source_url": "https://thedailyguardian.com/glamorama/hollywood/directors-mohammad-rasoulof-o-mipo-to-receive-kurosawa-akira-award-at-tokyo-intl-film-festival-202620260929102608-761277/",
-      "date": "2026-10-28"
-    },
-    {
-      "headline": "A24's Elden Ring Adaptation Becomes the Studio's Most Expensive Film Ever",
-      "source_url": "https://www.videogameschronicle.com/news/elden-ring-movie-cast-revealed-as-its-claimed-a24-film-has-a-budget-well-over-100m/",
-      "date": "2026-10-28"
-    },
-    {
-      "headline": "Lula Wins Brazil's Presidential Runoff, Defeating a Trump-Aligned Challenger",
-      "source_url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election",
-      "date": "2026-10-28"
-    },
-    {
-      "headline": "Meta and Snap Head to a New Trial Over Alleged Teen Social Media Harm",
-      "source_url": "https://www.thestar.com.my/tech/tech-news/2026/10/28/meta-snap-head-to-trial-in-another-case-about-social-media039s-harms",
-      "date": "2026-10-28"
-    },
-    {
-      "headline": "Europe's Luxury Giants Lose Roughly $350 Billion in Value as China Demand Stays Weak",
-      "source_url": "https://www.ksl.com/article/51635775/european-luxurys-350-billion-blowout",
-      "date": "2026-10-28"
-    },
-    {
-      "headline": "Large Study Finds a Child's Own Genes, Not Parents', Mainly Drive ADHD Traits",
-      "source_url": "https://www.psypost.org/child-s-own-genetics-drive-adhd-traits-more-than-family-environment-large-study/",
-      "date": "2026-10-28"
-    },
-    {
-      "headline": "Levinas's Face of the Other",
-      "source_url": "https://plato.stanford.edu/entries/levinas/",
-      "date": "2026-10-28"
-    },
-    {
       "headline": "OpenAI Says Its AI System Disproved a 27-Year-Old Complexity Theory Conjecture",
       "source_url": "https://www.aljazeera.com/economy/2026/10/27/ai-makes-discoveries-in-mathematics-computer-science-physics-openai-says",
       "date": "2026-10-29"
@@ -1244,6 +1199,46 @@
       "headline": "Zhuangzi's Butterfly Dream",
       "source_url": "https://plato.stanford.edu/entries/zhuangzi/",
       "date": "2026-11-27"
+    },
+    {
+      "headline": "Maxon Ships a Major Cinema 4D and Redshift Update, With AI Agents Wired Into the Pipeline",
+      "source_url": "https://nofilmschool.com/maxon-fall-2026-ecosystem-release",
+      "date": "2026-11-28"
+    },
+    {
+      "headline": "Cinemark's CEO Explains Why It Won't Play Netflix's IMAX-Only 'Cliff Booth'",
+      "source_url": "https://www.thewrap.com/creative-content/movies/why-cliff-booth-not-on-cinemark-imax-theaters-explained/",
+      "date": "2026-11-28"
+    },
+    {
+      "headline": "European Film Awards Nominations Led by 'Fatherland' and 'La Bola Negra'",
+      "source_url": "https://www.screendaily.com/news/european-film-awards-unveils-2026-nominations/5222404.article",
+      "date": "2026-11-28"
+    },
+    {
+      "headline": "Marrakech International Film Festival Wraps Its 23rd Edition",
+      "source_url": "https://www.screendaily.com/news/the-debut-to-open-marrakech-international-film-festival-as-2026-lineup-unveiled/5221941.article",
+      "date": "2026-11-28"
+    },
+    {
+      "headline": "Reddit Moves to End Two Decades of Open, Logged-Out Browsing",
+      "source_url": "https://9to5google.com/2026/10/29/reddit-will-soon-be-a-logged-in-only-website/",
+      "date": "2026-11-28"
+    },
+    {
+      "headline": "DR Congo's Ebola Outbreak Tops 11,000 Cases, Still Not Under Control Six Months In",
+      "source_url": "https://www.aljazeera.com/news/2026/11/15/africa-cdc-says-ebola-outbreak-in-dr-congo-still-not-under-control",
+      "date": "2026-11-28"
+    },
+    {
+      "headline": "Hugo Boss Names Frasers Executive David Epstein as Next CEO",
+      "source_url": "https://fashionunited.com/news/business/who-is-david-epstein-hugo-bosss-next-ceo/2026111375747",
+      "date": "2026-11-28"
+    },
+    {
+      "headline": "Merleau-Ponty's Lived Body",
+      "source_url": "https://plato.stanford.edu/entries/merleau-ponty/",
+      "date": "2026-11-28"
     }
   ]
 }
